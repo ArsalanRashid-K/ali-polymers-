@@ -24,10 +24,7 @@ export default function Home() {
       <section className="hero weave">
         <div className="wrap hero-inner">
           <div>
-            <div className="eyebrow">
-              <span className="eyebrow-line"></span> MANUFACTURER &amp;
-              DISTRIBUTOR
-            </div>
+            <div className="eyebrow">MANUFACTURER &amp; DISTRIBUTOR</div>
             <h1 className="hero-h display">
               BUILT TO
               <br />
@@ -99,25 +96,25 @@ export default function Home() {
           <p className="about-body">{companyData.about}</p>
           <div className="about-list">
             <div className="about-item">
-              <span className="dash">—</span>
+              <span className="dash">•</span>
               <span className="label">
                 100% virgin, semi-virgin &amp; reprocessed grades
               </span>
             </div>
             <div className="about-item">
-              <span className="dash">—</span>
+              <span className="dash">•</span>
               <span className="label">
                 Own brands: NEXATARP, NEXANET, NEXAWEED
               </span>
             </div>
             <div className="about-item">
-              <span className="dash">—</span>
+              <span className="dash">•</span>
               <span className="label">
                 Export-ready, customized specifications
               </span>
             </div>
             <div className="about-item">
-              <span className="dash">—</span>
+              <span className="dash">•</span>
               <span className="label">
                 Container loading, full documentation support
               </span>
