@@ -1,17 +1,20 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import categoriesData from '../../../data/categories-index.json';
+import { useState } from "react";
+import Image from "next/image";
+import categoriesData from "../../../data/categories-index.json";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const categories = [...categoriesData.categories].sort((a, b) => a.order - b.order);
+  const categories = [...categoriesData.categories].sort(
+    (a, b) => a.order - b.order,
+  );
 
   return (
     <>
       <div className="announce">
-        25+ Years Manufacturing Excellence &nbsp;•&nbsp; Domestic Supply &amp; Export — Middle East, Africa, Asia
+        25+ Years Manufacturing Excellence &nbsp;•&nbsp; Domestic Supply
+        &nbsp;•&nbsp; Exports to the Middle East, Africa & Asia
       </div>
       <header>
         <div className="header-inner">
@@ -35,10 +38,12 @@ export default function Header() {
             <a href="/contact">Contact</a>
           </nav>
 
-          <a href="/contact" className="btn-quote nav-desktop-only">Get a Quote</a>
+          <a href="/contact" className="btn-quote nav-desktop-only">
+            Get a Quote
+          </a>
 
           <button
-            className={`hamburger ${menuOpen ? 'is-open' : ''}`}
+            className={`hamburger ${menuOpen ? "is-open" : ""}`}
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
             aria-expanded={menuOpen}
@@ -50,9 +55,13 @@ export default function Header() {
         </div>
 
         {/* MOBILE NAV DRAWER */}
-        <div className={`mobile-nav ${menuOpen ? 'is-open' : ''}`}>
-          <a href="/" onClick={() => setMenuOpen(false)}>Home</a>
-          <a href="/about" onClick={() => setMenuOpen(false)}>About</a>
+        <div className={`mobile-nav ${menuOpen ? "is-open" : ""}`}>
+          <a href="/" onClick={() => setMenuOpen(false)}>
+            Home
+          </a>
+          <a href="/about" onClick={() => setMenuOpen(false)}>
+            About
+          </a>
           <div className="mobile-nav-products">
             <span className="mobile-nav-label">Products</span>
             {categories.map((cat) => (
@@ -66,10 +75,20 @@ export default function Header() {
               </a>
             ))}
           </div>
-          <a href="/export" onClick={() => setMenuOpen(false)}>Export</a>
-          <a href="/own-brands" onClick={() => setMenuOpen(false)}>Our Brands</a>
-          <a href="/contact" onClick={() => setMenuOpen(false)}>Contact</a>
-          <a href="/contact" className="btn-quote mobile-nav-cta" onClick={() => setMenuOpen(false)}>
+          <a href="/export" onClick={() => setMenuOpen(false)}>
+            Export
+          </a>
+          <a href="/own-brands" onClick={() => setMenuOpen(false)}>
+            Our Brands
+          </a>
+          <a href="/contact" onClick={() => setMenuOpen(false)}>
+            Contact
+          </a>
+          <a
+            href="/contact"
+            className="btn-quote mobile-nav-cta"
+            onClick={() => setMenuOpen(false)}
+          >
             Get a Quote
           </a>
         </div>
