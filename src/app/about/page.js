@@ -1,6 +1,6 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import companyData from '../../../data/company.json';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import companyData from "../../../data/company.json";
 
 export const metadata = {
   title: `About Us | ${companyData.name}`,
@@ -14,20 +14,33 @@ export default function AboutPage() {
 
       <section className="page-hero weave">
         <div className="wrap">
-          <div className="breadcrumb">
-            ABOUT
-          </div>
+          <div className="breadcrumb"></div>
           <h1 className="display">Manufacturing Trust Since Day One</h1>
-          <p>{companyData.yearsExperience}+ years of manufacturing and wholesale distribution, headquartered in Kerala.</p>
+          <p>
+            {companyData.yearsExperience}+ years of manufacturing and wholesale
+            distribution, headquartered in Kerala, India.
+          </p>
         </div>
         <div className="thread"></div>
       </section>
 
       <div className="stat-strip">
-        <div><div className="n display">{companyData.yearsExperience}+</div><div className="l">YEARS EXPERIENCE</div></div>
-        <div><div className="n display">15</div><div className="l">PRODUCT CATEGORIES</div></div>
-        <div><div className="n display">6+</div><div className="l">OWN BRANDS</div></div>
-        <div><div className="n display">3</div><div className="l">EXPORT REGIONS</div></div>
+        <div>
+          <div className="n display">{companyData.yearsExperience}+</div>
+          <div className="l">YEARS EXPERIENCE</div>
+        </div>
+        <div>
+          <div className="n display">15</div>
+          <div className="l">PRODUCT CATEGORIES</div>
+        </div>
+        <div>
+          <div className="n display">6+</div>
+          <div className="l">OWN BRANDS</div>
+        </div>
+        <div>
+          <div className="n display">3</div>
+          <div className="l">EXPORT REGIONS</div>
+        </div>
       </div>
 
       <section className="content-section">
@@ -56,7 +69,9 @@ export default function AboutPage() {
         <div className="why-grid">
           {companyData.whyChooseUs.map((point, i) => (
             <div className="why-box" key={i}>
-              <div className="why-num display">{String(i + 1).padStart(2, '0')}</div>
+              <div className="why-num display">
+                {String(i + 1).padStart(2, "0")}
+              </div>
               <p className="d">{point}</p>
             </div>
           ))}
@@ -69,10 +84,15 @@ export default function AboutPage() {
           <div>
             <div className="export-eyebrow">SEE THE FULL RANGE</div>
             <h2 className="display">Explore Our Product Categories</h2>
-            <p>15 categories across agriculture, construction, packaging and household use.</p>
+            <p>
+              15 categories across agriculture, construction, packaging and
+              household use.
+            </p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/products" className="btn-white">Browse Products →</a>
+            <a href="/products" className="btn-white">
+              Browse Products →
+            </a>
           </div>
         </div>
       </section>

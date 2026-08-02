@@ -1,6 +1,6 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import companyData from '../../../data/company.json';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import companyData from "../../../data/company.json";
 
 export const metadata = {
   title: `Contact | ${companyData.name}`,
@@ -14,11 +14,12 @@ export default function ContactPage() {
 
       <section className="page-hero weave">
         <div className="wrap">
-          <div className="breadcrumb">
-            CONTACT
-          </div>
+          <div className="breadcrumb"></div>
           <h1 className="display">Let's Talk</h1>
-          <p>Wholesale, distribution, or export enquiries — we usually respond within 1 business day.</p>
+          <p>
+            Contact Ali Traders & Ali Polymers for Wholesale, Distribution and
+            Export Enquiries. Our Team Responds Within 1 Business Day.
+          </p>
         </div>
         <div className="thread"></div>
       </section>
@@ -29,29 +30,36 @@ export default function ContactPage() {
             <div className="contact-icon">@</div>
             <div>
               <div className="l">EMAIL</div>
-              <div className="v">{companyData.contact.email || 'Add email in company.json'}</div>
+              <div className="v">
+                {companyData.contact.email || "Add email in company.json"}
+              </div>
             </div>
           </div>
           <div className="contact-row">
             <div className="contact-icon">#</div>
             <div>
               <div className="l">PHONE</div>
-              <div className="v">{companyData.contact.phone || 'Add phone in company.json'}</div>
+              <div className="v">
+                {companyData.contact.phone || "Add phone in company.json"}
+              </div>
             </div>
           </div>
-          <div className="contact-row">
+          {/* <div className="contact-row">
             <div className="contact-icon">W</div>
             <div>
               <div className="l">WHATSAPP</div>
-              <div className="v">{companyData.contact.whatsapp || 'Add WhatsApp in company.json'}</div>
+              <div className="v">
+                {companyData.contact.whatsapp || "Add WhatsApp in company.json"}
+              </div>
             </div>
-          </div>
+          </div> */}
           <div className="contact-row">
             <div className="contact-icon">@</div>
             <div>
               <div className="l">ADDRESS</div>
               <div className="v">
-                {companyData.headquarters.addressLine1}<br />
+                {companyData.headquarters.addressLine1}
+                <br />
                 {companyData.headquarters.addressLine2}
               </div>
             </div>
@@ -94,7 +102,9 @@ export default function ContactPage() {
             <label htmlFor="message">Message</label>
             <textarea id="message" name="message" required></textarea>
           </div>
-          <button type="submit" className="btn-submit">Send Enquiry</button>
+          <button type="submit" className="btn-submit">
+            Send Enquiry
+          </button>
         </form>
       </div>
 

@@ -1,6 +1,6 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import companyData from '../../../data/company.json';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import companyData from "../../../data/company.json";
 
 export const metadata = {
   title: `Export | ${companyData.name}`,
@@ -16,7 +16,9 @@ export default function ExportPage() {
 
       <section className="page-hero weave">
         <div className="wrap">
-          <h1 className="display own-brands-hero-title">Export-Ready, Container to Doorstep</h1>
+          <h1 className="display own-brands-hero-title">
+            Container Shipping & Export Solutions from India
+          </h1>
           <p>{exportInfo.markets}</p>
         </div>
         <div className="thread"></div>
@@ -34,7 +36,9 @@ export default function ExportPage() {
         <div className="export-support-row">
           {exportInfo.support.map((point, i) => (
             <div className="export-support-item" key={i}>
-              <div className="export-support-num display">{String(i + 1).padStart(2, '0')}</div>
+              <div className="export-support-num display">
+                {String(i + 1).padStart(2, "0")}
+              </div>
               <p className="d">{point}</p>
             </div>
           ))}
@@ -45,12 +49,16 @@ export default function ExportPage() {
         <div className="value-card">
           <div className="tag">MINIMUM ORDER QUANTITY</div>
           <h3>MOQ</h3>
-          {exportInfo.moq.map((m, i) => <p key={i}>{m}</p>)}
+          {exportInfo.moq.map((m, i) => (
+            <p key={i}>{m}</p>
+          ))}
         </div>
         <div className="value-card">
           <div className="tag">PACKAGING &amp; LOGISTICS</div>
           <h3>How We Ship</h3>
-          {exportInfo.packagingLogistics.map((p, i) => <p key={i}>{p}</p>)}
+          {exportInfo.packagingLogistics.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
         </div>
       </div>
 
@@ -83,10 +91,14 @@ export default function ExportPage() {
           <div>
             <div className="export-eyebrow">READY TO START?</div>
             <h2 className="display">Get an Export Quote Today</h2>
-            <p>Tell us what you need — we'll respond with pricing and lead time.</p>
+            <p>
+              Tell us what you need — we'll respond with pricing and lead time.
+            </p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/contact" className="btn-white">Request Quote →</a>
+            <a href="/contact" className="btn-white">
+              Request Quote →
+            </a>
           </div>
         </div>
       </section>
