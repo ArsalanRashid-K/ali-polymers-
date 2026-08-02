@@ -1,0 +1,55 @@
+{
+  "name": "Ali Traders & Ali Polymers",
+  "tagline": "Manufacturer & Distributor of Polymer-Based Products",
+  "yearsExperience": 25,
+  "headquarters": {
+    "addressLine1": "West Vengola, Perumbavoor",
+    "addressLine2": "Ernakulam, Kerala \u2013 India"
+  },
+  "about": "Ali Traders and Ali Polymers are an established manufacturing and wholesale distribution company with over 25 years of experience in polymer-based products. Headquartered in Perumbavoor, Ernakulam, Kerala \u2013 India, we serve domestic and export markets with application-focused, durable plastic solutions. We specialize in agriculture, construction, packaging, rain protection, and household plastic products, offering premium, standard, and economic grades manufactured from 100% virgin, semi-virgin, and reprocessed raw materials.",
+  "structure": "Ali Traders and Ali Polymers operate as an integrated manufacturing, sourcing, and wholesale distribution organization. While Ali Polymers focuses on product development and sourcing, Ali Traders manages logistics and market reach across Kerala and expanding export destinations.",
+  "vision": "To be a reliable global supplier of quality plastic products.",
+  "mission": "To deliver durable, cost-effective polymer solutions through ethical practices and consistent quality.",
+  "whyChooseUs": [
+    "Over 25 years of industry experience",
+    "Strong manufacturing and sourcing capabilities",
+    "Wide product portfolio covering agriculture, construction, packaging, and household sectors",
+    "Multiple own brands catering to premium, standard, and economy segments",
+    "Flexible material options: 100% virgin, semi-virgin, and reprocessed grades",
+    "Consistent quality control and reliable supply chain",
+    "Export-ready products with customized specifications"
+  ],
+  "export": {
+    "intro": "Ali Traders & Ali Polymers provide a well-structured, export-ready supply solution for international buyers, distributors, and project contractors. Our products are designed to meet global quality expectations while offering competitive pricing and flexible specifications.",
+    "markets": "We currently support domestic supply across India and are actively expanding exports to Middle East, Africa, and Asian markets.",
+    "support": [
+      "Customized product specifications (GSM, size, color, packing)",
+      "Private label / OEM manufacturing support",
+      "Bulk and palletized packing options",
+      "Container loading (20 ft & 40 ft)",
+      "Complete export documentation support"
+    ],
+    "moq": [
+      "MOQ varies by product category and customization level",
+      "Standard export MOQ available for distributors and importers"
+    ],
+    "packagingLogistics": [
+      "Roll packing / bale packing / carton packing",
+      "Palletized shipments on request",
+      "Sea freight suitable packaging"
+    ]
+  },
+  "contact": {
+    "wholesale": true,
+    "distribution": true,
+    "exportEnquiries": true,
+    "email": "",
+    "phone": "",
+    "whatsapp": "919400980951"
+  },
+  "seo": {
+    "homeTitle": "Ali Traders & Ali Polymers | Plastic Products Manufacturer & Exporter",
+    "homeDescription": "Ali Traders & Ali Polymers are a leading manufacturer and distributor of agricultural, construction, and packaging plastic products. Serving domestic and export markets."
+  },
+  "_notes": "email, phone, and whatsapp are empty placeholders \u2014 client must provide these before launch."
+}

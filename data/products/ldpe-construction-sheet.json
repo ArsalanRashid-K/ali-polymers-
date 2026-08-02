@@ -1,0 +1,58 @@
+{
+  "id": "ldpe-construction-sheet",
+  "name": "LDPE Construction Sheet",
+  "shortDescription": "Concrete curing, waterproofing & surface protection sheeting.",
+  "seo": {
+    "title": "LDPE Construction Sheet Manufacturer",
+    "description": "LD Black, Colour & Natural sheets for construction, waterproofing and surface protection."
+  },
+  "heroImage": "/images/products/ldpe-construction-sheet/hero.jpg",
+  "items": [
+    {
+      "id": "ldpe-construction-sheet",
+      "name": "LDPE Construction Sheet",
+      "brands": [
+        {
+          "name": "LD Black Sheet",
+          "grade": "Semi Virgin"
+        },
+        {
+          "name": "LD Colour Sheet",
+          "grade": "Semi Virgin"
+        },
+        {
+          "name": "LD Natural Sheet",
+          "grade": "100% Virgin"
+        }
+      ],
+      "material": "",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "Width: 6 ft",
+        "Width: 8 ft",
+        "Width: 12 ft",
+        "Length: Customized as per order"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [
+        "Concrete curing",
+        "Waterproofing",
+        "Damp proofing",
+        "Surface protection",
+        "Temporary covering",
+        "Ground protection",
+        "Insulation layers",
+        "Packaging"
+      ],
+      "images": [
+        "/images/products/ldpe-construction-sheet/01.jpg"
+      ]
+    }
+  ]
+}

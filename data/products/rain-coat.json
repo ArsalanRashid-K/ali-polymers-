@@ -1,0 +1,83 @@
+{
+  "id": "rain-coat",
+  "name": "Rain Coat",
+  "shortDescription": "Poncho, PVC & Rexin rain coats.",
+  "seo": {
+    "title": "Rain Coat Manufacturer",
+    "description": "Poncho, PVC and Rexin rain coats for kids and adults."
+  },
+  "heroImage": "/images/products/rain-coat/hero.jpg",
+  "items": [
+    {
+      "id": "poncho-rain-coat",
+      "name": "Poncho Rain Coat",
+      "brands": [],
+      "material": "",
+      "gsm": [
+        45,
+        50
+      ],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "Kids",
+        "Adult"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [],
+      "images": [
+        "/images/products/rain-coat/poncho-01.jpg"
+      ]
+    },
+    {
+      "id": "pvc-rain-coat",
+      "name": "PVC Rain Coat",
+      "brands": [],
+      "material": "100% Virgin Granules",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [],
+      "images": [
+        "/images/products/rain-coat/pvc-01.jpg"
+      ]
+    },
+    {
+      "id": "rexin-rain-coat",
+      "name": "Rexin Rain Coat",
+      "brands": [],
+      "material": "100% Virgin Granules",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [],
+      "images": [
+        "/images/products/rain-coat/rexin-01.jpg"
+      ]
+    }
+  ]
+}

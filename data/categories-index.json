@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "id": "ldpe-construction-sheet",
+      "name": "LDPE Construction Sheet",
+      "order": 1,
+      "shortDescription": "Concrete curing, waterproofing & surface protection sheeting.",
+      "icon": "/images/products/ldpe-construction-sheet/icon.jpg"
+    },
+    {
+      "id": "tarpaulin",
+      "name": "Tarpaulin",
+      "order": 2,
+      "shortDescription": "NEXATARP, SILPAULIN \u2014 HDPE & cross-linked tarpaulins.",
+      "icon": "/images/products/tarpaulin/icon.jpg"
+    },
+    {
+      "id": "shadenet",
+      "name": "Shadenet",
+      "order": 3,
+      "shortDescription": "NEXANET \u2014 UV stabilized agricultural shade netting.",
+      "icon": "/images/products/shadenet/icon.jpg"
+    },
+    {
+      "id": "well-pond-net",
+      "name": "Well & Pond Net",
+      "order": 4,
+      "shortDescription": "AQUA SAFE monofilament well and pond covering.",
+      "icon": "/images/products/well-pond-net/icon.jpg"
+    },
+    {
+      "id": "hexagonal-net",
+      "name": "Hexagonal Net",
+      "order": 5,
+      "shortDescription": "HDPE mesh for fencing, poultry & safety barriers.",
+      "icon": "/images/products/hexagonal-net/icon.jpg"
+    },
+    {
+      "id": "weedmat",
+      "name": "Weedmat",
+      "order": 6,
+      "shortDescription": "NEXAWEED \u2014 woven weed control matting.",
+      "icon": "/images/products/weedmat/icon.jpg"
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "order": 7,
+      "shortDescription": "TUFF, MARUTHI, KOHINOOR & more \u2014 2 to 26mm.",
+      "icon": "/images/products/rope/icon.jpg"
+    },
+    {
+      "id": "suthali",
+      "name": "Suthali",
+      "order": 8,
+      "shortDescription": "Box, ball & tomato twine for packaging & agriculture.",
+      "icon": "/images/products/suthali/icon.jpg"
+    },
+    {
+      "id": "nylon-products",
+      "name": "Nylon Products",
+      "order": 9,
+      "shortDescription": "Stay wire & trimmer line.",
+      "icon": "/images/products/nylon-products/icon.jpg"
+    },
+    {
+      "id": "hoses",
+      "name": "Hoses",
+      "order": 10,
+      "shortDescription": "Garden, braided, suction & level hoses.",
+      "icon": "/images/products/hoses/icon.jpg"
+    },
+    {
+      "id": "box-strap",
+      "name": "Box Strap",
+      "order": 11,
+      "shortDescription": "KERA \u2014 banana tree support & crop protection strap.",
+      "icon": "/images/products/box-strap/icon.jpg"
+    },
+    {
+      "id": "pp-mat",
+      "name": "PP Mat",
+      "order": 12,
+      "shortDescription": "ZIYA, MODERN, ANJALI, SONAL woven mats.",
+      "icon": "/images/products/pp-mat/icon.jpg"
+    },
+    {
+      "id": "rain-hat",
+      "name": "Rain Hat",
+      "order": 13,
+      "shortDescription": "HUNTER, FARMER & DEEP \u2014 rain protection headwear.",
+      "icon": "/images/products/rain-hat/icon.jpg"
+    },
+    {
+      "id": "rain-coat",
+      "name": "Rain Coat",
+      "order": 14,
+      "shortDescription": "Poncho, PVC & Rexin rain coats.",
+      "icon": "/images/products/rain-coat/icon.jpg"
+    },
+    {
+      "id": "garbage-bags",
+      "name": "Garbage Bags",
+      "order": 15,
+      "shortDescription": "ECOSAFE \u2014 LDPE garbage bags, multiple sizes.",
+      "icon": "/images/products/garbage-bags/icon.jpg"
+    }
+  ]
+}

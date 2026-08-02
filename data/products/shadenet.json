@@ -1,0 +1,78 @@
+{
+  "id": "shadenet",
+  "name": "Shadenet",
+  "shortDescription": "NEXANET \u2014 UV stabilized agricultural shade netting.",
+  "seo": {
+    "title": "Agricultural Shadenet Manufacturer | UV Stabilized Shade Nets",
+    "description": "Premium agricultural shadenets for farming, nurseries, and greenhouses."
+  },
+  "heroImage": "/images/products/shadenet/hero.jpg",
+  "items": [
+    {
+      "id": "shadenet",
+      "name": "Shadenet",
+      "brands": [
+        {
+          "name": "NEXANET",
+          "grade": "Premium (100% Virgin) \u2014 Own Brand"
+        },
+        {
+          "name": "NEXA PINE",
+          "grade": "Premium (100% Virgin) \u2014 Own Brand"
+        },
+        {
+          "name": "SHALIMAR",
+          "grade": "Premium (100% Virgin)"
+        },
+        {
+          "name": "DURANET",
+          "grade": "Premium (100% Virgin)"
+        },
+        {
+          "name": "MODIGOLD",
+          "grade": "Premium (100% Virgin)"
+        }
+      ],
+      "material": "",
+      "gsm": [
+        50,
+        65,
+        80,
+        90,
+        120,
+        200,
+        270,
+        340
+      ],
+      "shadePercentage": [
+        35,
+        50,
+        65,
+        75,
+        90
+      ],
+      "meshSize": [],
+      "sizes": [],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [
+        "UV stabilized",
+        "High tensile strength",
+        "Excellent airflow"
+      ],
+      "applications": [
+        "Agriculture",
+        "Horticulture",
+        "Nurseries",
+        "Greenhouses",
+        "Parking",
+        "Construction sites"
+      ],
+      "images": [
+        "/images/products/shadenet/01.jpg"
+      ]
+    }
+  ]
+}

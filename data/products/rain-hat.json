@@ -1,0 +1,46 @@
+{
+  "id": "rain-hat",
+  "name": "Rain Hat",
+  "shortDescription": "HUNTER, FARMER & DEEP \u2014 rain protection headwear.",
+  "seo": {
+    "title": "Rain Hat Manufacturer",
+    "description": "Semi virgin PP rain hats for farmers and outdoor workers."
+  },
+  "heroImage": "/images/products/rain-hat/hero.jpg",
+  "items": [
+    {
+      "id": "rain-hat",
+      "name": "Rain Hat",
+      "brands": [
+        {
+          "name": "HUNTER",
+          "grade": "21x21 in"
+        },
+        {
+          "name": "FARMER",
+          "grade": "16x16 in"
+        },
+        {
+          "name": "DEEP",
+          "grade": "11x9 in"
+        }
+      ],
+      "material": "Semi Virgin PP",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [
+        "Rain protection for farmers and outdoor workers"
+      ],
+      "images": [
+        "/images/products/rain-hat/01.jpg"
+      ]
+    }
+  ]
+}

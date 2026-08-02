@@ -1,0 +1,181 @@
+{
+  "id": "tarpaulin",
+  "name": "Tarpaulin",
+  "shortDescription": "NEXATARP, SILPAULIN \u2014 HDPE & cross-linked tarpaulins.",
+  "seo": {
+    "title": "HDPE Tarpaulin Manufacturer & Supplier | NEXATARP",
+    "description": "Premium HDPE, multilayer, and cross-laminated tarpaulins manufactured using virgin and semi-virgin materials."
+  },
+  "heroImage": "/images/products/tarpaulin/hero.jpg",
+  "items": [
+    {
+      "id": "multilayer-tarpaulin",
+      "name": "Multilayer Tarpaulin",
+      "brands": [
+        {
+          "name": "Multilayer Tarpaulin",
+          "grade": "Semi Virgin (Economical)"
+        }
+      ],
+      "material": "",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [
+        "Lightweight and flexible"
+      ],
+      "applications": [
+        "Short-term and light-duty applications"
+      ],
+      "images": [
+        "/images/products/tarpaulin/multilayer-01.jpg"
+      ]
+    },
+    {
+      "id": "hdpe-tarpaulin",
+      "name": "HDPE Tarpaulin",
+      "brands": [
+        {
+          "name": "NEXATARP",
+          "grade": "Premium (100% Virgin HDPE)"
+        },
+        {
+          "name": "BLUE DIAMOND",
+          "grade": "Standard (Reprocessed)"
+        }
+      ],
+      "material": "",
+      "gsm": [
+        70,
+        120,
+        150,
+        160,
+        180,
+        200
+      ],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "6x6",
+        "9x6",
+        "9x9",
+        "12x9",
+        "12x12",
+        "15x9",
+        "15x12",
+        "18x12",
+        "18x15",
+        "21x15",
+        "21x18",
+        "24x12",
+        "24x15",
+        "24x16",
+        "24x18",
+        "24x21",
+        "27x18",
+        "30x18",
+        "30x21",
+        "30x24",
+        "30x30",
+        "36x30"
+      ],
+      "bundleSizes": [
+        "5ft x 50m",
+        "10ft x 50m",
+        "12ft x 50m",
+        "15ft x 50m",
+        "18ft x 50m",
+        "24ft x 50m",
+        "30ft x 50m",
+        "36ft x 50m"
+      ],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [
+        "Construction",
+        "Transportation",
+        "Agriculture",
+        "Industrial storage",
+        "Export packaging"
+      ],
+      "images": [
+        "/images/products/tarpaulin/hdpe-nexatarp-01.jpg",
+        "/images/products/tarpaulin/hdpe-bluediamond-01.jpg"
+      ]
+    },
+    {
+      "id": "cross-linked-tarpaulin",
+      "name": "Cross-Linked Tarpaulin",
+      "brands": [
+        {
+          "name": "SILPAULIN",
+          "grade": "Premium (100% Virgin)"
+        },
+        {
+          "name": "SHALIMAR",
+          "grade": "Premium (100% Virgin)"
+        }
+      ],
+      "material": "",
+      "gsm": [
+        95,
+        120,
+        135,
+        160,
+        170,
+        190,
+        200,
+        225,
+        250
+      ],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "6x6",
+        "9x6",
+        "9x9",
+        "12x9",
+        "12x12",
+        "15x9",
+        "15x12",
+        "18x12",
+        "18x15",
+        "21x15",
+        "21x18",
+        "24x12",
+        "24x15",
+        "24x16",
+        "24x18",
+        "24x21",
+        "27x18",
+        "30x18",
+        "30x21",
+        "30x24",
+        "30x30",
+        "36x30"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [
+        "Construction",
+        "Transportation",
+        "Agriculture",
+        "Industrial storage",
+        "Export packaging"
+      ],
+      "images": [
+        "/images/products/tarpaulin/cross-linked-01.jpg"
+      ]
+    }
+  ]
+}

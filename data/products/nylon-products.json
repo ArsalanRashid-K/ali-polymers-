@@ -1,0 +1,59 @@
+{
+  "id": "nylon-products",
+  "name": "Nylon Products",
+  "shortDescription": "Stay wire & trimmer line.",
+  "seo": {
+    "title": "Nylon Products Manufacturer",
+    "description": "Stay wire and trimmer line in virgin grade nylon."
+  },
+  "heroImage": "/images/products/nylon-products/hero.jpg",
+  "items": [
+    {
+      "id": "stay-wire",
+      "name": "Stay Wire",
+      "brands": [
+        {
+          "name": "Stay Wire",
+          "grade": "100% Virgin"
+        }
+      ],
+      "material": "",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [],
+      "images": [
+        "/images/products/nylon-products/stay-wire-01.jpg"
+      ]
+    },
+    {
+      "id": "trimmer-line",
+      "name": "Trimmer Line",
+      "brands": [],
+      "material": "",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "2.5mm",
+        "3mm",
+        "3.5mm"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [],
+      "images": [
+        "/images/products/nylon-products/trimmer-line-01.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "box-strap",
+  "name": "Box Strap",
+  "shortDescription": "KERA \u2014 banana tree support & crop protection strap.",
+  "seo": {
+    "title": "Box Strap Manufacturer | KERA",
+    "description": "Reprocessed granule box strap for banana tree support and crop protection."
+  },
+  "heroImage": "/images/products/box-strap/hero.jpg",
+  "items": [
+    {
+      "id": "kera-box-strap",
+      "name": "KERA Box Strap",
+      "brands": [
+        {
+          "name": "KERA",
+          "grade": "Reprocessed Granules"
+        }
+      ],
+      "material": "",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "6mm",
+        "9mm",
+        "12mm"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [
+        "0.5 kg rolls",
+        "1 kg rolls",
+        "2 kg rolls"
+      ],
+      "features": [],
+      "applications": [
+        "Banana tree support",
+        "Crop protection from wind and storms"
+      ],
+      "images": [
+        "/images/products/box-strap/01.jpg"
+      ]
+    }
+  ]
+}

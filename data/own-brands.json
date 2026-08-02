@@ -1,0 +1,52 @@
+{
+  "pageTitle": "Our Own Brands",
+  "pageIntro": "Brands developed and manufactured in-house by Ali Traders & Ali Polymers — built to our own quality standards.",
+  "groups": [
+    {
+      "categoryName": "Polythene Sheet",
+      "categorySlug": "ldpe-construction-sheet",
+      "brands": [
+        { "name": "Polythene Sheet — All Varieties" }
+      ]
+    },
+    {
+      "categoryName": "Well Net",
+      "categorySlug": "well-pond-net",
+      "brands": [
+        { "name": "AQUA SAFE" },
+        { "name": "AQUA SAFE PRO" }
+      ]
+    },
+    {
+      "categoryName": "Shadenet",
+      "categorySlug": "shadenet",
+      "brands": [
+        { "name": "NEXANET" },
+        { "name": "NEXA PINE" }
+      ]
+    },
+    {
+      "categoryName": "Tarpaulin",
+      "categorySlug": "tarpaulin",
+      "brands": [
+        { "name": "NEXATARP" }
+      ]
+    },
+    {
+      "categoryName": "Weedmat",
+      "categorySlug": "weedmat",
+      "brands": [
+        { "name": "NEXAWEED" }
+      ]
+    },
+    {
+      "categoryName": "PP Mat",
+      "categorySlug": "pp-mat",
+      "brands": [
+        { "name": "ZIYA" },
+        { "name": "MODERN" },
+        { "name": "SONAL" }
+      ]
+    }
+  ]
+}

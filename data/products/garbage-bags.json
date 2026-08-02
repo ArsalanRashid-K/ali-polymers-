@@ -1,0 +1,41 @@
+{
+  "id": "garbage-bags",
+  "name": "Garbage Bags",
+  "shortDescription": "ECOSAFE \u2014 LDPE garbage bags, multiple sizes.",
+  "seo": {
+    "title": "Garbage Bag Manufacturer | ECOSAFE",
+    "description": "LDPE garbage bags in Medium, Large, XL and Jumbo sizes."
+  },
+  "heroImage": "/images/products/garbage-bags/hero.jpg",
+  "items": [
+    {
+      "id": "ecosafe-garbage-bags",
+      "name": "ECOSAFE Garbage Bags",
+      "brands": [
+        {
+          "name": "ECOSAFE",
+          "grade": ""
+        }
+      ],
+      "material": "LDPE (Semi Virgin)",
+      "gsm": [],
+      "shadePercentage": [],
+      "meshSize": [],
+      "sizes": [
+        "Medium: 19x22 in",
+        "Large: 24x32 in",
+        "XL: 30x37 in",
+        "Jumbo: 30x44 in"
+      ],
+      "bundleSizes": [],
+      "colours": [],
+      "lengths": [],
+      "packing": [],
+      "features": [],
+      "applications": [],
+      "images": [
+        "/images/products/garbage-bags/01.jpg"
+      ]
+    }
+  ]
+}
