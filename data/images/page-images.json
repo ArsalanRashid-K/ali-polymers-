@@ -1,0 +1,24 @@
+{
+  "home": "/images/hero/tarpaulin-rolls.webp",
+  "about": "/images/about/PRODUCTS_11_.webp",
+  "aboutGallery": [
+    "/images/about/DSC_0568.webp",
+    "/images/about/DSC_1261.webp",
+    "/images/about/DSC_1262.webp",
+    "/images/about/DSC_1284.webp",
+    "/images/about/DSC_1483.webp",
+    "/images/about/DSC_1484.webp",
+    "/images/about/DSC_1488.webp"
+  ],
+  "aboutImages": {
+    "whoWeAre": "/images/about/DSC_1284.webp",
+    "ourMission": "/images/about/DSC_0568.webp",
+    "why": "/images/about/DSC_1488.webp",
+    "bottomCards": [
+      "/images/about/DSC_1261.webp",
+      "/images/about/DSC_1262.webp",
+      "/images/about/DSC_1483.webp",
+      "/images/about/DSC_1484.webp"
+    ]
+  }
+}

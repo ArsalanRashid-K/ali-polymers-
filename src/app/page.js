@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import companyData from "../../data/company.json";
 import categoriesData from "../../data/categories-index.json";
+import pageImages from "../../data/images/page-images.json";
 
 export const metadata = {
   title: companyData.seo.homeTitle,
@@ -21,7 +22,14 @@ export default function Home() {
       <Header />
 
       {/* HERO */}
-      <section className="hero weave">
+      <section
+        className="hero"
+        style={{
+          backgroundImage: `url(${pageImages.home})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="wrap hero-inner">
           <div>
             <div className="eyebrow">MANUFACTURER &amp; DISTRIBUTOR</div>
