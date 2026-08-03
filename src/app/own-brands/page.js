@@ -1,7 +1,8 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import companyData from '../../../data/company.json';
-import ownBrandsData from '../../../data/own-brands.json';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import companyData from "../../../data/company.json";
+import ownBrandsData from "../../../data/own-brands.json";
+import pageImages from "../../../data/images/page-images.json";
 
 export const metadata = {
   title: `Our Own Brands | ${companyData.name}`,
@@ -9,32 +10,47 @@ export const metadata = {
 };
 
 export default function OwnBrandsPage() {
-  const groups = Array.isArray(ownBrandsData.groups) ? ownBrandsData.groups : [];
+  const groups = Array.isArray(ownBrandsData.groups)
+    ? ownBrandsData.groups
+    : [];
 
   return (
     <>
       <Header />
 
-      <section className="page-hero weave">
+      <section
+        className="page-hero weave own-brands-hero"
+        style={{
+          backgroundColor: "#0b6f3f",
+          backgroundImage: "none",
+        }}
+      >
         <div className="wrap">
-          <h1 className="display own-brands-hero-title">{ownBrandsData.pageTitle}</h1>
+          <h1 className="display own-brands-hero-title">
+            {ownBrandsData.pageTitle}
+          </h1>
           <p>{ownBrandsData.pageIntro}</p>
         </div>
         <div className="thread"></div>
       </section>
 
-      <section className="content-section" style={{ paddingTop: '50px' }}>
+      <section className="content-section" style={{ paddingTop: "50px" }}>
         {groups.map((group) => {
           const brands = Array.isArray(group.brands) ? group.brands : [];
-          const categoryName = group.categoryName || 'Other Products';
-          const categorySlug = group.categorySlug || 'products';
+          const categoryName = group.categoryName || "Other Products";
+          const categorySlug = group.categorySlug || "products";
 
           return (
-            <div key={categorySlug} style={{ marginBottom: '48px' }}>
-              <h2 className="display own-brands-category-title">{categoryName.toUpperCase()}</h2>
-              <div className="cat-grid own-brands-grid" style={{ marginTop: '16px' }}>
+            <div key={categorySlug} style={{ marginBottom: "48px" }}>
+              <h2 className="display own-brands-category-title">
+                {categoryName.toUpperCase()}
+              </h2>
+              <div
+                className="cat-grid own-brands-grid"
+                style={{ marginTop: "16px" }}
+              >
                 {brands.map((brand, index) => {
-                  const brandName = brand.name || 'Brand';
+                  const brandName = brand.name || "Brand";
                   const brandInitials = brandName.slice(0, 2).toUpperCase();
 
                   return (
@@ -44,14 +60,19 @@ export default function OwnBrandsPage() {
                       className="cat-card"
                     >
                       <div className="cat-img weave">
-                        <span className="cat-num display" style={{ fontSize: '22px' }}>
+                        <span
+                          className="cat-num display"
+                          style={{ fontSize: "22px" }}
+                        >
                           {brandInitials}
                         </span>
                       </div>
                       <div className="cat-body">
                         <h3>{brandName}</h3>
                         <p>Part of our {categoryName} range</p>
-                        <span className="cat-tag">View Full Specification →</span>
+                        <span className="cat-tag">
+                          View Full Specification →
+                        </span>
                       </div>
                     </a>
                   );
@@ -68,10 +89,15 @@ export default function OwnBrandsPage() {
           <div>
             <div className="export-eyebrow">EXPLORE MORE</div>
             <h2 className="display">See Our Full Product Catalogue</h2>
-            <p>15 categories across agriculture, construction, packaging and household use.</p>
+            <p>
+              15 categories across agriculture, construction, packaging and
+              household use.
+            </p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/products" className="btn-white">Browse All Products →</a>
+            <a href="/products" className="btn-white">
+              Browse All Products →
+            </a>
           </div>
         </div>
       </section>
