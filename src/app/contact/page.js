@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import companyData from "../../../data/company.json";
+import pageImages from "../../../data/images/page-images.json";
 
 export const metadata = {
   title: `Contact | ${companyData.name}`,
@@ -12,10 +13,17 @@ export default function ContactPage() {
     <>
       <Header />
 
-      <section className="page-hero weave">
+      <section
+        className="page-hero"
+        style={{
+          backgroundImage: `url(${pageImages.contact})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="wrap">
           <div className="breadcrumb"></div>
-          <h1 className="display">Let's Talk</h1>
+          <h1 className="display">Let&apos;s Talk</h1>
           <p>
             Contact Ali Traders & Ali Polymers for Wholesale, Distribution and
             Export Enquiries. Our Team Responds Within 1 Business Day.

@@ -67,7 +67,12 @@ export default function AboutPage() {
 
           <aside className="content-side">
             <div className="side-img">
-              <Image src={pageImages.aboutImages.whoWeAre} alt="who-we-are" fill className="about-side-img" />
+              <Image
+                src={pageImages.aboutImages.whoWeAre}
+                alt="who-we-are"
+                fill
+                className="about-side-img"
+              />
             </div>
           </aside>
         </div>
@@ -88,7 +93,12 @@ export default function AboutPage() {
         </div>
         <aside className="value-side">
           <div className="side-img">
-            <Image src={pageImages.aboutImages.ourMission} alt="our-mission" fill className="about-side-img" />
+            <Image
+              src={pageImages.aboutImages.ourMission}
+              alt="our-mission"
+              fill
+              className="about-side-img"
+            />
           </div>
         </aside>
       </div>
@@ -111,7 +121,12 @@ export default function AboutPage() {
           </div>
           <aside className="why-side">
             <div className="side-img">
-              <Image src={pageImages.aboutImages.why} alt="why-side" fill className="about-side-img" />
+              <Image
+                src={pageImages.aboutImages.why}
+                alt="why-side"
+                fill
+                className="about-side-img"
+              />
             </div>
           </aside>
         </div>

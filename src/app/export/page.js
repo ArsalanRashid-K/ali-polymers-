@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import companyData from "../../../data/company.json";
+import pageImages from "../../../data/images/page-images.json";
 
 export const metadata = {
   title: `Export | ${companyData.name}`,
@@ -14,7 +15,15 @@ export default function ExportPage() {
     <>
       <Header />
 
-      <section className="page-hero weave">
+      <section
+        className="page-hero weave export-hero"
+        style={{
+          backgroundImage: `url(${pageImages.export})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className="wrap">
           <h1 className="display own-brands-hero-title">
             Container Shipping & Export Solutions from India
@@ -92,7 +101,8 @@ export default function ExportPage() {
             <div className="export-eyebrow">READY TO START?</div>
             <h2 className="display">Get an Export Quote Today</h2>
             <p>
-              Tell us what you need — we'll respond with pricing and lead time.
+              Tell us what you need — we&#39;ll respond with pricing and lead
+              time.
             </p>
           </div>
           <div className="export-cta-wrap">

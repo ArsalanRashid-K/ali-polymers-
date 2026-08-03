@@ -108,6 +108,7 @@ h1.hero-h .red{color:#fff;}
 .page-hero h1{font-size:44px; line-height:1.08; margin-bottom:14px; position:relative;}
 .page-hero p{color:#3f3a35; font-size:18px; line-height:1.7; max-width:680px; position:relative;}
 .thread{display:none;}
+.page-hero.export-hero{background-size:70% auto; background-position:center top; background-repeat:no-repeat;}
 
 /* About page gallery placed under hero intro */
 .about-gallery{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:28px;}
