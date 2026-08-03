@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Link from "next/link";
 import companyData from "../../data/company.json";
 import categoriesData from "../../data/categories-index.json";
 import pageImages from "../../data/images/page-images.json";
@@ -39,17 +40,17 @@ export default function Home() {
               <span className="red">HOLD UP.</span>
             </h1>
             <p className="hero-sub">
-              {companyData.yearsExperience} years manufacturing tarpaulins,
+              {companyData.yearsExperience}+ years manufacturing tarpaulins,
               shadenets, ropes, and polymer products for agriculture,
               construction, and export from Kerala to the world.
             </p>
             <div className="hero-ctas">
-              <a href="/products" className="btn-dark">
+              <Link href="/products" className="btn-dark">
                 Browse Products
-              </a>
-              <a href="/export" className="btn-outline">
+              </Link>
+              <Link href="/export" className="btn-outline">
                 Export Enquiries →
-              </a>
+              </Link>
             </div>
           </div>
           <div className="stat-grid">
@@ -139,14 +140,18 @@ export default function Home() {
               <div className="about-eyebrow">WHAT WE MAKE</div>
               <h2 className="display">Product Categories</h2>
             </div>
-            <a href="/products" className="view-all">
+            <Link href="/products" className="view-all">
               View All {categories.length} Categories →
-            </a>
+            </Link>
           </div>
 
           <div className="cat-grid">
             {featured.map((cat, i) => (
-              <a href={`/products/${cat.id}`} key={cat.id} className="cat-card">
+              <Link
+                href={`/products/${cat.id}`}
+                key={cat.id}
+                className="cat-card"
+              >
                 <div className="cat-img weave">
                   <span className="cat-num display">
                     {String(i + 1).padStart(2, "0")}
@@ -157,11 +162,11 @@ export default function Home() {
                   <p>{cat.shortDescription}</p>
                   <span className="cat-tag">View Specs →</span>
                 </div>
-              </a>
+              </Link>
             ))}
 
             {remainingCount > 0 && (
-              <a href="/products" className="cat-card cat-more">
+              <Link href="/products" className="cat-card cat-more">
                 <h3 className="display">+{remainingCount} More</h3>
                 <p>
                   {categories
@@ -170,7 +175,7 @@ export default function Home() {
                     .join(", ")}
                 </p>
                 <span>See Full Catalogue →</span>
-              </a>
+              </Link>
             )}
           </div>
         </div>
@@ -190,9 +195,9 @@ export default function Home() {
             <p>{companyData.export.markets}</p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/export" className="btn-white">
+            <Link href="/export" className="btn-white">
               Request Export Quote →
-            </a>
+            </Link>
           </div>
         </div>
       </section>

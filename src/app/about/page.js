@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Link from "next/link";
 import companyData from "../../../data/company.json";
 import pageImages from "../../../data/images/page-images.json";
 
@@ -155,9 +156,9 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/products" className="btn-white">
+            <Link href="/products" className="btn-white">
               Browse Products →
-            </a>
+            </Link>
           </div>
         </div>
       </section>

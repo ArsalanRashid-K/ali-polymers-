@@ -11,14 +11,14 @@
       "id": "tarpaulin",
       "name": "Tarpaulin",
       "order": 2,
-      "shortDescription": "NEXATARP, SILPAULIN \u2014 HDPE & cross-linked tarpaulins.",
+      "shortDescription": "NEXATARP, SILPAULIN, HDPE & cross-linked tarpaulins.",
       "icon": "/images/products/tarpaulin/icon.jpg"
     },
     {
       "id": "shadenet",
       "name": "Shadenet",
       "order": 3,
-      "shortDescription": "NEXANET \u2014 UV stabilized agricultural shade netting.",
+      "shortDescription": "NEXANET UV stabilized agricultural shade netting.",
       "icon": "/images/products/shadenet/icon.jpg"
     },
     {
@@ -39,14 +39,14 @@
       "id": "weedmat",
       "name": "Weedmat",
       "order": 6,
-      "shortDescription": "NEXAWEED \u2014 woven weed control matting.",
+      "shortDescription": "NEXAWEED  woven weed control matting.",
       "icon": "/images/products/weedmat/icon.jpg"
     },
     {
       "id": "rope",
       "name": "Rope",
       "order": 7,
-      "shortDescription": "TUFF, MARUTHI, KOHINOOR & more \u2014 2 to 26mm.",
+      "shortDescription": "TUFF, MARUTHI, KOHINOOR & more : 2 to 26mm.",
       "icon": "/images/products/rope/icon.jpg"
     },
     {
@@ -74,7 +74,7 @@
       "id": "box-strap",
       "name": "Box Strap",
       "order": 11,
-      "shortDescription": "KERA \u2014 banana tree support & crop protection strap.",
+      "shortDescription": "KERA banana tree support & crop protection strap.",
       "icon": "/images/products/box-strap/icon.jpg"
     },
     {
@@ -88,7 +88,7 @@
       "id": "rain-hat",
       "name": "Rain Hat",
       "order": 13,
-      "shortDescription": "HUNTER, FARMER & DEEP \u2014 rain protection headwear.",
+      "shortDescription": "HUNTER, FARMER & DEEP rain protection headwear.",
       "icon": "/images/products/rain-hat/icon.jpg"
     },
     {
@@ -102,7 +102,7 @@
       "id": "garbage-bags",
       "name": "Garbage Bags",
       "order": 15,
-      "shortDescription": "ECOSAFE \u2014 LDPE garbage bags, multiple sizes.",
+      "shortDescription": "ECOSAFE LDPE garbage bags, multiple sizes.",
       "icon": "/images/products/garbage-bags/icon.jpg"
     }
   ]

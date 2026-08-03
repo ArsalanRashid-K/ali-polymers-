@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import categoriesData from "../../../data/categories-index.json";
 
 export default function Header() {
@@ -18,7 +19,7 @@ export default function Header() {
       </div>
       <header>
         <div className="header-inner">
-          <a href="/" className="logo">
+          <Link href="/" className="logo">
             <Image
               src="/images/logo.jpeg"
               alt="Ali Traders & Ali Polymers"
@@ -27,20 +28,20 @@ export default function Header() {
               className="logo-img"
               priority
             />
-          </a>
+          </Link>
 
           <nav className="nav-desktop">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/products">Products</a>
-            <a href="/own-brands">Our Brands</a>
-            <a href="/export">Export</a>
-            <a href="/contact">Contact</a>
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/products">Products</Link>
+            <Link href="/own-brands">Our Brands</Link>
+            <Link href="/export">Export</Link>
+            <Link href="/contact">Contact</Link>
           </nav>
 
-          <a href="/contact" className="btn-quote nav-desktop-only">
+          <Link href="/contact" className="btn-quote nav-desktop-only">
             Get a Quote
-          </a>
+          </Link>
 
           <button
             className={`hamburger ${menuOpen ? "is-open" : ""}`}
@@ -56,41 +57,41 @@ export default function Header() {
 
         {/* MOBILE NAV DRAWER */}
         <div className={`mobile-nav ${menuOpen ? "is-open" : ""}`}>
-          <a href="/" onClick={() => setMenuOpen(false)}>
+          <Link href="/" onClick={() => setMenuOpen(false)}>
             Home
-          </a>
-          <a href="/about" onClick={() => setMenuOpen(false)}>
+          </Link>
+          <Link href="/about" onClick={() => setMenuOpen(false)}>
             About
-          </a>
+          </Link>
           <div className="mobile-nav-products">
             <span className="mobile-nav-label">Products</span>
             {categories.map((cat) => (
-              <a
+              <Link
                 key={cat.id}
                 href={`/products/${cat.id}`}
                 onClick={() => setMenuOpen(false)}
                 className="mobile-nav-subitem"
               >
                 {cat.name}
-              </a>
+              </Link>
             ))}
           </div>
-          <a href="/export" onClick={() => setMenuOpen(false)}>
+          <Link href="/export" onClick={() => setMenuOpen(false)}>
             Export
-          </a>
-          <a href="/own-brands" onClick={() => setMenuOpen(false)}>
+          </Link>
+          <Link href="/own-brands" onClick={() => setMenuOpen(false)}>
             Our Brands
-          </a>
-          <a href="/contact" onClick={() => setMenuOpen(false)}>
+          </Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>
             Contact
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
             className="btn-quote mobile-nav-cta"
             onClick={() => setMenuOpen(false)}
           >
             Get a Quote
-          </a>
+          </Link>
         </div>
       </header>
     </>

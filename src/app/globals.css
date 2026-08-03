@@ -179,14 +179,11 @@ h1.hero-h .red{color:#fff;}
 .products-head h2{font-size:32px; margin-top:10px;}
 .view-all{font-weight:800; font-size:14px; border-bottom:2px solid var(--red); padding-bottom:3px;}
 .cat-grid{display:grid; grid-template-columns:repeat(4, 1fr); gap:18px;}
-.cat-card{background:#fff; border:1px solid var(--line); transition:transform .2s;}
+.cat-card{background:#fff; border:1px solid var(--line); transition:transform .2s; padding:24px;}
 .cat-card:hover{transform:translateY(-4px);}
-.cat-img{height:150px; display:flex; align-items:center; justify-content:center;}
-.cat-num{font-size:44px; font-weight:900; color:rgba(24,22,20,0.10);}
-.cat-body{padding:18px;}
-.cat-body h3{font-size:17px; font-weight:800; margin-bottom:6px;}
-.cat-body p{font-size:13px; color:var(--grey); margin-bottom:10px;}
-.cat-tag{font-size:12px; font-weight:800; color:var(--red);}
+.cat-body{padding:0;}
+.cat-body h3{font-size:17px; font-weight:800; margin-bottom:10px;}
+.cat-body p{font-size:13px; color:var(--grey); line-height:1.6;}
 
 /* export cta banner (reusable) */
 .export{position:relative; background:var(--red); color:#fff; overflow:hidden;}
@@ -295,6 +292,20 @@ footer{background:var(--ink); color:#fff;}
 }
 .own-brands-grid .cat-tag{
   margin-top:auto;
+}
+
+.cat-tag{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-top:18px;
+  font-size:13px;
+  font-weight:800;
+  color:var(--red);
+}
+
+.cat-tag::after{
+  content:'→';
 }
 
 /* two column value block */

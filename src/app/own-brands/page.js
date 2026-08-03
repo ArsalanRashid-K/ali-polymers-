@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Link from "next/link";
 import companyData from "../../../data/company.json";
 import ownBrandsData from "../../../data/own-brands.json";
 import pageImages from "../../../data/images/page-images.json";
@@ -52,20 +53,35 @@ export default function OwnBrandsPage() {
                 {brands.map((brand, index) => {
                   const brandName = brand.name || "Brand";
                   const brandInitials = brandName.slice(0, 2).toUpperCase();
+                  const brandImage = pageImages.ownBrandCardImages?.[brandName];
 
                   return (
-                    <a
+                    <Link
                       href={`/products/${categorySlug}`}
                       key={`${categorySlug}-${brandName}-${index}`}
                       className="cat-card"
                     >
-                      <div className="cat-img weave">
-                        <span
-                          className="cat-num display"
-                          style={{ fontSize: "22px" }}
-                        >
-                          {brandInitials}
-                        </span>
+                      <div
+                        className="cat-img weave"
+                        style={
+                          brandImage
+                            ? {
+                                backgroundImage: `url("${brandImage}")`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center center",
+                                backgroundRepeat: "no-repeat",
+                              }
+                            : undefined
+                        }
+                      >
+                        {!brandImage && (
+                          <span
+                            className="cat-num display"
+                            style={{ fontSize: "22px" }}
+                          >
+                            {brandInitials}
+                          </span>
+                        )}
                       </div>
                       <div className="cat-body">
                         <h3>{brandName}</h3>
@@ -74,7 +90,7 @@ export default function OwnBrandsPage() {
                           View Full Specification →
                         </span>
                       </div>
-                    </a>
+                    </Link>
                   );
                 })}
               </div>
@@ -95,9 +111,9 @@ export default function OwnBrandsPage() {
             </p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/products" className="btn-white">
+            <Link href="/products" className="btn-white">
               Browse All Products →
-            </a>
+            </Link>
           </div>
         </div>
       </section>

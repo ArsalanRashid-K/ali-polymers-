@@ -4,6 +4,79 @@
   "products": "",
   "export": "/images/export/contaniet.webp",
   "ownBrands": "/images/our brand/our brand.webp",
+  "ownBrandCardImages": {
+    "Polythene Sheet — All Varieties": "/images/products/products-panorama-large.webp",
+    "NEXAWEED": "/images/products/LOGO%20PNG(1)_under30kb.webp",
+    "NEXATARP": "/images/products/JPG(1)_under30kb.webp",
+    "NEXA PINE": "/images/products/WhatsApp202026-08-02201.46.30%20PM(1)_under30kb.webp",
+    "NEXANET": "/images/products/shadenet.jpg",
+    "AQUA SAFE": "/images/products/WhatsApp202026-08-02201.46.3020(1)(1)_under30kb.webp",
+    "AQUA SAFE PRO": "/images/products/WhatsApp202026-08-02201.46.3020(1)(1)_under30kb.webp",
+    "ZIYA": "/images/products/pp%20mat.jpeg",
+    "MODERN": "/images/products/pp%20mat%202.jpeg",
+    "ANJALI": "/images/products/pp%20mat%203.jpeg",
+    "SONAL": "/images/products/pp%20mat%203.jpeg"
+  },
+  "ppMatItemImages": {
+    "ZIYA": "/images/products/pp%20mat.jpeg",
+    "MODERN": "/images/products/pp%20mat%202.jpeg",
+    "ANJALI": "/images/products/pp%20mat%203.jpeg",
+    "SONAL": "/images/products/pp%20mat%203.jpeg"
+  },
+  "productDetailHeroImages": {
+    "pp-mat": "/images/products/pp%20mat%203.jpeg",
+    "shadenet": "/images/products/shadenet.jpg",
+    "rain-coat": "/images/rain%20c%201.webp",
+    "ldpe-construction-sheet": "/images/products/products-panorama-large.webp"
+  },
+  "rainCoatItemImages": {
+    "Poncho Rain Coat": "/images/rain%20c%201.webp",
+    "PVC Rain Coat": "/images/rain%20c%202.webp",
+    "Rexin Rain Coat": "/images/rain%20c%203.webp"
+  },
+  "garbageBagsItemImages": {
+    "ECOSAFE Garbage Bags": "/images/garb%20bag.webp"
+  },
+  "ldpeConstructionSheetItemImages": {
+    "LDPE Construction Sheet": "/images/products/products-panorama-large.webp"
+  },
+  "tarpaulinItemImages": {
+    "Multilayer Tarpaulin": "/images/tarpulin.jpg",
+    "HDPE Tarpaulin": "/images/tarpulin.jpg",
+    "Cross-Linked Tarpaulin": "/images/tarpulin.jpg"
+  },
+  "shadenetItemImages": {
+    "Shadenet": "/images/products/shadenet.jpg"
+  },
+  "wellPondNetItemImages": {
+    "Well & Pond Net (Mono Filament)": "/images/well-pond-net.jfif"
+  },
+  "hexagonalNetItemImages": {
+    "Hexagonal Net": "/images/Hexagonal%20Net.jfif"
+  },
+  "weedmatItemImages": {
+    "Weedmat": "/images/products/weedmat.jfif"
+  },
+  "ropeItemImages": {
+    "Rope": "/images/rope.webp"
+  },
+  "suthaliItemImages": {
+    "Box Suthali": "/images/suthali.jfif",
+    "Ball Suthali": "/images/suthali.jfif",
+    "Tomato Suthali": "/images/suthali.jfif"
+  },
+  "nylonProductsItemImages": {
+    "Nylon Products": "/images/Stay%20wire.jfif"
+  },
+  "hosesItemImages": {
+    "Hoses": "/images/Hoses.jfif"
+  },
+  "boxStrapItemImages": {
+    "KERA Box Strap": "/images/Box%20Strap.webp"
+  },
+  "rainHatItemImages": {
+    "Rain Hat": "/images/Rain%20Hat.webp"
+  },
   "about": "/images/about/PRODUCTS_11_.webp",
   "aboutGallery": [
     "/images/about/DSC_0568.webp",

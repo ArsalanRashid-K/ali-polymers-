@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Link from "next/link";
 import companyData from "../../../data/company.json";
 import categoriesData from "../../../data/categories-index.json";
 import pageImages from "../../../data/images/page-images.json";
@@ -43,19 +44,14 @@ export default function ProductsIndex() {
       </section>
 
       <div className="full-cat-grid" style={{ paddingTop: "60px" }}>
-        {categories.map((cat, i) => (
-          <a href={`/products/${cat.id}`} key={cat.id} className="cat-card">
-            <div className="cat-img weave">
-              <span className="cat-num display">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-            </div>
+        {categories.map((cat) => (
+          <Link href={`/products/${cat.id}`} key={cat.id} className="cat-card">
             <div className="cat-body">
               <h3>{cat.name}</h3>
               <p>{cat.shortDescription}</p>
               <span className="cat-tag">View Specs →</span>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
 
@@ -73,9 +69,9 @@ export default function ProductsIndex() {
             </p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/contact" className="btn-white">
+            <Link href="/contact" className="btn-white">
               Contact Us →
-            </a>
+            </Link>
           </div>
         </div>
       </section>
