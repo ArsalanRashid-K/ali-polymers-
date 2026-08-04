@@ -53,7 +53,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="stat-grid">
+          {/* <div className="stat-grid">
             <div className="stat-box sb-dark">
               <span className="stat-num display">
                 {companyData.yearsExperience}+
@@ -88,7 +88,7 @@ export default function Home() {
                 AVAILABLE
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="thread"></div>
       </section>
