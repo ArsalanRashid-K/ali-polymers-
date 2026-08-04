@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import companyData from "../../../data/company.json";
 import ownBrandsData from "../../../data/own-brands.json";
-import pageImages from "../../../data/images/page-images.json";
 
 export const metadata = {
   title: `Our Own Brands | ${companyData.name}`,
@@ -22,7 +21,7 @@ export default function OwnBrandsPage() {
       <section
         className="page-hero weave own-brands-hero"
         style={{
-          backgroundColor: "#0b6f3f",
+          backgroundColor: "#010201",
           backgroundImage: "none",
         }}
       >
@@ -36,67 +35,67 @@ export default function OwnBrandsPage() {
       </section>
 
       <section className="content-section" style={{ paddingTop: "50px" }}>
-        {groups.map((group) => {
-          const brands = Array.isArray(group.brands) ? group.brands : [];
-          const categoryName = group.categoryName || "Other Products";
-          const categorySlug = group.categorySlug || "products";
+        <div className="categories-grid">
+          {groups.map((group) => {
+            const brands = Array.isArray(group.brands) ? group.brands : [];
 
-          return (
-            <div key={categorySlug} style={{ marginBottom: "48px" }}>
-              <h2 className="display own-brands-category-title">
-                {categoryName.toUpperCase()}
-              </h2>
-              <div
-                className="cat-grid own-brands-grid"
-                style={{ marginTop: "16px" }}
-              >
-                {brands.map((brand, index) => {
-                  const brandName = brand.name || "Brand";
-                  const brandInitials = brandName.slice(0, 2).toUpperCase();
-                  const brandImage = pageImages.ownBrandCardImages?.[brandName];
+            const categoryName = group.categoryName || "Other Products";
+            const categorySlug = group.categorySlug || "products";
 
-                  return (
-                    <Link
-                      href={`/products/${categorySlug}`}
-                      key={`${categorySlug}-${brandName}-${index}`}
-                      className="cat-card"
-                    >
-                      <div
-                        className="cat-img weave"
-                        style={
-                          brandImage
-                            ? {
-                                backgroundImage: `url("${brandImage}")`,
-                                backgroundSize: "cover",
-                                backgroundPosition: "center center",
-                                backgroundRepeat: "no-repeat",
-                              }
-                            : undefined
-                        }
+            return (
+              <div key={categorySlug} className="category-block">
+                <h2 className="display own-brands-category-title">
+                  {categoryName.toUpperCase()}
+                </h2>
+
+                <div
+                  className="cat-grid own-brands-grid"
+                  style={{ marginTop: "16px" }}
+                >
+                  {brands.map((brand, index) => {
+                    const brandName = brand.name || "Brand";
+                    const brandInitials = brandName.slice(0, 2).toUpperCase();
+                    const brandImage = brand.imageSource || brand.image;
+
+                    return (
+                      <Link
+                        href={`/products/${categorySlug}`}
+                        key={`${categorySlug}-${brandName}-${index}`}
+                        className="cat-card"
                       >
-                        {!brandImage && (
-                          <span
-                            className="cat-num display"
-                            style={{ fontSize: "22px" }}
-                          >
-                            {brandInitials}
+                        <div className="cat-img">
+                          {brandImage ? (
+                            <img
+                              src={brandImage}
+                              alt={brandName}
+                              style={{
+                                width: "100%",
+                                height: "100%",
+                                objectFit: "contain",
+                              }}
+                            />
+                          ) : (
+                            <span className="cat-num display">
+                              {brandInitials}
+                            </span>
+                          )}
+                        </div>
+
+                        <div className="cat-body">
+                          <h3>{brandName}</h3>
+                          <p>Part of our {categoryName} range</p>
+                          <span className="cat-tag">
+                            View Full Specification
                           </span>
-                        )}
-                      </div>
-                      <div className="cat-body">
-                        <h3>{brandName}</h3>
-                        <p>Part of our {categoryName} range</p>
-                        <span className="cat-tag">
-                          View Full Specification →
-                        </span>
-                      </div>
-                    </Link>
-                  );
-                })}
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </section>
 
       <section className="export">

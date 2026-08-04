@@ -2,51 +2,53 @@
   "pageTitle": "Our Own Brands",
   "pageIntro": "In house brands developed and manufactured by Ali Traders & Ali Polymers, built to our highest quality standards.",
   "groups": [
-    {
-      "categoryName": "Polythene Sheet",
-      "categorySlug": "ldpe-construction-sheet",
-      "brands": [
-        { "name": "Polythene Sheet — All Varieties" }
-      ]
-    },
+   
+    
     {
       "categoryName": "Well Net",
       "categorySlug": "well-pond-net",
       "brands": [
-        { "name": "AQUA SAFE" },
-        { "name": "AQUA SAFE PRO" }
+        { "name": "AQUA SAFE", "image": "", "imageSource": "/images/our brand/Aqua_Safe_Logo.webp" },
+        { "name": "AQUA SAFE PRO", "image": "", "imageSource": "/images/our brand/Aqua_Safe_Logo.webp" }
       ]
     },
     {
       "categoryName": "Shadenet",
       "categorySlug": "shadenet",
       "brands": [
-        { "name": "NEXANET" },
-        { "name": "NEXA PINE" }
+        { "name": "NEXANET", "image": "", "imageSource": "/images/our brand/nexanet.webp" },
+        { "name": "NEXA PINE", "image": "", "imageSource": "/images/our brand/nexa pine.webp" }
       ]
     },
     {
       "categoryName": "Tarpaulin",
       "categorySlug": "tarpaulin",
       "brands": [
-        { "name": "NEXATARP" }
+        { "name": "NEXATARP", "image": "", "imageSource": "/images/our brand/nexatarp.webp" }
+      ]
+    }
+    , {
+      "categoryName": "Polythene Sheet",
+      "categorySlug": "ldpe-construction-sheet",
+      "brands": [
+        { "name": "Polythene Sheet — All Varieties", "image": "", "imageSource": "/images/products/Polythene Sheet — All Varieties.webp" }
       ]
     },
     {
       "categoryName": "Weedmat",
       "categorySlug": "weedmat",
       "brands": [
-        { "name": "NEXAWEED" }
+        { "name": "NEXAWEED", "image": "", "imageSource": "/images/our brand/nexa weed.webp" }
       ]
-    },
-    {
+    },{
       "categoryName": "PP Mat",
       "categorySlug": "pp-mat",
       "brands": [
-        { "name": "ZIYA" },
-        { "name": "MODERN" },
-        { "name": "SONAL" }
+        { "name": "ZIYA", "image": "", "imageSource": "/images/products/pp mat 2.jpeg" },
+        { "name": "MODERN", "image": "", "imageSource": "/images/products/pp mat 2.jpeg" },
+        { "name": "SONAL", "image": "", "imageSource": "/images/products/pp mat 2.jpeg"}
       ]
     }
+    
   ]
 }
