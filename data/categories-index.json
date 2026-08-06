@@ -2,108 +2,129 @@
   "categories": [
     {
       "id": "ldpe-construction-sheet",
-      "name": "LDPE Construction Sheet",
+      "name": "LDPE Construction Sheets",
       "order": 1,
       "shortDescription": "Concrete curing, waterproofing & surface protection sheeting.",
-      "icon": "/images/products/ldpe-construction-sheet/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032609/jpeg-optimizer_PRODUCTS_6_vwpwab.jpg"
     },
     {
       "id": "tarpaulin",
-      "name": "Tarpaulin",
+      "name": "Tarpaulins",
       "order": 2,
       "shortDescription": "NEXATARP, SILPAULIN, HDPE & cross-linked tarpaulins.",
-      "icon": "/images/products/tarpaulin/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032581/jpeg-optimizer_PRODUCTS_9_1_f1yvzo.jpg"
     },
     {
       "id": "shadenet",
-      "name": "Shadenet",
+      "name": "Shade Nets",
       "order": 3,
       "shortDescription": "NEXANET UV stabilized agricultural shade netting.",
-      "icon": "/images/products/shadenet/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032566/agro-shade-net-500x500_wctect.jpg"
     },
     {
       "id": "well-pond-net",
       "name": "Well & Pond Net",
       "order": 4,
       "shortDescription": "AQUA SAFE monofilament well and pond covering.",
-      "icon": "/images/products/well-pond-net/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_27_zrqwsw.jpg"
     },
     {
       "id": "hexagonal-net",
       "name": "Hexagonal Net",
       "order": 5,
       "shortDescription": "HDPE mesh for fencing, poultry & safety barriers.",
-      "icon": "/images/products/hexagonal-net/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032589/Hexagonal_net_-_01_hutwcn.png"
     },
     {
       "id": "weedmat",
       "name": "Weedmat",
       "order": 6,
-      "shortDescription": "NEXAWEED  woven weed control matting.",
-      "icon": "/images/products/weedmat/icon.jpg"
+      "shortDescription": "NEXAWEED woven weed control matting.",
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032586/Weed_mat_jky9u0.png"
     },
     {
       "id": "rope",
       "name": "Rope",
       "order": 7,
-      "shortDescription": "TUFF, MARUTHI, KOHINOOR & more : 2 to 26mm.",
-      "icon": "/images/products/rope/icon.jpg"
+      "shortDescription": "TUFF, MARUTHI, KOHINOOR & more: 2 to 26mm.",
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032564/WhatsApp_Image_2026-08-05_at_7.25.18_PM_1_o0dhae.jpg"
     },
     {
       "id": "suthali",
       "name": "Suthali",
       "order": 8,
       "shortDescription": "Box, ball & tomato twine for packaging & agriculture.",
-      "icon": "/images/products/suthali/icon.jpg"
-    },
-    {
-      "id": "nylon-products",
-      "name": "Nylon Products",
-      "order": 9,
-      "shortDescription": "Stay wire & trimmer line.",
-      "icon": "/images/products/nylon-products/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032576/jpeg-optimizer_PRODUCTS_28_1_qrkuzf.jpg"
     },
     {
       "id": "hoses",
       "name": "Hoses",
-      "order": 10,
+      "order": 9,
       "shortDescription": "Garden, braided, suction & level hoses.",
-      "icon": "/images/products/hoses/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032599/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.10.46_PM_2_bou6h9.jpg"
     },
     {
       "id": "box-strap",
       "name": "Box Strap",
-      "order": 11,
+      "order": 10,
       "shortDescription": "KERA banana tree support & crop protection strap.",
-      "icon": "/images/products/box-strap/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032537/box_strap_gygclp.jpg"
     },
     {
       "id": "pp-mat",
       "name": "PP Mat",
-      "order": 12,
+      "order": 11,
       "shortDescription": "ZIYA, MODERN, ANJALI, SONAL woven mats.",
-      "icon": "/images/products/pp-mat/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032553/41vZEjctwuL._SX466__pmpi6z.jpg"
     },
     {
       "id": "rain-hat",
       "name": "Rain Hat",
-      "order": 13,
+      "order": 12,
       "shortDescription": "HUNTER, FARMER & DEEP rain protection headwear.",
-      "icon": "/images/products/rain-hat/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032560/rain_hat_hqy1v3.png"
     },
     {
       "id": "rain-coat",
       "name": "Rain Coat",
-      "order": 14,
+      "order": 13,
       "shortDescription": "Poncho, PVC & Rexin rain coats.",
-      "icon": "/images/products/rain-coat/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032559/jpeg-optimizer_PRODUCTS_23_1_vf3pkj.jpg"
     },
     {
       "id": "garbage-bags",
       "name": "Garbage Bags",
-      "order": 15,
+      "order": 14,
       "shortDescription": "ECOSAFE LDPE garbage bags, multiple sizes.",
-      "icon": "/images/products/garbage-bags/icon.jpg"
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032589/Garbage_Bag_tzxzsm.jpg"
+    },
+    {
+      "id": "nylon-products",
+      "name": "Nylon Products",
+      "order": 15,
+      "shortDescription": "Stay wire & trimmer line.",
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032612/stay-wire-500x500_o6efho.jpg"
+    },
+    {
+      "id": "mulching-sheet",
+      "name": "Mulching Sheet",
+      "order": 16,
+      "shortDescription": "Agricultural films for weed control & soil moisture retention.",
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032611/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.17.39_PM_1_nks51f.jpg"
+    },
+    {
+      "id": "grow-bags",
+      "name": "Grow Bags",
+      "order": 17,
+      "shortDescription": "Durable planting bags for terrace gardening & nurseries.",
+      "icon": ""
+    },
+    {
+      "id": "stretch-film",
+      "name": "Stretch Film",
+      "order": 18,
+      "shortDescription": "Flexible pallet wrapping film for secure transport packaging.",
+      "icon": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032575/WhatsApp_Image_2026-08-06_at_1.44.20_AM_jisbmr.jpg"
     }
   ]
 }

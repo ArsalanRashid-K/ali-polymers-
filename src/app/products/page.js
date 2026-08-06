@@ -46,10 +46,21 @@ export default function ProductsIndex() {
       <div className="full-cat-grid" style={{ paddingTop: "60px" }}>
         {categories.map((cat) => (
           <Link href={`/products/${cat.id}`} key={cat.id} className="cat-card">
+            {cat.icon && (
+              <div
+                className="cat-image"
+                style={{
+                  backgroundImage: `url("${cat.icon}")`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              />
+            )}
             <div className="cat-body">
               <h3>{cat.name}</h3>
               <p>{cat.shortDescription}</p>
-              <span className="cat-tag">View Specs →</span>
+              <span className="cat-tag">View Specs</span>
             </div>
           </Link>
         ))}
@@ -59,13 +70,13 @@ export default function ProductsIndex() {
         <div className="export-overlay weave-dark"></div>
         <div className="wrap export-inner">
           <div>
-            <div className="export-eyebrow">CAN'T FIND WHAT YOU NEED?</div>
-            <h2 className="display">
+            <div className="export-eyebrow">CAN&apos;T FIND WHAT YOU NEED?</div>
+            <h1 className="display">
               We manufacture to custom specifications too.
-            </h2>
+            </h1>
             <p>
-              Tell us your required grade, size, and quantity — we'll get back
-              with options.
+              Tell us your required grade, size, and quantity — we&apos;ll get
+              back with options.
             </p>
           </div>
           <div className="export-cta-wrap">

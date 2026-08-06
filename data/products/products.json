@@ -1,0 +1,1164 @@
+{
+  "products": [
+    {
+      "id": "ldpe-construction-sheet",
+      "name": "LDPE Construction Sheets",
+      "order": 1,
+      "image": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032609/jpeg-optimizer_PRODUCTS_6_vwpwab.jpg",
+      "cardApplication": "Concrete curing, waterproofing & surface protection sheeting.",
+      "description": "High-quality LDPE Construction Sheets designed for waterproofing, moisture protection, and surface covering in construction projects. Manufactured using premium virgin and semi-virgin polyethylene granules, these sheets are strong, flexible, and suitable for residential, commercial, and industrial applications.",
+      "features": [
+        "Waterproof and moisture-resistant",
+        "Strong, flexible, and durable",
+        "Lightweight and easy to handle",
+        "Tear-resistant with excellent protection",
+        "Available in various thicknesses and sizes",
+        "Custom lengths available"
+      ],
+      "applications": [
+        "Concrete curing and protection",
+        "Damp-proofing under slabs and foundations",
+        "Floor, wall, and surface protection",
+        "Temporary covering of construction materials",
+        "Ground and soil protection",
+        "Packaging and wrapping of construction materials"
+      ],
+      "specifications": [
+        {
+          "label": "Roll Widths",
+          "values": [
+            "6 ft",
+            "8 ft",
+            "12 ft"
+          ]
+        },
+        {
+          "label": "Length",
+          "values": [
+            "Customized as per customer requirement"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032609/jpeg-optimizer_TRANSPARENT_ssraws.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032609/jpeg-optimizer_PRODUCTS_6_vwpwab.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032609/jpeg-optimizer_TRANSPARENT_ssraws.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032610/jpeg-optimizer_YELLOW_SHEET_b99k9v.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032608/jpeg-optimizer_PRODUCTS_3_1_yyni4q.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032605/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_46_1_-_Copy_x8opjp.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "LD Black Sheet",
+          "slug": "ld-black-sheet",
+          "description": "Manufactured using high-quality semi-virgin granules.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "LD Colour Sheet",
+          "slug": "ld-colour-sheet",
+          "description": "Manufactured using high-quality semi-virgin granules.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "LD Natural Sheet",
+          "slug": "ld-natural-sheet",
+          "description": "Premium quality manufactured from 100% virgin granules.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "tarpaulin",
+      "name": "Tarpaulins",
+      "order": 2,
+      "image": "",
+      "cardApplication": "NEXATARP, SILPAULIN, HDPE & cross-linked tarpaulins.",
+      "description": "Our premium Tarpaulins are designed to provide reliable protection against rain, sunlight, dust, and harsh weather conditions. Manufactured using high-quality raw materials, they are strong, waterproof, UV-resistant, and suitable for agricultural, construction, transportation, industrial, and commercial applications.",
+      "features": [
+        "100% waterproof and weather-resistant",
+        "High tear and tensile strength",
+        "UV-stabilized options available",
+        "Lightweight, durable, and easy to handle",
+        "Suitable for short-term and long-term outdoor use",
+        "Available in multiple GSM grades and sizes"
+      ],
+      "applications": [
+        "Construction site covering",
+        "Truck and vehicle covers",
+        "Agricultural crop and equipment protection",
+        "Material storage and transportation",
+        "Temporary shelters and roofing",
+        "Ground sheets and outdoor protection",
+        "Industrial and commercial covering"
+      ],
+      "specifications": [
+        {
+          "label": "Available GSM",
+          "values": [
+            "Light: 95 GSM",
+            "Medium: 120 GSM",
+            "Heavy: 135 GSM",
+            "Super: 160 GSM",
+            "Deluxe: 170, 190 & 200 GSM",
+            "Special: 225 GSM",
+            "Extra Strong: 250 GSM"
+          ]
+        },
+        {
+          "label": "Available Sizes",
+          "values": [
+            "6 x 6 ft",
+            "9 x 6 ft",
+            "9 x 9 ft",
+            "12 x 9 ft",
+            "12 x 12 ft",
+            "15 x 9 ft",
+            "15 x 12 ft",
+            "18 x 12 ft",
+            "18 x 15 ft",
+            "21 x 15 ft",
+            "21 x 18 ft",
+            "24 x 12 ft",
+            "24 x 15 ft",
+            "24 x 16 ft",
+            "24 x 18 ft",
+            "24 x 21 ft",
+            "27 x 18 ft",
+            "30 x 18 ft",
+            "30 x 21 ft",
+            "30 x 24 ft",
+            "30 x 30 ft",
+            "36 x 30 ft",
+            "Custom sizes available on request"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032581/jpeg-optimizer_PRODUCTS_9_1_f1yvzo.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032581/jpeg-optimizer_PRODUCTS_20_1_qy8yeu.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032580/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_35_xbstpq.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032582/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.34.36_AM_1_isjyps.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032584/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_14_hmviz7.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032585/truck-fabric-tarps_fvhtdw.jpg"],
+      "variantGroups": [
+        {
+          "name": "Cross-Laminated Tarpaulin",
+          "slug": "cross-laminated-tarpaulin",
+          "image": "",
+          "variants": [
+            {
+              "name": "Silpaulin",
+              "slug": "silpaulin",
+              "description": "Premium quality made from 100% virgin granules.",
+              "isOwnBrand": false,
+              "brandSlug": null
+            },
+            {
+              "name": "Shalimar",
+              "slug": "shalimar",
+              "description": "Premium quality made from 100% virgin granules.",
+              "isOwnBrand": false,
+              "brandSlug": null
+            }
+          ]
+        },
+        {
+          "name": "HDPE Tarpaulin",
+          "slug": "hdpe-tarpaulin",
+          "image": "",
+          "variants": [
+            {
+              "name": "Nexatarp",
+              "slug": "nexatarp",
+              "description": "Premium quality made from 100% virgin HDPE granules.",
+              "isOwnBrand": true,
+              "brandSlug": "nexatarp"
+            },
+            {
+              "name": "Blue Diamond",
+              "slug": "blue-diamond",
+              "description": "High-quality tarpaulin made from reprocessed granules.",
+              "isOwnBrand": false,
+              "brandSlug": null
+            }
+          ]
+        }
+      ],
+      "ungroupedVariants": [
+        {
+          "name": "Multilayer Tarpaulin",
+          "slug": "multilayer-tarpaulin",
+          "description": "Cost-effective tarpaulin made from high-quality semi-virgin granules for general-purpose use.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "shadenet",
+      "name": "Shade Nets",
+      "order": 3,
+      "image": "",
+      "cardApplication": "NEXANET UV stabilized agricultural shade netting.",
+      "description": "High-quality Shade Nets manufactured from 100% virgin polymer granules, designed to provide effective sunlight and heat protection with excellent airflow. Suitable for agriculture, horticulture, construction, and commercial shading applications.",
+      "features": [
+        "Made from 100% virgin granules",
+        "UV stabilized for long outdoor life",
+        "Strong and tear-resistant",
+        "Provides uniform shading and heat protection",
+        "Excellent ventilation and durability",
+        "Available in different colours and shade percentages"
+      ],
+      "applications": [
+        "Agriculture and crop protection",
+        "Greenhouses and nurseries",
+        "Polyhouse shading",
+        "Parking area covers",
+        "Construction site protection",
+        "Industrial and commercial shading"
+      ],
+      "specifications": [
+        {
+          "label": "Available Sizes",
+          "values": [
+            "Various sizes available as per requirement"
+          ]
+        },
+        {
+          "label": "Shade Percentage",
+          "values": [
+            "30%",
+            "50%",
+            "75%",
+            "90% (30% to 90% range)"
+          ]
+        },
+        {
+          "label": "Colours",
+          "values": [
+            "Multiple colour options available"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032571/WhatsApp_Image_2026-08-05_at_7.30.34_PM_vge9rt.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032575/WhatsApp_Image_2026-08-05_at_7.43.44_PM_xoyd3g.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032574/WhatsApp_Image_2026-08-05_at_7.43.43_PM_2_rh0cjt.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032574/WhatsApp_Image_2026-08-05_at_7.43.43_PM_yezibz.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032573/WhatsApp_Image_2026-08-05_at_7.43.41_PM_tvldp4.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032573/WhatsApp_Image_2026-08-05_at_7.43.42_PM_qufdod.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032571/shadenet_yyhuew.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032569/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.15.26_PM_1_mkqcki.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "NEXANET",
+          "slug": "nexanet",
+          "description": "Premium shade net with superior strength and UV resistance.",
+          "isOwnBrand": true,
+          "brandSlug": "nexanet"
+        },
+        {
+          "name": "NEXA PINE",
+          "slug": "nexa-pine",
+          "description": "Specially designed shade net for pineapple and rambutan cultivation, providing extensive coverage and reliable crop protection.",
+          "isOwnBrand": true,
+          "brandSlug": "nexa-pine"
+        },
+        {
+          "name": "SHALIMAR",
+          "slug": "shalimar",
+          "description": "Durable shade net with excellent shading performance.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "DURANET",
+          "slug": "duranet",
+          "description": "High-performance net for demanding outdoor applications.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "MODIGOLD",
+          "slug": "modigold",
+          "description": "Premium-grade net for reliable heat and sunlight protection.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "well-pond-net",
+      "name": "Well & Pond Net",
+      "order": 4,
+      "image": "https://res.cloudinary.com/f6m5brs4/image/upload/v1786001460/aqua_safe_vn2xhm.webp",
+      "cardApplication": "AQUA SAFE monofilament well and pond covering.",
+      "description": "High-quality Well Nets designed for covering wells, ponds, and water bodies. Manufactured from 100% virgin HD granules, these mono-filament nets provide effective protection against leaves, debris, and contamination while allowing proper airflow. Durable and UV-resistant for long-term outdoor use.",
+      "features": [
+        "Made from 100% virgin HD granules",
+        "Mono-filament net construction",
+        "UV stabilized for outdoor durability",
+        "Strong, lightweight, and long-lasting",
+        "Prevents debris and external contamination",
+        "Allows airflow and ventilation"
+      ],
+      "applications": [
+        "Well covering",
+        "Pond covering",
+        "Water body protection",
+        "Preventing leaves and debris entry",
+        "Outdoor water protection applications"
+      ],
+      "specifications": [
+        {
+          "label": "GSM Range",
+          "values": [
+            "60 GSM (AQUA SAFE)",
+            "80 GSM (AQUA SAFE PRO)"
+          ]
+        },
+        {
+          "label": "Available Sizes",
+          "values": [
+            "2x2 ft",
+            "2.5x2.5 ft",
+            "3x3 ft",
+            "3.5x3.5 ft",
+            "2x3 ft",
+            "4x13 ft",
+            "5x5 ft",
+            "Customized sizes available"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/WhatsApp_Image_2026-08-05_at_7.08.19_PM_ttzqc7.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_PRODUCTS_37_1_jdwf6f.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_30_hoaeus.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_27_zrqwsw.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.07.07_PM_szvwvt.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/WhatsApp_Image_2026-08-05_at_7.08.02_PM_jvusgh.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/WhatsApp_Image_2026-08-05_at_7.26.54_PM_iodpv5.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "AQUA SAFE",
+          "slug": "aqua-safe",
+          "description": "Standard quality well net with reliable protection and durability.",
+          "isOwnBrand": true,
+          "brandSlug": "aqua-safe"
+        },
+        {
+          "name": "AQUA SAFE PRO",
+          "slug": "aqua-safe-pro",
+          "description": "Premium quality well net with higher strength and extended service life.",
+          "isOwnBrand": true,
+          "brandSlug": "aqua-safe-pro"
+        }
+      ]
+    },
+    {
+      "id": "hexagonal-net",
+      "name": "Hexagonal Net",
+      "order": 5,
+      "image": "",
+      "cardApplication": "HDPE mesh for fencing, poultry & safety barriers.",
+      "description": "Premium-quality Hexagonal Nets manufactured from 100% virgin HDPE granules with a strong and flexible hexagonal mesh design. These nets offer excellent durability, UV resistance, and long-lasting performance for agricultural, fencing, construction, and recreational applications.",
+      "features": [
+        "Made from 100% virgin HDPE granules",
+        "Strong and flexible hexagonal mesh structure",
+        "UV stabilized for outdoor durability",
+        "Lightweight and easy to install",
+        "Weather-resistant and long-lasting"
+      ],
+      "applications": [
+        "Fencing and boundary protection",
+        "Garden and plant support",
+        "Agricultural applications",
+        "Poultry and livestock enclosures",
+        "Construction safety barriers",
+        "Sports and recreational enclosures"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "values": [
+            "HDPE"
+          ]
+        },
+        {
+          "label": "Mesh Sizes",
+          "values": [
+            "1/2 inch",
+            "1 inch",
+            "2 inch"
+          ]
+        },
+        {
+          "label": "Colours",
+          "values": [
+            "Parrot Green",
+            "Pink",
+            "Silver",
+            "Blue"
+          ]
+        },
+        {
+          "label": "Available Sizes",
+          "values": [
+            "3 ft x 50 m",
+            "4 ft x 50 m",
+            "5 ft x 50 m",
+            "Customized sizes available on request"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032594/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_6.24.11_PM_asuyxi.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032593/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_6.24.11_PM_1_mfllcn.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032592/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_6.24.10_PM_sybuun.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032591/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_6.24.10_PM_1_b30jbn.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032589/Hexagonal_net_-_01_hutwcn.png"],
+      "variantGroups": [],
+      "ungroupedVariants": []
+    },
+    {
+      "id": "weedmat",
+      "name": "Weedmat",
+      "order": 6,
+      "image": "",
+      "cardApplication": "NEXAWEED woven weed control matting.",
+      "description": "NEXAWEED is a premium-quality weed control mat manufactured from 100% virgin granules. It effectively prevents weed growth while allowing water, air, and nutrients to pass through, making it ideal for long-term use in agriculture, landscaping, gardening, and horticulture applications.",
+      "features": [
+        "Made from 100% virgin granules",
+        "UV stabilized for long outdoor life",
+        "Excellent weed suppression",
+        "Allows water and air circulation",
+        "Strong, durable, and easy to install",
+        "Suitable for long-term outdoor applications"
+      ],
+      "applications": [
+        "Garden and landscape areas",
+        "Nursery beds",
+        "Agricultural fields",
+        "Greenhouses",
+        "Walkways and pathways",
+        "Horticulture applications"
+      ],
+      "specifications": [
+        {
+          "label": "Available GSM",
+          "values": [
+            "75 GSM",
+            "100 GSM",
+            "130 GSM"
+          ]
+        },
+        {
+          "label": "Colours",
+          "values": [
+            "Black with Green Lines",
+            "Black with Blue Lines"
+          ]
+        },
+        {
+          "label": "Available Sizes",
+          "values": [
+            "1m x 50m",
+            "2m x 50m",
+            "3m x 50m",
+            "Customized sizes available on request"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032586/Weed_mat_jky9u0.png", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032586/jpeg-optimizer_DSC_0682_nnaimc.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032586/jpeg-optimizer_DSC_0674_lbputv.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "Circular Loom Type",
+          "slug": "circular-loom-type",
+          "description": "Provides excellent strength, flexibility, and uniformity for demanding applications.",
+          "isOwnBrand": false,
+          "brandSlug": "nexaweed"
+        },
+        {
+          "name": "Flat Loom Type",
+          "slug": "flat-loom-type",
+          "description": "Offers superior thickness consistency, stability, and tear resistance.",
+          "isOwnBrand": false,
+          "brandSlug": "nexaweed"
+        }
+      ]
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "order": 7,
+      "image": "",
+      "cardApplication": "TUFF, MARUTHI, KOHINOOR & more: 2 to 26mm.",
+      "description": "Our premium-quality Polypropylene Ropes are designed for strength, durability, and versatility. Manufactured using advanced extrusion and twisting technology, our ropes are available in 100% virgin granule quality and economic reprocessed quality for industrial, agricultural, marine, and general-purpose applications.",
+      "features": [
+        "High tensile strength and durability",
+        "Smooth finish for easy handling",
+        "Excellent flexibility and wear resistance",
+        "Available in premium and economic grades",
+        "Suitable for indoor and outdoor applications"
+      ],
+      "applications": [
+        "Agriculture and farming",
+        "Industrial applications",
+        "Marine and fishing use",
+        "Construction work",
+        "Packaging and general-purpose usage"
+      ],
+      "specifications": [
+        {
+          "label": "Quality Options",
+          "values": [
+            "Premium: 100% virgin granules",
+            "Economic: Reprocessed granules"
+          ]
+        },
+        {
+          "label": "Diameter",
+          "values": [
+            "2 mm",
+            "2.5 mm",
+            "3 mm",
+            "3.5 mm",
+            "4 mm",
+            "5 mm",
+            "6 mm",
+            "7 mm",
+            "8 mm",
+            "10 mm",
+            "12 mm",
+            "14 mm",
+            "16 mm",
+            "18 mm",
+            "20 mm",
+            "22 mm",
+            "24 mm",
+            "26 mm"
+          ]
+        },
+        {
+          "label": "Length",
+          "values": [
+            "110 m",
+            "220 m"
+          ]
+        },
+        {
+          "label": "Colours",
+          "values": [
+            "Yellow with Red Lines",
+            "White with Blue Lines"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032565/WhatsApp_Image_2026-08-05_at_7.25.18_PM_kvcekx.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032565/WhatsApp_Image_2026-08-05_at_7.25.18_PM_3_fn4ou8.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032565/WhatsApp_Image_2026-08-05_at_7.25.18_PM_2_xzlqyh.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032564/WhatsApp_Image_2026-08-05_at_7.25.18_PM_1_o0dhae.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032562/jpeg-optimizer_PRODUCTS_15_drjuhq.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032562/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.31.12_AM_1_whrp6e.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "TUFF ROPE",
+          "slug": "tuff-rope",
+          "description": "Premium rope with high strength and durability.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "MARUTHI ROPE",
+          "slug": "maruthi-rope",
+          "description": "Premium rope with smooth finish and long-lasting performance.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "KOHINOOR ROPE",
+          "slug": "kohinoor-rope",
+          "description": "Strong and flexible rope for reliable applications.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "POLYGOLD",
+          "slug": "polygold",
+          "description": "Premium rope with excellent wear resistance and strength.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "POLYSOFT",
+          "slug": "polysoft",
+          "description": "Soft and flexible rope with superior handling.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "MAXX ROPE",
+          "slug": "maxx-rope",
+          "description": "Economic rope made from reprocessed granules for cost-effective applications.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "suthali",
+      "name": "Suthali",
+      "order": 8,
+      "image": "",
+      "cardApplication": "Box, ball & tomato twine for packaging & agriculture.",
+      "description": "Our high-quality Suthali range is designed for reliable tying, bundling, and agricultural applications. Manufactured using quality raw materials, it offers good strength, flexibility, and durability for various commercial and farming needs.",
+      "features": [
+        "Strong and durable",
+        "Good flexibility and easy handling",
+        "Suitable for multiple applications",
+        "Available in different quality grades",
+        "Reliable performance for daily use"
+      ],
+      "applications": [
+        "Agriculture and farming",
+        "Packaging and bundling",
+        "General tying applications",
+        "Commercial and industrial use"
+      ],
+      "specifications": [],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032580/WhatsApp_Image_2026-08-05_at_7.25.18_PM_zoyzt4.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032580/WhatsApp_Image_2026-08-05_at_7.25.18_PM_3_nbvyhv.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032579/WhatsApp_Image_2026-08-05_at_7.25.18_PM_2_ktv2uz.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032579/WhatsApp_Image_2026-08-05_at_7.25.18_PM_1_kkckzx.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032577/jpeg-optimizer_PRODUCTS_30_1_npokvi.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032577/jpeg-optimizer_PRODUCTS_29_eobm3w.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "Box Suthali",
+          "slug": "box-suthali",
+          "description": "Best quality made from semi-virgin granules.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "Ball Suthali",
+          "slug": "ball-suthali",
+          "description": "Best quality made from semi-virgin granules.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "Tomato Suthali",
+          "slug": "tomato-suthali",
+          "description": "Premium quality made from 100% virgin granules.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "hoses",
+      "name": "Hoses",
+      "order": 9,
+      "image": "",
+      "cardApplication": "Garden, braided, suction & level hoses.",
+      "description": "Our premium-quality Plastic Hoses are manufactured from 100% virgin granules to provide excellent durability, flexibility, and reliable performance. Suitable for gardening, agriculture, water supply, and industrial applications.",
+      "features": [
+        "Made from 100% virgin granules",
+        "Strong and flexible construction",
+        "Durable and long-lasting",
+        "Suitable for various water applications",
+        "Easy to handle and use"
+      ],
+      "applications": [
+        "Gardening and irrigation",
+        "Agricultural water supply",
+        "Water transfer applications",
+        "Industrial and general-purpose use"
+      ],
+      "specifications": [
+        {
+          "label": "Diameter",
+          "values": [
+            "1/2 inch",
+            "3/4 inch",
+            "1 inch",
+            "2 inch"
+          ]
+        },
+        {
+          "label": "Length",
+          "values": [
+            "10 m",
+            "30 m"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032603/WhatsApp_Image_2026-08-05_at_7.10.46_PM_mcj3hu.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032602/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.43.46_PM_rekvqj.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032602/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.43.46_PM_1_rfbdab.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032602/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.43.45_PM_mpdujd.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032599/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.10.45_PM_ryfoe2.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032599/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.10.46_PM_2_bou6h9.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "SEED GARDEN HOSE",
+          "slug": "seed-garden-hose",
+          "description": "Premium quality hose for gardening and irrigation applications.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "SEED BRAIDED HOSE",
+          "slug": "seed-braided-hose",
+          "description": "Strong braided hose offering enhanced durability and flexibility.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "SUCTION HOSE",
+          "slug": "suction-hose",
+          "description": "Durable hose designed for suction and water transfer applications.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "LEVEL HOSE",
+          "slug": "level-hose",
+          "description": "Flexible hose suitable for water level measurement and general applications.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "box-strap",
+      "name": "Box Strap",
+      "order": 10,
+      "image": "",
+      "cardApplication": "KERA banana tree support & crop protection strap.",
+      "description": "KERA BOX STRAP is a high-strength agricultural strap made from reprocessed granules, designed for plant support and crop protection. Its excellent tensile strength, flexibility, and durability make it ideal for banana plantations and other agricultural applications.",
+      "features": [
+        "Made from reprocessed granules",
+        "High tensile strength and durability",
+        "Flexible and easy to handle",
+        "Suitable for long-term outdoor use",
+        "Helps protect crops from wind and harsh weather conditions"
+      ],
+      "applications": [
+        "Banana tree support",
+        "Plantation crop support",
+        "Agricultural tying applications",
+        "Securing plants during extreme weather conditions"
+      ],
+      "specifications": [
+        {
+          "label": "Width",
+          "values": [
+            "6mm",
+            "9mm",
+            "12mm"
+          ]
+        },
+        {
+          "label": "Packing",
+          "values": [
+            "1/2 kg roll",
+            "1 kg roll",
+            "2 kg roll"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032537/box_strap_gygclp.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "KERA BOX STRAP",
+          "slug": "kera-box-strap",
+          "description": "Best quality strap made from reprocessed granules.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "pp-mat",
+      "name": "PP Mat",
+      "order": 11,
+      "image": "",
+      "cardApplication": "ZIYA, MODERN, ANJALI, SONAL woven mats.",
+      "description": "Our PP Mats are designed for durability, comfort, and versatile usage. Manufactured using reprocessed, semi-virgin, and 100% virgin granules, they are suitable for personal, recreational, industrial, and outdoor applications.",
+      "features": [
+        "Durable and easy to clean",
+        "Weather-resistant and long-lasting",
+        "Lightweight and easy to carry",
+        "Available in different quality grades",
+        "Suitable for indoor and outdoor use"
+      ],
+      "applications": [
+        "Sleeping mats for workers",
+        "Camping and outdoor activities",
+        "Parks and recreational areas",
+        "Beach and travel use",
+        "Prayer mats"
+      ],
+      "specifications": [
+        {
+          "label": "Available Sizes (all variants)",
+          "values": [
+            "6 x 4 ft",
+            "6 x 9 ft"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.31_PM_qoidbq.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.32_PM_3_b3spop.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.31_PM_4_nsk3gs.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.32_PM_2_o7neqj.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032554/WhatsApp_Image_2026-08-05_at_7.36.31_PM_1_pjbwtx.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.31_PM_3_kf412z.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032554/WhatsApp_Image_2026-08-05_at_7.36.31_PM_2_k6urwc.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "ZIYA",
+          "slug": "ziya",
+          "description": "Best quality made from reprocessed granules, ideal for economical and short-term use.",
+          "isOwnBrand": true,
+          "brandSlug": "ziya"
+        },
+        {
+          "name": "MODERN",
+          "slug": "modern",
+          "description": "Best quality made from semi-virgin granules, suitable for outdoor and recreational use.",
+          "isOwnBrand": true,
+          "brandSlug": "modern"
+        },
+        {
+          "name": "SONAL",
+          "slug": "sonal",
+          "description": "Premium quality made from 100% virgin granules, offering superior comfort and durability.",
+          "isOwnBrand": true,
+          "brandSlug": "sonal"
+        }
+      ]
+    },
+    {
+      "id": "rain-hat",
+      "name": "Rain Hat",
+      "order": 12,
+      "image": "",
+      "cardApplication": "HUNTER, FARMER & DEEP rain protection headwear.",
+      "description": "Our Rain Hats are designed to provide reliable protection from rain and wet conditions. Manufactured from semi-virgin PP granules, they are lightweight, durable, and suitable for farmers, outdoor workers, and field applications during rainy seasons.",
+      "features": [
+        "Made from semi-virgin PP granules",
+        "Lightweight and durable",
+        "Weather-resistant and reusable",
+        "Provides effective rain protection",
+        "Comfortable for extended outdoor use"
+      ],
+      "applications": [
+        "Farming and agricultural work",
+        "Outdoor labour work",
+        "Construction sites",
+        "Field and rainy season activities"
+      ],
+      "specifications": [
+        {
+          "label": "Sizes",
+          "values": [
+            "HUNTER: 21 x 21 inch",
+            "FARMER: 16 x 16 inch",
+            "DEEP: 11 x 9 inch"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032573/hat_2_pgb7p8.png", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032572/hat_1_qwfno9.png", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032560/rain_hat_hqy1v3.png"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "HUNTER",
+          "slug": "hunter",
+          "description": "Best quality made from semi-virgin granules; heavy-duty rain protection. Size: 21x21 inch.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "FARMER",
+          "slug": "farmer",
+          "description": "Best quality made from semi-virgin granules; lightweight and comfortable for farm use. Size: 16x16 inch.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "DEEP",
+          "slug": "deep",
+          "description": "Best quality made from semi-virgin granules; compact and lightweight rain protection. Size: 11x9 inch.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "rain-coat",
+      "name": "Rain Coat",
+      "order": 13,
+      "image": "",
+      "cardApplication": "Poncho, PVC & Rexin rain coats.",
+      "description": "Our Rain Coats provide reliable protection from rain and wet conditions. Manufactured from 100% virgin granules, they offer excellent waterproof performance, durability, flexibility, and comfort for outdoor workers, travelers, and rainy-season activities.",
+      "features": [
+        "Made from 100% virgin granules",
+        "Waterproof and weather-resistant",
+        "Durable and long-lasting",
+        "Lightweight and comfortable",
+        "Suitable for outdoor use in heavy rainfall"
+      ],
+      "applications": [
+        "Outdoor workers",
+        "Farming and agricultural activities",
+        "Travel and recreational use",
+        "Rainy-season protection"
+      ],
+      "specifications": [
+        {
+          "label": "GSM (Poncho)",
+          "values": [
+            "45 GSM",
+            "50 GSM"
+          ]
+        },
+        {
+          "label": "Sizes",
+          "values": [
+            "Poncho: Kids & Adult",
+            "PVC: Large, XL, XXL",
+            "Rexin: Large, XL, XXL"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032557/WhatsApp_Image_2026-08-05_at_12.34.39_AM_koyjbb.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032557/WhatsApp_Image_2026-08-05_at_12.34.38_AM_isjvpd.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032556/WhatsApp_Image_2026-08-05_at_12.34.36_AM_phuuhj.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032559/jpeg-optimizer_PRODUCTS_25_1_orjxfq.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032558/jpeg-optimizer_PRODUCTS_16_zch8xb.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032559/jpeg-optimizer_PRODUCTS_23_1_vf3pkj.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032558/jpeg-optimizer_PRODUCTS_18_1_evbmx0.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "PONCHO RAIN COAT",
+          "slug": "poncho-rain-coat",
+          "description": "Premium quality made from 100% virgin granules; lightweight and full-body rain protection. GSM: 45/50. Sizes: Kids & Adult.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "PVC RAIN COAT",
+          "slug": "pvc-rain-coat",
+          "description": "Premium quality made from 100% virgin granules; strong waterproof protection for heavy-duty applications. Sizes: Large, XL, XXL.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "REXIN RAIN COAT",
+          "slug": "rexin-rain-coat",
+          "description": "Premium quality made from 100% virgin granules; flexible and durable rain protection. Sizes: Large, XL, XXL.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "garbage-bags",
+      "name": "Garbage Bags",
+      "order": 14,
+      "image": "",
+      "cardApplication": "ECOSAFE LDPE garbage bags, multiple sizes.",
+      "description": "ECOSAFE is our own brand of LDPE Garbage Bags manufactured using high-quality LDPE raw material. These bags offer excellent flexibility, strength, and leak resistance, making them suitable for safe disposal of wet and dry waste in homes, offices, commercial, and institutional spaces.",
+      "features": [
+        "Made from high-quality LDPE material",
+        "Soft, flexible, and durable",
+        "Leak-proof for wet waste",
+        "High tear and puncture resistance",
+        "Suitable for household and commercial use",
+        "Available in different sizes"
+      ],
+      "applications": [
+        "Household waste disposal",
+        "Offices and commercial spaces",
+        "Hotels and restaurants",
+        "Hospitals and institutions",
+        "Public facilities"
+      ],
+      "specifications": [
+        {
+          "label": "Medium",
+          "values": [
+            "30 bags per roll",
+            "19 x 22 inch"
+          ]
+        },
+        {
+          "label": "Large",
+          "values": [
+            "15 bags per roll",
+            "24 x 32 inch"
+          ]
+        },
+        {
+          "label": "Extra Large",
+          "values": [
+            "15 bags per roll",
+            "30 x 37 inch"
+          ]
+        },
+        {
+          "label": "Jumbo",
+          "values": [
+            "15 bags per roll",
+            "30 x 44 inch"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032589/Garbage_Bag_tzxzsm.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032589/Garbage_Bag_2_hptqbo.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "ECOSAFE",
+          "slug": "ecosafe",
+          "description": "Our own brand of LDPE Garbage Bags for household, commercial and institutional use.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "nylon-products",
+      "name": "Nylon Products",
+      "order": 15,
+      "image": "",
+      "cardApplication": "Stay wire & trimmer line.",
+      "description": "Our Nylon Products are manufactured using high-quality nylon materials to deliver excellent strength, durability, and reliable performance. Suitable for agricultural, industrial, gardening, and general-purpose applications.",
+      "features": [],
+      "applications": [],
+      "specifications": [
+        {
+          "label": "Stay Wire — Features",
+          "values": [
+            "Made from 100% virgin nylon",
+            "High tensile strength",
+            "Excellent flexibility and durability",
+            "Wear-resistant and long-lasting",
+            "Suitable for outdoor applications"
+          ]
+        },
+        {
+          "label": "Stay Wire — Applications",
+          "values": [
+            "Agricultural support",
+            "Plant and crop support",
+            "Industrial tying applications",
+            "General-purpose use"
+          ]
+        },
+        {
+          "label": "Trimmer Line — Features",
+          "values": [
+            "Strong and flexible nylon construction",
+            "Excellent wear resistance",
+            "Durable for regular use",
+            "Provides efficient trimming performance"
+          ]
+        },
+        {
+          "label": "Trimmer Line — Applications",
+          "values": [
+            "Lawn maintenance",
+            "Gardening",
+            "Grass cutting",
+            "Landscaping applications"
+          ]
+        },
+        {
+          "label": "Trimmer Line — Sizes",
+          "values": [
+            "2.5 mm",
+            "3 mm",
+            "3.5 mm"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032612/stay-wire-500x500_o6efho.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032585/WhatsApp_Image_2026-08-05_at_7.10.46_PM_rvupuu.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032585/jpeg-optimizer_Trimmer_line_e1wbzy.png"],
+      "variantGroups": [],
+      "ungroupedVariants": [
+        {
+          "name": "Stay Wire",
+          "slug": "stay-wire",
+          "description": "Manufactured from 100% virgin nylon material, offering superior strength, flexibility, and long-lasting performance for reliable support and tying applications.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        },
+        {
+          "name": "Trimmer Line",
+          "slug": "trimmer-line",
+          "description": "High-quality nylon cutting line designed for efficient grass and weed trimming, with excellent strength, flexibility, and wear resistance.",
+          "isOwnBrand": false,
+          "brandSlug": null
+        }
+      ]
+    },
+    {
+      "id": "mulching-sheet",
+      "name": "Mulching Sheet",
+      "order": 16,
+      "image": "",
+      "cardApplication": "Agricultural films for weed control & soil moisture retention.",
+      "description": "Mulching Sheets are agricultural films designed to improve crop growth by controlling weed growth, conserving soil moisture, and maintaining soil temperature. They help create a better growing environment while reducing the need for frequent maintenance.",
+      "features": [
+        "Helps prevent weed growth",
+        "Conserves soil moisture",
+        "Improves soil temperature control",
+        "Reduces evaporation",
+        "Supports healthier crop growth",
+        "Durable and suitable for agricultural use"
+      ],
+      "applications": [
+        "Vegetable farming",
+        "Fruit cultivation",
+        "Greenhouse farming",
+        "Nursery applications",
+        "Horticulture projects"
+      ],
+      "specifications": [
+        {
+          "label": "Available Options",
+          "values": [
+            "Available in different sizes and thicknesses"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032612/WhatsApp_Image_2026-08-05_at_7.17.39_PM_2_h1djwt.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032611/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.17.39_PM_bzxmwr.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032611/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.17.39_PM_1_nks51f.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": []
+    },
+    {
+      "id": "grow-bags",
+      "name": "Grow Bags",
+      "order": 17,
+      "image": "",
+      "cardApplication": "Durable planting bags for terrace gardening & nurseries.",
+      "description": "Grow Bags are durable planting solutions designed for modern agriculture, terrace gardening, and nursery applications. They provide excellent root support, proper drainage, and a suitable environment for healthy plant growth.",
+      "features": [
+        "Durable and lightweight",
+        "Excellent drainage and aeration",
+        "Easy to handle and relocate",
+        "Suitable for different crop varieties",
+        "Ideal for indoor and outdoor cultivation"
+      ],
+      "applications": [
+        "Terrace gardening",
+        "Vegetable cultivation",
+        "Nurseries",
+        "Horticulture farming",
+        "Home gardening"
+      ],
+      "specifications": [
+        {
+          "label": "Available Options",
+          "values": [
+            "Available in different sizes and capacities"
+          ]
+        }
+      ],
+      "images": [],
+      "variantGroups": [],
+      "ungroupedVariants": []
+    },
+    {
+      "id": "stretch-film",
+      "name": "Stretch Film",
+      "order": 18,
+      "image": "",
+      "cardApplication": "Flexible pallet wrapping film for secure transport packaging.",
+      "description": "Stretch Film is a flexible packaging material designed for secure wrapping and protection of goods during storage and transportation. It provides excellent load stability, protection from dust and moisture, and helps ensure safe handling.",
+      "features": [
+        "Strong and flexible",
+        "Excellent stretchability",
+        "Protects products during transport",
+        "Helps secure loads firmly",
+        "Easy application and handling"
+      ],
+      "applications": [
+        "Industrial packaging",
+        "Pallet wrapping",
+        "Warehousing",
+        "Transportation",
+        "Commercial packaging"
+      ],
+      "specifications": [
+        {
+          "label": "Available Options",
+          "values": [
+            "Available in different thicknesses and sizes",
+            "Customized specifications available on request"
+          ]
+        }
+      ],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032576/WhatsApp_Image_2026-08-06_at_1.47.33_AM_c6oi9z.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032575/WhatsApp_Image_2026-08-06_at_1.44.20_AM_jisbmr.jpg"],
+      "variantGroups": [],
+      "ungroupedVariants": []
+    }
+  ]
+}

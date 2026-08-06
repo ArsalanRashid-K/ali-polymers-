@@ -40,15 +40,24 @@
       "brands": [
         { "name": "NEXAWEED", "image": "", "imageSource": "/images/our brand/nexa weed.webp" }
       ]
-    },{
+    },
+    {
       "categoryName": "PP Mat",
       "categorySlug": "pp-mat",
       "brands": [
-        { "name": "ZIYA", "image": "", "imageSource": "/images/products/pp mat 2.jpeg" },
-        { "name": "MODERN", "image": "", "imageSource": "/images/products/pp mat 2.jpeg" },
-        { "name": "SONAL", "image": "", "imageSource": "/images/products/pp mat 2.jpeg"}
+        {
+          "name": "ZIYA",
+          "image": "https://res.cloudinary.com/f6m5brs4/image/upload/v1786001460/aqua_safe_vn2xhm.webp"
+        },
+        {
+          "name": "MODERN",
+          "image": "https://res.cloudinary.com/f6m5brs4/image/upload/v1786001460/aqua_safe_vn2xhm.webp"
+        },
+        {
+          "name": "SONAL",
+          "image": "https://res.cloudinary.com/f6m5brs4/image/upload/v1786001460/aqua_safe_vn2xhm.webp"
+        }
       ]
     }
-    
   ]
 }

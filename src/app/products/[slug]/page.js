@@ -1,203 +1,212 @@
-import fs from "fs";
-import path from "path";
 import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Link from "next/link";
+import ProductGallery from "./ProductGallery";
+
+import companyData from "../../../../data/company.json";
+import productsData from "../../../../data/products/products.json";
 
 export async function generateStaticParams() {
-  const dir = path.join(process.cwd(), "data/products");
-  const files = fs.readdirSync(dir);
-  return files.map((file) => ({ slug: file.replace(".json", "") }));
+  return productsData.products.map((product) => ({
+    slug: product.id,
+  }));
 }
 
 function getProduct(slug) {
-  const filePath = path.join(process.cwd(), "data/products", `${slug}.json`);
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  return productsData.products.find((p) => p.id === slug) || null;
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+
   const product = getProduct(slug);
-  if (!product) return {};
+  if (!product) {
+    return {
+      title: "Product Not Found",
+    };
+  }
+
   return {
-    title: product.seo.title,
-    description: product.seo.description,
+    title: `${product.name} | ${companyData.name}`,
+    description: product.description,
   };
 }
 
 export default async function ProductPage({ params }) {
   const { slug } = await params;
+
   const product = getProduct(slug);
-  if (!product) notFound();
 
-  const pageImagesPath = path.join(
-    process.cwd(),
-    "data/images/page-images.json",
-  );
-  const pageImages = JSON.parse(fs.readFileSync(pageImagesPath, "utf-8"));
-  const itemImages =
-    slug === "pp-mat"
-      ? (pageImages.ppMatItemImages ?? {})
-      : slug === "rain-coat"
-        ? (pageImages.rainCoatItemImages ?? {})
-        : slug === "garbage-bags"
-          ? (pageImages.garbageBagsItemImages ?? {})
-          : slug === "ldpe-construction-sheet"
-            ? (pageImages.ldpeConstructionSheetItemImages ?? {})
-            : slug === "tarpaulin"
-              ? (pageImages.tarpaulinItemImages ?? {})
-              : slug === "shadenet"
-                ? (pageImages.shadenetItemImages ?? {})
-                : slug === "well-pond-net"
-                  ? (pageImages.wellPondNetItemImages ?? {})
-                  : slug === "hexagonal-net"
-                    ? (pageImages.hexagonalNetItemImages ?? {})
-                    : slug === "weedmat"
-                      ? (pageImages.weedmatItemImages ?? {})
-                      : slug === "rope"
-                        ? (pageImages.ropeItemImages ?? {})
-                        : slug === "suthali"
-                          ? (pageImages.suthaliItemImages ?? {})
-                          : slug === "nylon-products"
-                            ? (pageImages.nylonProductsItemImages ?? {})
-                            : slug === "hoses"
-                              ? (pageImages.hosesItemImages ?? {})
-                              : slug === "box-strap"
-                                ? (pageImages.boxStrapItemImages ?? {})
-                                : slug === "rain-hat"
-                                  ? (pageImages.rainHatItemImages ?? {})
-                                  : {};
-  const heroImage = pageImages.productDetailHeroImages?.[slug];
+  if (!product) {
+    notFound();
+  }
 
+  const images = product.images?.length
+    ? product.images
+    : product.image
+      ? [product.image]
+      : [];
+
+  const specificationRows = product.specifications.map((spec) => ({
+    label: spec.label,
+    values: spec.values,
+  }));
   return (
     <>
       <Header />
 
       <section
-        className="page-hero weave"
+        className="page-hero weave product-hero"
         style={{
-          minHeight: "360px",
-          background: heroImage
-            ? `url("${heroImage}") center center / cover no-repeat`
-            : "#0c4c94",
+          backgroundColor: "#3b3d3d",
+          backgroundImage: "none",
         }}
       >
         <div className="wrap">
-          <div className="breadcrumb">{product.name.toUpperCase()}</div>
-          <h1 className="display">{product.name}</h1>
-          <p>{product.shortDescription}</p>
+          <h1 className="display own-brands-hero-title">{product.name}</h1>
+          <p>{product.cardApplication}</p>
         </div>
         <div className="thread"></div>
       </section>
 
-      {product.items.map((item) => (
-        <div className="spec-block" key={item.id}>
-          <div className="spec-layout">
-            <div className="spec-visual">
-              <div
-                className="spec-visual-img weave"
-                style={
-                  itemImages[item.name]
-                    ? {
-                        backgroundImage: `url("${itemImages[item.name]}")`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center center",
-                        backgroundRepeat: "no-repeat",
-                      }
-                    : undefined
-                }
-              ></div>
-            </div>
-            <div>
-              <h2 className="display">{item.name}</h2>
+      <div className="spec-block">
+        <div className="spec-layout product-detail-grid">
+          <ProductGallery images={images} />
 
-              {item.brands.length > 0 && (
-                <div className="brand-row">
-                  {item.brands.map((b) => (
-                    <span className="brand-pill" key={b.name}>
-                      {b.name}
-                      {b.grade ? ` — ${b.grade}` : ""}
-                    </span>
-                  ))}
+          <div className="product-summary">
+            <p className="spec-desc">{product.description}</p>
+            <div className="variant-section">
+              <h2>Variants</h2>
+              {product.ungroupedVariants?.length > 0 && (
+                <div className="variant-group-card">
+                  <div className="variant-group-title"></div>
+                  <div className="variant-card-list">
+                    {product.ungroupedVariants.map((variant) => (
+                      <article className="variant-card" key={variant.slug}>
+                        <div className="variant-card-head">
+                          <h4>{variant.name}</h4>
+                          {variant.isOwnBrand && variant.brandSlug ? (
+                            <Link
+                              href={`/our-brands/${variant.brandSlug}`}
+                              className="brand-pill brand-link own-brand-pill"
+                            >
+                              {variant.name} • Explore Brand →
+                            </Link>
+                          ) : variant.isOwnBrand ? (
+                            <span className="brand-pill own-brand-pill">
+                              {variant.name} • Explore Brand →
+                            </span>
+                          ) : null}
+                        </div>
+                        <p>{variant.description}</p>
+                      </article>
+                    ))}
+                  </div>
                 </div>
               )}
-
-              <table className="spec-table">
-                <tbody>
-                  {item.material && (
-                    <tr>
-                      <td>Material</td>
-                      <td>{item.material}</td>
-                    </tr>
-                  )}
-                  {item.gsm.length > 0 && (
-                    <tr>
-                      <td>GSM Range</td>
-                      <td>{item.gsm.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.shadePercentage.length > 0 && (
-                    <tr>
-                      <td>Shade %</td>
-                      <td>{item.shadePercentage.join("%, ")}%</td>
-                    </tr>
-                  )}
-                  {item.meshSize.length > 0 && (
-                    <tr>
-                      <td>Mesh Size</td>
-                      <td>{item.meshSize.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.sizes.length > 0 && (
-                    <tr>
-                      <td>Sizes</td>
-                      <td>{item.sizes.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.bundleSizes.length > 0 && (
-                    <tr>
-                      <td>Bundle Sizes</td>
-                      <td>{item.bundleSizes.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.colours.length > 0 && (
-                    <tr>
-                      <td>Colours</td>
-                      <td>{item.colours.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.lengths.length > 0 && (
-                    <tr>
-                      <td>Lengths</td>
-                      <td>{item.lengths.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.packing.length > 0 && (
-                    <tr>
-                      <td>Packing</td>
-                      <td>{item.packing.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.features.length > 0 && (
-                    <tr>
-                      <td>Features</td>
-                      <td>{item.features.join(", ")}</td>
-                    </tr>
-                  )}
-                  {item.applications.length > 0 && (
-                    <tr>
-                      <td>Applications</td>
-                      <td>{item.applications.join(", ")}</td>
-                    </tr>
-                  )}
-                </tbody>
-              </table>
+              <div className="variant-cards">
+                {product.variantGroups?.map((group) => (
+                  <div key={group.name} className="variant-group-card">
+                    <div className="variant-group-title">
+                      <h3>{group.name}</h3>
+                    </div>
+                    <div className="variant-card-list">
+                      {group.variants.map((variant) => (
+                        <article className="variant-card" key={variant.slug}>
+                          <div className="variant-card-head">
+                            <h4>{variant.name}</h4>
+                            {variant.isOwnBrand && variant.brandSlug ? (
+                              <Link
+                                href={`/our-brands/${variant.brandSlug}`}
+                                className="brand-pill brand-link own-brand-pill"
+                              >
+                                {variant.name} • Explore Brand →
+                              </Link>
+                            ) : variant.isOwnBrand ? (
+                              <span className="brand-pill own-brand-pill">
+                                {variant.name} • Explore Brand →
+                              </span>
+                            ) : null}
+                          </div>
+                          <p>{variant.description}</p>
+                        </article>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      ))}
+      </div>
+
+      <div className="spec-block product-bottom-grids">
+        <div className="detail-box">
+          <div className="detail-content">
+            {/* <div className="about-item">
+              <span className="dash">•</span>
+              <span className="label">
+                Own brands: NEXATARP, NEXANET, NEXAWEED
+              </span> */}
+
+            {product.features?.length > 0 && (
+              <div className="detail-list-block">
+                <h2>Features</h2>
+
+                {product.features.map((feature) => (
+                  <div className="detail-item" key={feature}>
+                    <span className="dash">-</span>
+                    <span className="label">{feature}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {product.applications?.length > 0 && (
+              <div className="detail-list-block">
+                <h2>Applications</h2>
+
+                {product.applications.map((application) => (
+                  <div className="detail-item" key={application}>
+                    <span className="dash">-</span>
+                    <span className="label">{application}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div className="specification-box">
+          <h2>Specification</h2>
+          {specificationRows.length > 0 ? (
+            <table className="spec-table specification-table">
+              <tbody>
+                {product.specifications.map((spec) => (
+                  <tr key={spec.label}>
+                    <td>{spec.label}</td>
+
+                    <td>
+                      <div className="spec-values-grid">
+                        {spec.values.map((value) => (
+                          <div key={value} className="spec-value-box">
+                            {value}
+                          </div>
+                        ))}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ) : (
+            <p className="empty-note">
+              No specification details are available.
+            </p>
+          )}
+        </div>
+      </div>
 
       <section className="export">
         <div className="export-overlay weave-dark"></div>
