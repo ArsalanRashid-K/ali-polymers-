@@ -325,6 +325,60 @@ h1.hero-h .red{color:#fff;}
 .why-box p.t{font-weight:800; margin:10px 0 4px;}
 .why-box p.d{font-size:13px; color:var(--grey); line-height:1.5;}
 
+.why-layout{
+   max-width:1160px;
+    margin:0 auto;
+    padding:0 24px;
+
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 320px;
+    gap:60px;
+    align-items:center;}
+
+.why-right{
+       display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    gap:20px;
+    width:100%;
+}
+
+.why-svg{
+    width:100%;
+    max-width:320px;
+    height:auto;
+    padding:12px;
+    background:#fff;
+    border:1px solid #e8e8e8;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+    object-fit:cover;
+}
+.why-svg:hover{
+    transform:scale(1.03);
+}
+@media (max-width:900px){
+    .why-layout{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .why-right{
+        flex-direction:column;
+        justify-content:center;
+        gap:20px;
+    }
+
+    .why-svg{
+        width:100%;
+        max-width:100%;
+        height:auto;
+    }
+}
+
+
+
 /* footer */
 footer{background:var(--ink); color:#fff;}
 .footer-inner{display:grid; grid-template-columns:1.4fr 0.8fr 1fr 1fr; gap:32px; padding:64px 24px; max-width:1160px; margin:0 auto;}
@@ -337,17 +391,44 @@ footer{background:var(--ink); color:#fff;}
 .footer-col ul li a:hover{color:var(--red);}
 .footer-bottom{border-top:1px solid rgba(255,255,255,0.1); text-align:center; padding:20px; font-size:12px; color:rgba(255,255,255,0.4);}
 
-.footer-logo{
+.footer-sustainability{
     display:flex;
     align-items:center;
-    gap:12px;
+    gap:18px;
+    margin:18px 0;
 }
 
-.footer-recycle-icon{
-    width:28px;
-    height:28px;
-    margin-left:8px;
-    flex-shrink:0;
+.footer-icons{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.footer-icon{
+    width:58px;
+    height:58px;
+    transition:transform .25s ease;
+}
+
+.footer-icon:hover{
+    transform:scale(1.08);
+}
+
+.footer-sustainability-text{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+
+.footer-sustainability-text strong{
+    color:#fff;
+    font-size:15px;
+    font-weight:700;
+}
+
+.footer-sustainability-text span{
+    color:#bdbdbd;
+    font-size:13px;
 }
 
 /* ===== NEW: shared page components ===== */

@@ -205,7 +205,7 @@ export default function Home() {
       </section>
 
       {/* WHY CHOOSE US */}
-      <section className="why">
+      {/* <section className="why">
         <div className="about-eyebrow">
           WHY {companyData.name.toUpperCase()}
         </div>
@@ -220,6 +220,45 @@ export default function Home() {
               <p className="d">{point}</p>
             </div>
           ))}
+        </div>
+      </section> */}
+
+      <section className="why">
+        <div className="why-layout">
+          <div className="why-left">
+            <div className="about-eyebrow">
+              WHY {companyData.name.toUpperCase()}
+            </div>
+
+            <h2 className="display">Quality You Can Feel in the Weave.</h2>
+
+            <div className="why-grid">
+              {companyData.whyChooseUs.slice(0, 4).map((point, i) => (
+                <div className="why-box" key={i}>
+                  <div className="why-num display">
+                    {["25+", "3", "6+", "100%"][i]}
+                  </div>
+
+                  <p className="t">{point.split(" ").slice(0, 4).join(" ")}</p>
+
+                  <p className="d">{point}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="why-right">
+            <img
+              src="https://res.cloudinary.com/nus7e4x2/image/upload/v1786032595/jpeg-optimizer_DSC_1284_qoalci.jpg"
+              alt="Sustainability image 1"
+              className="why-svg"
+            />
+            <img
+              src="https://res.cloudinary.com/nus7e4x2/image/upload/v1786032594/jpeg-optimizer_DSC_1262_yqbopr.jpg"
+              alt="Sustainability image 2"
+              className="why-svg"
+            />
+          </div>
         </div>
       </section>
       {/* EXPORT CTA */}

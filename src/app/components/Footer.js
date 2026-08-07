@@ -27,6 +27,7 @@ export default function Footer() {
               {companyData.name.toUpperCase()}
             </span>
           </div>
+
           <p className="footer-addr">
             {companyData.headquarters.addressLine1}
             <br />
@@ -67,6 +68,11 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+
+        {/* <div className="footer-sustainability-text">
+          <strong>Reduce • Reuse • Recycle</strong>
+          <span>Sustainable Polymer Manufacturing</span>
+        </div> */}
         <div className="footer-col">
           <p className="head">Get in Touch</p>
           <p
@@ -189,7 +195,27 @@ export default function Footer() {
             )}
           </div>
         </div>
+        <div className="footer-icons">
+          <img
+            src="/images/recycle-svgrepo-com.svg"
+            alt="Recycle"
+            className="footer-icon"
+          />
+
+          <img
+            src="/images/leaf-svgrepo-com.svg"
+            alt="Eco Friendly"
+            className="footer-icon"
+          />
+
+          <img
+            src="/images/eco_green_factory_icon.svg"
+            alt="Export Ready"
+            className="footer-icon"
+          />
+        </div>
       </div>
+
       <div className="footer-bottom">
         © 2026 {companyData.name}. All rights reserved.
       </div>
