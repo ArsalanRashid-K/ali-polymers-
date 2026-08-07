@@ -118,8 +118,10 @@ export default function OwnBrandsPage() {
         </div>
       </section>
 
-      <section className="export">
-        <div className="export-overlay weave-dark"></div>
+      <section
+        className="export"
+        style={{ backgroundColor: "#C41E1E", backgroundImage: "none" }}
+      >
         <div className="wrap export-inner">
           <div>
             <div className="export-eyebrow">EXPLORE MORE</div>

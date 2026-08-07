@@ -145,7 +145,6 @@ export default function AboutPage() {
       </div>
 
       <section className="export">
-        <div className="export-overlay weave-dark"></div>
         <div className="wrap export-inner">
           <div>
             <div className="export-eyebrow">SEE THE FULL RANGE</div>

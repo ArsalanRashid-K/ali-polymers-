@@ -108,7 +108,6 @@ export default function ExportPage() {
         </div>
       </section>
       <section className="export">
-        <div className="export-overlay weave-dark"></div>
         <div className="wrap export-inner">
           <div>
             <div className="export-eyebrow">READY TO START?</div>

@@ -182,8 +182,10 @@ export default function Home() {
       </section>
 
       {/* EXPORT CTA */}
-      <section className="export">
-        <div className="export-overlay weave-dark"></div>
+      <section
+        className="export"
+        style={{ backgroundColor: "#C41E1E", backgroundImage: "none" }}
+      >
         <div className="wrap export-inner">
           <div>
             <div className="export-eyebrow">EXPORT READY</div>

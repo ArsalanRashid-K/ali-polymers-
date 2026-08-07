@@ -67,7 +67,6 @@ export default function ProductsIndex() {
       </div>
 
       <section className="export">
-        <div className="export-overlay weave-dark"></div>
         <div className="wrap export-inner">
           <div>
             <div className="export-eyebrow">CAN&apos;T FIND WHAT YOU NEED?</div>

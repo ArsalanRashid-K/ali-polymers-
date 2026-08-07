@@ -203,8 +203,6 @@ export default async function ProductPage({ params }) {
       </div>
 
       <section className="export">
-        <div className="export-overlay weave-dark"></div>
-
         <div className="wrap export-inner">
           <div>
             <div className="export-eyebrow">INTERESTED IN THIS BRAND?</div>
