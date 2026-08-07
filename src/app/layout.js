@@ -1,5 +1,6 @@
 import "./globals.css";
 import companyData from "../../data/company.json";
+import ScrollToTop from "./components/ScrollToTop";
 
 export const metadata = {
   metadataBase: new URL("https://alitraderspolymers.com"),
@@ -56,16 +57,17 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const whatsappNumber = (companyData.contact.whatsapp || companyData.contact.phone || "").replace(/\D/g, "");
+  const whatsappNumber = (
+    companyData.contact.whatsapp ||
+    companyData.contact.phone ||
+    ""
+  ).replace(/\D/g, "");
   const whatsappLink = whatsappNumber
     ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello, I want to know more about your products.")}`
     : null;
 
   return (
-    <html
-      lang="en"
-      className="h-full antialiased"
-    >
+    <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
         {children}
         {whatsappLink && (
@@ -89,6 +91,7 @@ export default function RootLayout({ children }) {
             </svg>
           </a>
         )}
+        <ScrollToTop />
       </body>
     </html>
   );
