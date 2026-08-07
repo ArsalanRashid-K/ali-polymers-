@@ -55,11 +55,31 @@ export default function OwnBrandsPage() {
                   {brands.map((brand, index) => {
                     const brandName = brand.name || "Brand";
                     const brandInitials = brandName.slice(0, 2).toUpperCase();
-                    const brandImage = brand.imageSource || brand.image;
+                    const brandImage =
+                      brand.imageSource ||
+                      (Array.isArray(brand.image)
+                        ? brand.image[0]
+                        : brand.image);
+                    const slugify = (str) =>
+                      String(str)
+                        .toLowerCase()
+                        .replace(/[^a-z0-9]+/g, "-")
+                        .replace(/(^-|-$)/g, "");
+
+                    const brandSlug = brand.slug || slugify(brandName);
+
+                    const isProductCategory = [
+                      "ldpe-construction-sheet",
+                      "weedmat",
+                    ].includes(categorySlug);
+
+                    const href = isProductCategory
+                      ? `/products/${categorySlug}`
+                      : `/own-brands/${brandSlug}`;
 
                     return (
                       <Link
-                        href={`/products/${categorySlug}`}
+                        href={href}
                         key={`${categorySlug}-${brandName}-${index}`}
                         className="cat-card"
                       >

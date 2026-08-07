@@ -64,7 +64,13 @@ export default function Header() {
             About
           </Link>
           <div className="mobile-nav-products">
-            <span className="mobile-nav-label">Products</span>
+            <Link
+              href="/products"
+              onClick={() => setMenuOpen(false)}
+              className="mobile-nav-label"
+            >
+              Products
+            </Link>
             {categories.map((cat) => (
               <Link
                 key={cat.id}

@@ -88,7 +88,7 @@ export default async function ProductPage({ params }) {
                           <h4>{variant.name}</h4>
                           {variant.isOwnBrand && variant.brandSlug ? (
                             <Link
-                              href={`/our-brands/${variant.brandSlug}`}
+                              href={`/own-brands/${variant.brandSlug}`}
                               className="brand-pill brand-link own-brand-pill"
                             >
                               {variant.name} • Explore Brand →
@@ -118,7 +118,7 @@ export default async function ProductPage({ params }) {
                             <h4>{variant.name}</h4>
                             {variant.isOwnBrand && variant.brandSlug ? (
                               <Link
-                                href={`/our-brands/${variant.brandSlug}`}
+                                href={`/own-brands/${variant.brandSlug}`}
                                 className="brand-pill brand-link own-brand-pill"
                               >
                                 {variant.name} • Explore Brand →
@@ -144,12 +144,6 @@ export default async function ProductPage({ params }) {
       <div className="spec-block product-bottom-grids">
         <div className="detail-box">
           <div className="detail-content">
-            {/* <div className="about-item">
-              <span className="dash">•</span>
-              <span className="label">
-                Own brands: NEXATARP, NEXANET, NEXAWEED
-              </span> */}
-
             {product.features?.length > 0 && (
               <div className="detail-list-block">
                 <h2>Features</h2>
@@ -210,18 +204,22 @@ export default async function ProductPage({ params }) {
 
       <section className="export">
         <div className="export-overlay weave-dark"></div>
+
         <div className="wrap export-inner">
           <div>
-            <div className="export-eyebrow">INTERESTED IN THIS PRODUCT?</div>
-            <h2 className="display">Get a Custom Quote for {product.name}</h2>
+            <div className="export-eyebrow">INTERESTED IN THIS BRAND?</div>
+
+            <h2 className="display">Get a Custom Quote </h2>
+
             <p>
-              Tell us your required spec, size, and quantity — we will get back
-              with pricing.
+              Tell us your required specification, size, and quantity — our team
+              will get back to you with the best solution.
             </p>
           </div>
+
           <div className="export-cta-wrap">
             <Link href="/contact" className="btn-white">
-              Request Quote →
+              Contact Us →
             </Link>
           </div>
         </div>
