@@ -8,7 +8,6 @@ export default function ScrollToTop() {
   const pathname = usePathname();
 
   useEffect(() => {
-    setVisible(false);
     const footer = document.querySelector("footer");
     if (!footer) return;
 
