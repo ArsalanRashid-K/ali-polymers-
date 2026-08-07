@@ -48,7 +48,7 @@ export default function ProductsIndex() {
           <Link href={`/products/${cat.id}`} key={cat.id} className="cat-card">
             {cat.icon && (
               <div
-                className="cat-image"
+                className="cat-img"
                 style={{
                   backgroundImage: `url("${cat.icon}")`,
                   backgroundSize: "cover",

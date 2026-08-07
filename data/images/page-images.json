@@ -8,8 +8,9 @@
     "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032597/jpeg-optimizer_DSC_2591_tekptq.jpg",
     "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032596/jpeg-optimizer_DSC_2585_s3onru.jpg"
   ],
-  "homePageVideo1": "https://res.cloudinary.com/nus7e4x2/video/upload/v1786032618/WhatsApp_Video_2026-08-05_at_7.15.25_PM_1_l9uvfw.mp4",
-  "contact": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032596/jpeg-optimizer_DSC_2585_s3onru.jpg",
+
+  "homePageVideo1": "https://res.cloudinary.com/nus7e4x2/video/upload/w_900,q_auto:eco,f_auto/WhatsApp_Video_2026-08-05_at_7.15.25_PM_1_l9uvfw",
+ "contact": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032596/jpeg-optimizer_DSC_2585_s3onru.jpg",
   "products": "",
   "export": "/images/export/contaniet.webp",
   "ownBrands": "/images/our brand/our brand.webp",
