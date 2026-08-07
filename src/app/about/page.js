@@ -11,6 +11,8 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+  const whyIcons = ["🌟", "🏭", "📦", "🏷️", "♻️", "✅", "✈️"];
+
   return (
     <>
       <Header />
@@ -113,12 +115,10 @@ export default function AboutPage() {
           <div className="why-main">
             <div className="about-eyebrow">WHY CHOOSE US</div>
             <h2 className="display">What Sets Us Apart</h2>
-            <div className="why-grid">
+            <div className="why-grid about-why-grid">
               {companyData.whyChooseUs.map((point, i) => (
-                <div className="why-box" key={i}>
-                  <div className="why-num display">
-                    {String(i + 1).padStart(2, "0")}
-                  </div>
+                <div className="about-why-box" key={i}>
+                  <div className="about-why-icon">{whyIcons[i] || "•"}</div>
                   <p className="d">{point}</p>
                 </div>
               ))}

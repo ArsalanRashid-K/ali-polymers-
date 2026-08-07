@@ -325,6 +325,11 @@ h1.hero-h .red{color:#fff;}
 .why-box p.t{font-weight:800; margin:10px 0 4px;}
 .why-box p.d{font-size:13px; color:var(--grey); line-height:1.5;}
 
+/* About page only WHY icons */
+.about-why-box{background:#fff; padding:30px 26px 22px; border:1px solid var(--line); position:relative;}
+.about-why-icon{position:absolute; top:20px; left:20px; display:flex; align-items:center; justify-content:center; color:var(--red); font-size:28px;}
+.about-why-box p.d{font-size:14px; color:var(--grey); line-height:1.7; margin:52px 0 0 0;}
+
 .why-layout{
    max-width:1160px;
     margin:0 auto;
