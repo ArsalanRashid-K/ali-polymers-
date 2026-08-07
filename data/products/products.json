@@ -1122,7 +1122,7 @@
           ]
         }
       ],
-      "images": [],
+      "images": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786118977/grow_bag_2_znzkkn.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786118977/grow_bag_iibkyq.webp"],
       "variantGroups": [],
       "ungroupedVariants": []
     },
