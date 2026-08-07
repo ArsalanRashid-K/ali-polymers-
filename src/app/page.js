@@ -93,8 +93,6 @@ export default function Home() {
           <h2 className="display">
             Manufacturing &amp; Wholesale, Under One Roof
           </h2>
-        </div>
-        <div>
           <p className="about-body">{companyData.about}</p>
           <div className="about-list">
             <div className="about-item">
@@ -123,6 +121,17 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="about-video">
+          <video
+            src={pageImages.homePageVideo1}
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls
+            className="about-video-player"
+          />
+        </div>
       </section>
 
       {/* PRODUCT CATEGORIES — pulled from categories-index.json */}
@@ -145,15 +154,17 @@ export default function Home() {
                 key={cat.id}
                 className="cat-card"
               >
-                <div className="cat-img weave">
-                  <span className="cat-num display">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
+                <div className="cat-img">
+                  <img
+                    src={cat.icon}
+                    alt={cat.name}
+                    className="cat-image-inner"
+                  />
                 </div>
                 <div className="cat-body">
                   <h3>{cat.name}</h3>
                   <p>{cat.shortDescription}</p>
-                  <span className="cat-tag">View Specs →</span>
+                  <span className="cat-tag">View Specs </span>
                 </div>
               </Link>
             ))}
