@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 export default function AboutPage() {
-  const whyIcons = ["🌟", "🏭", "📦", "🏷️", "♻️", "✅", "✈️"];
+  const whyIcons = ["🕰️", "📦", "🏷️", "🧪", "✅", "✈️", "♻️"];
 
   return (
     <>
