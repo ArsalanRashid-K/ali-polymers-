@@ -182,7 +182,7 @@ h1.hero-h .red{color:#fff;}
 .content-text p{color:var(--grey); font-size:17px; line-height:1.8; margin-bottom:18px;}
 .content-side{display:flex; flex-direction:column; gap:16px;}
 .side-img{position:relative; width:100%; aspect-ratio:4/3; border-radius:10px; overflow:hidden;}
-.about-side-img{object-fit:cover;}
+.about-side-img{object-fit:contain; object-position:center; background:#fafafa;}
 .inline-img .inline-img-wrap{position:relative; width:100%; aspect-ratio:16/9; border-radius:8px; overflow:hidden; margin:14px 0;}
 .about-inline-img{object-fit:cover;}
 
@@ -194,17 +194,18 @@ h1.hero-h .red{color:#fff;}
 
 /* value grid with right-side images */
 .value-wrap{display:grid; grid-template-columns:1fr 360px; gap:28px; align-items:start; margin:28px 0;}
-.value-side{display:flex; flex-direction:column; gap:16px;}
+.value-side{display:grid; gap:16px; align-content:start;}
 
 /* why section with single side image */
-.why-wrap{display:grid; grid-template-columns:1fr 300px; gap:24px; align-items:start;}
-.why-side{display:flex; align-items:flex-start;}
+.why-wrap{display:grid; grid-template-columns:1fr 320px; gap:24px; align-items:start;}
+.why-side{display:grid; gap:16px; align-content:start;}
+.why-side .side-img{min-height:180px;}
 
 @media (max-width:900px){
   .value-wrap{grid-template-columns:1fr;}
-  .value-side{flex-direction:row;}
+  .value-side{grid-template-columns:1fr 1fr;}
   .why-wrap{grid-template-columns:1fr;}
-  .why-side{order:2;}
+  .why-side{order:2; grid-template-columns:1fr 1fr;}
 }
 
 /* bottom uneven card layout */

@@ -12,6 +12,12 @@ export const metadata = {
 
 export default function AboutPage() {
   const whyIcons = ["🕰️", "📦", "🏷️", "🧪", "✅", "✈️", "♻️"];
+  const ourMissionImages = Array.isArray(pageImages.aboutImages.ourMission)
+    ? pageImages.aboutImages.ourMission
+    : [pageImages.aboutImages.ourMission];
+  const whySideImages = Array.isArray(pageImages.aboutImages.why)
+    ? pageImages.aboutImages.why
+    : [pageImages.aboutImages.why];
 
   return (
     <>
@@ -19,11 +25,7 @@ export default function AboutPage() {
 
       <section
         className="page-hero"
-        style={{
-          backgroundImage: `url(${pageImages.about})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+        style={{ backgroundColor: "#a30909", backgroundImage: "none" }}
       >
         <div className="wrap">
           <div className="breadcrumb"></div>
@@ -73,14 +75,16 @@ export default function AboutPage() {
           </div>
 
           <aside className="content-side">
-            <div className="side-img">
-              <Image
-                src={pageImages.aboutImages.whoWeAre}
-                alt="who-we-are"
-                fill
-                className="about-side-img"
-              />
-            </div>
+            {pageImages.aboutImages.whoWeAre.map((src, index) => (
+              <div className="side-img" key={index}>
+                <Image
+                  src={src}
+                  alt={`about-gallery-${index}`}
+                  fill
+                  className="about-side-img"
+                />
+              </div>
+            ))}
           </aside>
         </div>
       </section>
@@ -99,14 +103,16 @@ export default function AboutPage() {
           </div>
         </div>
         <aside className="value-side">
-          <div className="side-img">
-            <Image
-              src={pageImages.aboutImages.ourMission}
-              alt="our-mission"
-              fill
-              className="about-side-img"
-            />
-          </div>
+          {ourMissionImages.map((src, index) => (
+            <div className="side-img" key={index}>
+              <Image
+                src={src}
+                alt={`our-mission-${index}`}
+                fill
+                className="about-side-img"
+              />
+            </div>
+          ))}
         </aside>
       </div>
 
@@ -125,20 +131,22 @@ export default function AboutPage() {
             </div>
           </div>
           <aside className="why-side">
-            <div className="side-img">
-              <Image
-                src={pageImages.aboutImages.why}
-                alt="why-side"
-                fill
-                className="about-side-img"
-              />
-            </div>
+            {whySideImages.map((src, index) => (
+              <div className="side-img" key={index}>
+                <Image
+                  src={src}
+                  alt={`why-side-${index}`}
+                  fill
+                  className="about-side-img"
+                />
+              </div>
+            ))}
           </aside>
         </div>
       </section>
 
       {/* Bottom uneven cards (remaining images) placed above export CTA */}
-      <div className="wrap">
+      {/* <div className="wrap">
         <div className="bottom-cards">
           {pageImages.aboutImages.bottomCards.map((src, i) => (
             <div className={`card card-${i}`} key={i}>
@@ -146,7 +154,7 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <section className="export">
         <div className="wrap export-inner">
