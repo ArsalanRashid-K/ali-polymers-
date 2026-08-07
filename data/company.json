@@ -6,6 +6,44 @@
     "addressLine1": "West Vengola, Perumbavoor",
     "addressLine2": "Ernakulam, Kerala, India"
   },
+  "sectors": [
+    {
+      "id": "agriculture",
+      "icon": "🌾",
+      "title": "Agriculture",
+      "description": "Shade nets, tarpaulins, weed mats, crop covers and farming solutions."
+    },
+    {
+      "id": "construction",
+      "icon": "🏗",
+      "title": "Building Construction",
+      "description": "Construction sheets, safety nets, curing covers and protective materials."
+    },
+    {
+      "id": "interior",
+      "icon": "🏠",
+      "title": "Interior",
+      "description": "Floor mats, protective covers and polymer products for indoor applications."
+    },
+    {
+      "id": "logistics",
+      "icon": "📦",
+      "title": "Logistics",
+      "description": "Packaging sheets, ropes, covers and transport protection solutions."
+    },
+    {
+      "id": "safety",
+      "icon": "🦺",
+      "title": "Safety",
+      "description": "Safety nets, warning products and industrial protection materials."
+    },
+    {
+      "id": "marine",
+      "icon": "⚓",
+      "title": "Fishing & Marine",
+      "description": "Marine nets, ropes and weather-resistant products for coastal use."
+    }
+  ],
   "about": "Ali Traders and Ali Polymers are an established manufacturing and wholesale distribution company with over 25 years of experience in polymer based products. Headquartered in Perumbavoor, Ernakulam, Kerala, India, we serve domestic and export markets with application focused, durable plastic solutions. We specialize in agriculture, construction, packaging, rain protection, and household plastic products, offering premium, standard, and economic grades manufactured from 100% virgin, semi-virgin, and reprocessed raw materials.",
   "structure": "Ali Traders and Ali Polymers operate as an integrated manufacturing, sourcing, and wholesale distribution organization. While Ali Polymers focuses on product development and sourcing, Ali Traders manages logistics and market reach across Kerala and expanding export destinations.",
   "vision": "To be a reliable global supplier of quality plastic products.",

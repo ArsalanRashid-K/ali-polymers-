@@ -103,6 +103,62 @@ h1.hero-h .red{color:#fff;}
 .cat-more p{font-size:13px; color:rgba(255,255,255,0.6); margin-bottom:14px; line-height:1.5;}
 .cat-more span{font-size:12px; font-weight:800; color:var(--red);}
 
+.sectors{
+    background:#fff;
+    padding:70px 24px 40px;
+}
+
+.sector-grid{
+    margin-top:36px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+} 
+
+ .sector-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:24px;
+    transition:.25s ease;
+}
+
+
+.sector-card:hover{
+    transform:translateY(-4px);
+    border-color:var(--red);
+    box-shadow:0 14px 32px rgba(0,0,0,.08);
+}
+
+.sector-card h3{
+    margin:0 0 12px;
+    font-size:22px;
+    color:#111;
+}
+.sectors h2{
+    font-size:32px;
+    margin-top:10px;
+}
+
+.sector-card p{
+    margin:0;
+    color:var(--grey);
+    line-height:1.7;
+    font-size:15px;
+}
+
+@media(max-width:900px){
+    .sector-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .sector-grid{
+        grid-template-columns:1fr;
+    }
+}
+
 /* page hero (sub-pages) */
 .page-hero{padding:60px 24px; position:relative; overflow:hidden;}
 .breadcrumb{font-size:12px; color:var(--red); margin-bottom:16px; font-weight:800; letter-spacing:1.5px;}
@@ -261,7 +317,7 @@ h1.hero-h .red{color:#fff;}
 
 
 /* why choose us */
-.why{padding:80px 24px; max-width:1160px; margin:0 auto;}
+.why{padding:40px 24px 80px; max-width:1160px; margin:0 auto;}
 .why h2{font-size:32px; margin:10px 0 44px;}
 .why-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px;}
 .why-box{background:#fff; padding:26px; border:1px solid var(--line);}
@@ -280,6 +336,19 @@ footer{background:var(--ink); color:#fff;}
 .footer-col ul li{margin-bottom:8px; font-size:14px; color:rgba(255,255,255,0.6);}
 .footer-col ul li a:hover{color:var(--red);}
 .footer-bottom{border-top:1px solid rgba(255,255,255,0.1); text-align:center; padding:20px; font-size:12px; color:rgba(255,255,255,0.4);}
+
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.footer-recycle-icon{
+    width:28px;
+    height:28px;
+    margin-left:8px;
+    flex-shrink:0;
+}
 
 /* ===== NEW: shared page components ===== */
 

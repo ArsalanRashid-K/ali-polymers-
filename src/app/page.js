@@ -184,26 +184,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* INDUSTRIES WE SERVE */}
+      <section className="sectors">
+        <div className="wrap">
+          <div className="about-eyebrow">INDUSTRIES WE SERVE</div>
+          <h2 className="display">Products Designed for Every Industry</h2>
 
-      {/* EXPORT CTA */}
-      <section
-        className="export"
-        style={{ backgroundColor: "#C41E1E", backgroundImage: "none" }}
-      >
-        <div className="wrap export-inner">
-          <div>
-            <div className="export-eyebrow">EXPORT READY</div>
-            <h2 className="display">
-              Shipping to the Middle East,
-              <br />
-              Africa &amp; Asia with Reliable Container Solution.
-            </h2>
-            <p>{companyData.export.markets}</p>
-          </div>
-          <div className="export-cta-wrap">
-            <Link href="/export" className="btn-white">
-              Request Export Quote →
-            </Link>
+          <div className="sector-grid">
+            {companyData.sectors &&
+              companyData.sectors.map((s) => (
+                <div className="sector-card" key={s.id}>
+                  <h3>
+                    {s.icon} {s.title}
+                  </h3>
+                  <p>{s.description}</p>
+                </div>
+              ))}
           </div>
         </div>
       </section>
@@ -224,6 +220,28 @@ export default function Home() {
               <p className="d">{point}</p>
             </div>
           ))}
+        </div>
+      </section>
+      {/* EXPORT CTA */}
+      <section
+        className="export"
+        style={{ backgroundColor: "#C41E1E", backgroundImage: "none" }}
+      >
+        <div className="wrap export-inner">
+          <div>
+            <div className="export-eyebrow">EXPORT READY</div>
+            <h2 className="display">
+              Shipping to the Middle East,
+              <br />
+              Africa &amp; Asia with Reliable Container Solution.
+            </h2>
+            <p>{companyData.export.markets}</p>
+          </div>
+          <div className="export-cta-wrap">
+            <Link href="/export" className="btn-white">
+              Request Export Quote →
+            </Link>
+          </div>
         </div>
       </section>
 
