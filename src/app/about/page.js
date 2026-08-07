@@ -1,4 +1,4 @@
-import Image from "next/image";
+import SafeImage from "../components/SafeImage";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Link from "next/link";
@@ -77,7 +77,7 @@ export default function AboutPage() {
           <aside className="content-side">
             {pageImages.aboutImages.whoWeAre.map((src, index) => (
               <div className="side-img" key={index}>
-                <Image
+                <SafeImage
                   src={src}
                   alt={`about-gallery-${index}`}
                   fill
@@ -105,7 +105,7 @@ export default function AboutPage() {
         <aside className="value-side">
           {ourMissionImages.map((src, index) => (
             <div className="side-img" key={index}>
-              <Image
+              <SafeImage
                 src={src}
                 alt={`our-mission-${index}`}
                 fill
@@ -133,7 +133,7 @@ export default function AboutPage() {
           <aside className="why-side">
             {whySideImages.map((src, index) => (
               <div className="side-img" key={index}>
-                <Image
+                <SafeImage
                   src={src}
                   alt={`why-side-${index}`}
                   fill
