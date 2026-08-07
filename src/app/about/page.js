@@ -50,6 +50,10 @@ export default function AboutPage() {
           <div className="l">OWN BRANDS</div>
         </div>
         <div>
+          <div className="n display">1000+</div>
+          <div className="l">CUSTOMER COUNT</div>
+        </div>
+        <div>
           <div className="n display">3</div>
           <div className="l">EXPORT REGIONS</div>
         </div>
