@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import HeroCarousel from "./components/HeroCarousel";
 import Link from "next/link";
 import companyData from "../../data/company.json";
 import categoriesData from "../../data/categories-index.json";
@@ -23,14 +24,7 @@ export default function Home() {
       <Header />
 
       {/* HERO */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage: `url(${pageImages.home})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <HeroCarousel images={pageImages.home}>
         <div className="wrap hero-inner">
           <div>
             <div className="eyebrow">MANUFACTURER &amp; DISTRIBUTOR</div>
@@ -90,8 +84,7 @@ export default function Home() {
             </div>
           </div> */}
         </div>
-        <div className="thread"></div>
-      </section>
+      </HeroCarousel>
 
       {/* ABOUT STRIP */}
       <section className="wrap about">

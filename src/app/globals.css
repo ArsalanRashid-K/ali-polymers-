@@ -67,10 +67,12 @@ header{border-bottom:1px solid var(--line); position:sticky; top:0; background:r
 .mobile-nav-cta{text-align:center; margin:16px 24px; border-bottom:none !important;}
 
 /* ===== HOMEPAGE HERO (was missing from shared stylesheet) ===== */
-.hero{position:relative; overflow:hidden; background-color:var(--paper); background-image:none;}
-.hero::before{content:""; position:absolute; inset:0; background-image:none; background-size:cover; background-position:center; background-repeat:no-repeat;}
-.hero::after{content:""; position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.18)); z-index:0;}
-.hero-inner{position:relative; z-index:1; display:grid; grid-template-columns:1.4fr 1fr; gap:40px; align-items:center; padding:80px 24px; color:#fff;}
+.hero{position:relative; overflow:hidden; background-color:var(--paper);}
+.hero-slides{position:absolute; inset:0; z-index:0;}
+.hero-slide{position:absolute; inset:0; background-size:cover; background-position:center; background-repeat:no-repeat; opacity:0; transition:opacity 1.2s ease-in-out;}
+.hero-slide.active{opacity:1;}
+.hero::after{content:""; position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.18)); z-index:1;}
+.hero-inner{position:relative; z-index:2; display:grid; grid-template-columns:1.4fr 1fr; gap:40px; align-items:center; padding:80px 24px; color:#fff;}
 .eyebrow{display:inline-flex; align-items:center; gap:8px; color:#fff; font-weight:800; font-size:12px; letter-spacing:2px; margin-bottom:22px;}
 .eyebrow-line{width:32px; height:2px; background:var(--red); display:inline-block;}
 h1.hero-h{font-size:56px; line-height:1.05; margin-bottom:24px;}
