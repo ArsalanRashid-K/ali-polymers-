@@ -1229,7 +1229,11 @@ margin: 0 0 10px;
 }
 /* spec table (product detail page) */
 
-.spec-block{max-width:1160px; margin:0 auto; padding:60px 24px;}
+.spec-block {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 10px 24px 60px;
+}
 .spec-layout{display:grid; grid-template-columns:1fr 1.3fr; gap:50px;}
 .product-detail-grid{grid-template-columns:minmax(0,1fr) 1.1fr;}
 .gallery-container{display:flex; flex-direction:column; gap:22px;}

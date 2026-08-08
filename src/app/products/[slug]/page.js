@@ -76,7 +76,7 @@ export default async function ProductPage({ params }) {
 
           <div className="product-summary">
             <p className="spec-desc">{product.description}</p>
-            <div className="variant-section">
+            {/* <div className="variant-section">
               <h2>Variants</h2>
               {product.ungroupedVariants?.length > 0 && (
                 <div className="variant-group-card">
@@ -136,7 +136,85 @@ export default async function ProductPage({ params }) {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
+
+            {(product.ungroupedVariants?.length > 0 ||
+              product.variantGroups?.length > 0) && (
+              <div className="variant-section">
+                <h2>Variants</h2>
+
+                {product.ungroupedVariants?.length > 0 && (
+                  <div className="variant-group-card">
+                    <div className="variant-group-title"></div>
+
+                    <div className="variant-card-list">
+                      {product.ungroupedVariants.map((variant) => (
+                        <article className="variant-card" key={variant.slug}>
+                          <div className="variant-card-head">
+                            <h4>{variant.name}</h4>
+
+                            {variant.isOwnBrand && variant.brandSlug ? (
+                              <Link
+                                href={`/own-brands/${variant.brandSlug}`}
+                                className="brand-pill brand-link own-brand-pill"
+                              >
+                                {variant.name} • Explore Brand →
+                              </Link>
+                            ) : variant.isOwnBrand ? (
+                              <span className="brand-pill own-brand-pill">
+                                {variant.name} • Explore Brand →
+                              </span>
+                            ) : null}
+                          </div>
+
+                          <p>{variant.description}</p>
+                        </article>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {product.variantGroups?.length > 0 && (
+                  <div className="variant-cards">
+                    {product.variantGroups.map((group) => (
+                      <div key={group.name} className="variant-group-card">
+                        <div className="variant-group-title">
+                          <h3>{group.name}</h3>
+                        </div>
+
+                        <div className="variant-card-list">
+                          {group.variants.map((variant) => (
+                            <article
+                              className="variant-card"
+                              key={variant.slug}
+                            >
+                              <div className="variant-card-head">
+                                <h4>{variant.name}</h4>
+
+                                {variant.isOwnBrand && variant.brandSlug ? (
+                                  <Link
+                                    href={`/own-brands/${variant.brandSlug}`}
+                                    className="brand-pill brand-link own-brand-pill"
+                                  >
+                                    {variant.name} • Explore Brand →
+                                  </Link>
+                                ) : variant.isOwnBrand ? (
+                                  <span className="brand-pill own-brand-pill">
+                                    {variant.name} • Explore Brand →
+                                  </span>
+                                ) : null}
+                              </div>
+
+                              <p>{variant.description}</p>
+                            </article>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>
