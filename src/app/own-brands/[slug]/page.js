@@ -164,45 +164,16 @@ export default async function BrandPage({ params }) {
         </div>
       </div>
 
-      {/* <div className="spec-block product-bottom-grids">
-        <div className="specification-box">
-          <h2>Specification</h2>
-          {specifications.length > 0 ? (
-            <table className="spec-table specification-table">
-              <tbody>
-                {specifications.map((spec) => (
-                  <tr key={spec.label}>
-                    <td>{spec.label}</td>
-                    <td>
-                      <div className="spec-values-grid">
-                        {spec.values.map((v) => (
-                          <div key={v} className="spec-value-box">
-                            {v}
-                          </div>
-                        ))}
-                      </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          ) : (
-            <p className="empty-note">
-              No specification details are available.
-            </p>
-          )}
-        </div>
-      </div> */}
       {Array.isArray(specifications) && specifications.length > 0 && (
         <div className="spec-block product-bottom-grids">
           <div className="specification-box">
-            <h2>Specification</h2>
+            {/* <h2>Specification</h2> */}
 
             <table className="spec-table specification-table">
               <tbody>
                 {specifications.map((spec) => (
                   <tr key={spec.label}>
-                    <td>{spec.label}</td>
+                    <h2>{spec.label}</h2>
                     <td>
                       <div className="spec-values-grid">
                         {spec.values.map((v) => (

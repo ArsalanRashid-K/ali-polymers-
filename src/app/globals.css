@@ -464,7 +464,8 @@ h1.hero-h .red{color:#fff;}
 .products-head h2{font-size:32px; margin-top:10px;}
 .view-all{font-weight:800; font-size:14px; border-bottom:2px solid var(--red); padding-bottom:3px;}
 .cat-grid{display:grid; grid-template-columns:repeat(4, 1fr); gap:18px;}
-.cat-card{background:#fff; border:1px solid var(--line); transition:transform .2s; padding:0;}
+.cat-card{background:#fff; border:1px solid var(--line); transition:transform .2s; padding:0; border-radius: 20px;
+  overflow: hidden;}
 .cat-card:hover{transform:translateY(-4px);}
 .cat-body{padding:18px;}
 .cat-body h3{font-size:18px; font-weight:800; margin-bottom:8px;}
@@ -517,7 +518,8 @@ h1.hero-h .red{color:#fff;}
 .why{padding:40px 24px 80px; max-width:1160px; margin:0 auto;}
 .why h2{font-size:32px; margin:10px 0 44px;}
 .why-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px;}
-.why-box{background:#fff; padding:26px; border:1px solid var(--line);}
+.why-box{background:#fff; padding:26px; border:1px solid var(--line);border-radius: 16px;
+  overflow: hidden;}
 .why-num{font-size:24px; font-weight:900; color:var(--red);}
 .why-box p.t{font-weight:800; margin:10px 0 4px;}
 .why-box p.d{font-size:13px; color:var(--grey); line-height:1.5;}
