@@ -23,8 +23,8 @@ export default function Header() {
             <Image
               src="/images/logo.jpeg"
               alt="Ali Traders & Ali Polymers"
-              width={88}
-              height={58}
+              width={98}
+              height={78}
               className="logo-img"
               priority
             />
