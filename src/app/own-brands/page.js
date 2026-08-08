@@ -127,7 +127,7 @@ export default function OwnBrandsPage() {
             <div className="export-eyebrow">EXPLORE MORE</div>
             <h2 className="display">See Our Full Product Catalogue</h2>
             <p>
-              15 categories across agriculture, construction, packaging and
+              18 categories across agriculture, construction, packaging and
               household use.
             </p>
           </div>

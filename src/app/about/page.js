@@ -46,7 +46,7 @@ export default function AboutPage() {
           <div className="l">YEARS EXPERIENCE</div>
         </div>
         <div>
-          <div className="n display">15</div>
+          <div className="n display">18</div>
           <div className="l">PRODUCT CATEGORIES</div>
         </div>
         <div>
@@ -69,9 +69,26 @@ export default function AboutPage() {
         <div className="content-grid">
           <div className="content-text">
             <div className="about-eyebrow">WHO WE ARE</div>
-            <h2 className="display">{companyData.name}</h2>
-            <p>{companyData.about}</p>
-            <p>{companyData.structure}</p>
+            <h2 className="display">
+              Driven by Quality. Powered by Experience.
+            </h2>
+            <p>
+              Established in 1991, Ali Traders & Ali Polymers has grown into one
+              of Kerala&apos;s trusted names in polymer products, backed by 30+
+              years of industry expertise. We are an integrated manufacturing
+              and wholesale distribution company offering a comprehensive range
+              of polymer solutions for the agriculture, construction, packaging,
+              industrial, and household sectors.
+            </p>
+            <p>
+              With a strong focus on quality, innovation, and customer
+              satisfaction, we manufacture and source products using 100%
+              virgin, semi-virgin, and reprocessed raw materials to meet diverse
+              market requirements. Today, our extensive product portfolio,
+              trusted inhouse brands, and reliable distribution network enable
+              us to serve customers across India and expanding international
+              markets.
+            </p>
           </div>
 
           <aside className="content-side">
@@ -133,12 +150,7 @@ export default function AboutPage() {
           <aside className="why-side">
             {whySideImages.map((src, index) => (
               <div className="side-img" key={index}>
-                <SafeImage
-                  src={src}
-                  alt={`why-side-${index}`}
-                  fill
-                  className="about-side-img"
-                />
+                <img src={src} alt={`why-side-${index}`} className="side-img" />
               </div>
             ))}
           </aside>
@@ -162,7 +174,7 @@ export default function AboutPage() {
             <div className="export-eyebrow">SEE THE FULL RANGE</div>
             <h2 className="display">Explore Our Product Categories</h2>
             <p>
-              15 categories across agriculture, construction, packaging and
+              18 categories across agriculture, construction, packaging and
               household use.
             </p>
           </div>

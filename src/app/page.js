@@ -28,8 +28,11 @@ export default function Home() {
         className="hero"
         style={{
           backgroundImage: `url(${pageImages.home})`,
-          backgroundSize: "contain",
           backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="wrap hero-inner">

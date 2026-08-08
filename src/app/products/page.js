@@ -8,7 +8,7 @@ import pageImages from "../../../data/images/page-images.json";
 export const metadata = {
   title: `Products | ${companyData.name}`,
   description:
-    "Browse all 15 product categories manufactured by Ali Traders & Ali Polymers — tarpaulins, shadenets, ropes, rainwear and more.",
+    "Browse all 18 product categories manufactured by Ali Traders & Ali Polymers — tarpaulins, shadenets, ropes, rainwear and more.",
 };
 
 export default function ProductsIndex() {
