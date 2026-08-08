@@ -817,11 +817,51 @@ footer{background:var(--ink); color:#fff;}
   object-fit: cover;
 }
 /* stat strip */
-.stat-strip{display:grid; grid-auto-flow:column; grid-auto-columns:minmax(160px, 1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); overflow-x:auto;}
-.stat-strip > div{padding:30px 24px; text-align:center; border-right:1px solid var(--line); min-width:160px;}
+.stat-strip {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+
+  align-items: center;
+  justify-items: center;
+
+  min-height: 120px;
+  padding: 22px 24px;
+
+  box-sizing: border-box;
+}
+.stat-strip > div {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
 .stat-strip > div:last-child{border-right:none;}
-.stat-strip .n{font-size:30px; font-weight:900; color:var(--red);}
-.stat-strip .l{font-size:11px; color:var(--grey); letter-spacing:1px; margin-top:6px;}
+.stat-strip .n {
+  line-height: 1;      color:var(--red);
+
+  font-size: clamp(32px, 3vw, 48px);
+  white-space: nowrap;
+}
+.stat-strip .l {
+  margin-top: 8px;
+
+  font-size: 11px;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+
+  white-space: nowrap;
+}
 
 /* full product catalog grid (products index page) */
 .full-cat-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:18px; max-width:1160px; margin:0 auto; padding:0 24px 80px;}
