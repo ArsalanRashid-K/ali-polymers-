@@ -271,7 +271,7 @@ h1.hero-h .red{color:#fff;}
 
 .value-section {
   width: 100%;
-  padding: 70px 0;
+  padding: 25px 0 35px;
 }
 .value-wrap {
    width: min(1200px, calc(100% - 40px));
@@ -500,7 +500,7 @@ h1.hero-h .red{color:#fff;}
 /* About page only WHY icons */
 .about-why-box{background:#fff; padding:30px 26px 22px; border:1px solid var(--line); position:relative;}
 .about-why-icon{position:absolute; top:20px; left:20px; display:flex; align-items:center; justify-content:center; color:var(--red); font-size:28px;}
-.about-why-box p.d{font-size:14px; color:var(--grey); line-height:1.7; margin:52px 0 0 0;}
+.about-why-box p.d{font-size:17px; color:var(--grey); line-height:1.7; margin:52px 0 0 0;}
 
 .why-layout{
    max-width:1160px;
