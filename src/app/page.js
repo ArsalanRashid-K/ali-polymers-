@@ -24,7 +24,14 @@ export default function Home() {
       <Header />
 
       {/* HERO */}
-      <HeroCarousel images={pageImages.home}>
+      <section
+        className="hero"
+        style={{
+          backgroundImage: `url(${pageImages.home})`,
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="wrap hero-inner">
           <div>
             <div className="eyebrow">MANUFACTURER &amp; DISTRIBUTOR</div>
@@ -47,44 +54,9 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          {/* <div className="stat-grid">
-            <div className="stat-box sb-dark">
-              <span className="stat-num display">
-                {companyData.yearsExperience}+
-              </span>
-              <span className="stat-label">
-                YEARS IN
-                <br />
-                OPERATION
-              </span>
-            </div>
-            <div className="stat-box sb-red">
-              <span className="stat-num display">{categories.length}</span>
-              <span className="stat-label">
-                PRODUCT
-                <br />
-                CATEGORIES
-              </span>
-            </div>
-            <div className="stat-box sb-paper">
-              <span className="stat-num display">3</span>
-              <span className="stat-label">
-                CONTINENTS
-                <br />
-                SERVED
-              </span>
-            </div>
-            <div className="stat-box sb-white">
-              <span className="stat-num display">100%</span>
-              <span className="stat-label">
-                VIRGIN GRADE
-                <br />
-                AVAILABLE
-              </span>
-            </div>
-          </div> */}
         </div>
-      </HeroCarousel>
+        <div className="thread"></div>
+      </section>
 
       {/* ABOUT STRIP */}
       <section className="wrap about">
@@ -104,7 +76,7 @@ export default function Home() {
             <div className="about-item">
               <span className="dash">•</span>
               <span className="label">
-                Own brands: NEXATARP, NEXANET, NEXAWEED
+                Own brands: NEXATARP, NEXANET, NEXAWEED etc.
               </span>
             </div>
             <div className="about-item">
@@ -170,20 +142,16 @@ export default function Home() {
             ))}
 
             {remainingCount > 0 && (
-              <Link href="/products" className="cat-card cat-more">
-                <h3 className="display">+{remainingCount} More</h3>
-                <p>
-                  {categories
-                    .slice(7)
-                    .map((c) => c.name)
-                    .join(", ")}
-                </p>
-                <span>See Full Catalogue →</span>
-              </Link>
+              <div className="cat-more">
+                <Link href="/products" className="explore-more-btn">
+                  Explore More →
+                </Link>
+              </div>
             )}
           </div>
         </div>
       </section>
+
       {/* INDUSTRIES WE SERVE */}
       <section className="sectors">
         <div className="wrap">
@@ -205,23 +173,6 @@ export default function Home() {
       </section>
 
       {/* WHY CHOOSE US */}
-      {/* <section className="why">
-        <div className="about-eyebrow">
-          WHY {companyData.name.toUpperCase()}
-        </div>
-        <h2 className="display">Quality You Can Feel in the Weave.</h2>
-        <div className="why-grid">
-          {companyData.whyChooseUs.slice(0, 4).map((point, i) => (
-            <div className="why-box" key={i}>
-              <div className="why-num display">
-                {["25+", "3", "6+", "100%"][i]}
-              </div>
-              <p className="t">{point.split(" ").slice(0, 4).join(" ")}</p>
-              <p className="d">{point}</p>
-            </div>
-          ))}
-        </div>
-      </section> */}
 
       <section className="why">
         <div className="why-layout">
@@ -233,15 +184,13 @@ export default function Home() {
             <h2 className="display">Quality You Can Feel in the Weave.</h2>
 
             <div className="why-grid">
-              {companyData.whyChooseUs.slice(0, 4).map((point, i) => (
+              {companyData.whyalitraders.map((point, i) => (
                 <div className="why-box" key={i}>
                   <div className="why-num display">
-                    {["25+", "3", "6+", "100%"][i]}
+                    {["30+", "1000+", "18+", "6+"][i]}
                   </div>
 
-                  <p className="t">{point.split(" ").slice(0, 4).join(" ")}</p>
-
-                  <p className="d">{point}</p>
+                  <p className="t">-{point.split(" ").slice(0, 4).join(" ")}</p>
                 </div>
               ))}
             </div>

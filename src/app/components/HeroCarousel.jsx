@@ -19,7 +19,7 @@ export default function HeroCarousel({ images = [], children }) {
       setActiveIndex((currentIndex) =>
         (currentIndex + 1) % normalizedImages.length,
       );
-    }, 10000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [normalizedImages.length]);

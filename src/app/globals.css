@@ -67,11 +67,11 @@ header{border-bottom:1px solid var(--line); position:sticky; top:0; background:r
 .mobile-nav-cta{text-align:center; margin:16px 24px; border-bottom:none !important;}
 
 /* ===== HOMEPAGE HERO (was missing from shared stylesheet) ===== */
-.hero{position:relative; overflow:hidden; background-color:var(--paper);}
-.hero-slides{position:absolute; inset:0; z-index:0;}
+.hero{position:relative; overflow:hidden; background-color:var(--paper); background-image:none;}
+.hero::before{content:""; position:absolute; inset:0; background-image:none; background-size:cover; background-position:center; background-repeat:no-repeat;}hero-slides{position:absolute; inset:0; z-index:0;}
 .hero-slide{position:absolute; inset:0; background-size:cover; background-position:center; background-repeat:no-repeat; opacity:0; transition:opacity 1.2s ease-in-out;}
 .hero-slide.active{opacity:1;}
-.hero::after{content:""; position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.18)); z-index:1;}
+.hero::after{content:""; position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.18)); z-index:0;}
 .hero-inner{position:relative; z-index:2; display:grid; grid-template-columns:1.4fr 1fr; gap:40px; align-items:center; padding:80px 24px; color:#fff;}
 .eyebrow{display:inline-flex; align-items:center; gap:8px; color:#fff; font-weight:800; font-size:12px; letter-spacing:2px; margin-bottom:22px;}
 .eyebrow-line{width:32px; height:2px; background:var(--red); display:inline-block;}
@@ -98,10 +98,61 @@ h1.hero-h .red{color:#fff;}
 .sb-white .stat-label{color:var(--grey);}
 
 /* "+N more" card used in homepage product grid */
-.cat-more{background:var(--ink); color:#fff; display:flex; flex-direction:column; justify-content:center; padding:22px;}
-.cat-more h3{font-size:26px; font-weight:900; margin-bottom:8px;}
-.cat-more p{font-size:13px; color:rgba(255,255,255,0.6); margin-bottom:14px; line-height:1.5;}
+/* MORE PRODUCTS CARD */
+.cat-more{
+    background:transparent !important;
+    border:none !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:22px;
+}
+
+.cat-more h3{
+    color:#fff !important;
+    font-size:26px;
+    font-weight:900;
+    margin:0 0 8px;
+}
+/* Product names */
+.cat-more p{
+    color:rgba(255,255,255,0.7) !important;
+    font-size:13px;
+    line-height:1.5;
+    margin:0 0 20px;
+}
 .cat-more span{font-size:12px; font-weight:800; color:var(--red);}
+/* Explore More button */
+.cat-more .explore-more-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    width:max-content;
+
+    padding:11px 20px;
+
+    background:var(--red) !important;
+    color:#fff !important;
+
+    font-size:13px;
+    font-weight:800;
+    line-height:1;
+
+    border-radius:6px;
+
+    text-decoration:none;
+
+    transition:all .25s ease;
+}
+
+
+
+.cat-more .explore-more-btn:hover{
+    background:#a91515 !important;
+    color:#fff !important;
+    transform:translateY(-2px);
+}
 
 .sectors{
     background:#fff;

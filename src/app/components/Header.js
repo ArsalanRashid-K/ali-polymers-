@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <>
       <div className="announce">
-        25+ Years Manufacturing Excellence &nbsp;•&nbsp; Domestic Supply
+        30+ Years Manufacturing Excellence &nbsp;•&nbsp; Domestic Supply
         &nbsp;•&nbsp; Exports to the Middle East, Africa & Asia
       </div>
       <header>
@@ -24,7 +24,7 @@ export default function Header() {
               src="/images/logo.jpeg"
               alt="Ali Traders & Ali Polymers"
               width={88}
-              height={48}
+              height={58}
               className="logo-img"
               priority
             />
