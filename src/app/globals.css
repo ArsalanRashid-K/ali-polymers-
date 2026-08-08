@@ -1370,16 +1370,13 @@ display: block;
     font-weight:500;
     line-height:1.8;
 }
-.spec-values-grid{
-    display:grid;
-    grid-template-columns:repeat(2,minmax(120px,1fr));
-    gap:10px 24px;
-}
 
-.spec-values-grid{
-    display:grid;
-    grid-template-columns:repeat(2,minmax(140px,1fr));
-    gap:12px;
+
+.spec-values-grid {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 1fr));
+  gap: 12px;
 }
 .spec-value-box{
     display:flex;
@@ -1408,6 +1405,98 @@ display: block;
     transform:translateY(-2px);
     box-shadow:0 8px 20px rgba(0,0,0,.08);
 }
+/* Prevent product content from overflowing */
+.product-detail-grid > *,
+.product-summary,
+.variant-section,
+.variant-group-card,
+.variant-card,
+.specification-box,
+.detail-box {
+  min-width: 0;
+}
+
+/* Prevent long text from breaking the layout */
+.variant-card-head h4,
+.variant-card p,
+.spec-value-box,
+.detail-item .label {
+  overflow-wrap: anywhere;
+}
+
+/* Keep specification values inside their container */
+.specification-box {
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.spec-values-grid {
+  min-width: 0;
+}
+
+.spec-value-box {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .product-detail-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .product-summary {
+    width: 100%;
+  }
+
+  .variant-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .variant-card-head {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .variant-card-head h4 {
+    font-size: 18px;
+  }
+
+  .spec-values-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .specification-box {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .product-detail-grid {
+    gap: 20px;
+  }
+
+  .variant-card-head {
+    display: block;
+  }
+
+  .variant-card-head h4 {
+    margin-bottom: 8px;
+  }
+
+  .specification-box h2 {
+    font-size: 23px;
+  }
+}
+
 /* contact page */
 .contact-layout{display:grid; grid-template-columns:1fr 1fr; gap:50px; max-width:1160px; margin:0 auto; padding:70px 24px;}
 .contact-card{background:var(--paper); border:1px solid var(--line); padding:32px;}

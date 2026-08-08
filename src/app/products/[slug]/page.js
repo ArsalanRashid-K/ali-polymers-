@@ -52,6 +52,13 @@ export default async function ProductPage({ params }) {
     label: spec.label,
     values: spec.values,
   }));
+
+  const hasVariants =
+    product.ungroupedVariants?.length > 0 || product.variantGroups?.length > 0;
+
+  const hasFeatures =
+    product.features?.length > 0 || product.applications?.length > 0;
+
   return (
     <>
       <Header />
@@ -70,83 +77,22 @@ export default async function ProductPage({ params }) {
         <div className="thread"></div>
       </section>
 
+      {/* PRODUCT CONTENT */}
       <div className="spec-block">
         <div className="spec-layout product-detail-grid">
           <ProductGallery images={images} />
 
           <div className="product-summary">
             <p className="spec-desc">{product.description}</p>
-            {/* <div className="variant-section">
-              <h2>Variants</h2>
-              {product.ungroupedVariants?.length > 0 && (
-                <div className="variant-group-card">
-                  <div className="variant-group-title"></div>
-                  <div className="variant-card-list">
-                    {product.ungroupedVariants.map((variant) => (
-                      <article className="variant-card" key={variant.slug}>
-                        <div className="variant-card-head">
-                          <h4>{variant.name}</h4>
-                          {variant.isOwnBrand && variant.brandSlug ? (
-                            <Link
-                              href={`/own-brands/${variant.brandSlug}`}
-                              className="brand-pill brand-link own-brand-pill"
-                            >
-                              {variant.name} • Explore Brand →
-                            </Link>
-                          ) : variant.isOwnBrand ? (
-                            <span className="brand-pill own-brand-pill">
-                              {variant.name} • Explore Brand →
-                            </span>
-                          ) : null}
-                        </div>
-                        <p>{variant.description}</p>
-                      </article>
-                    ))}
-                  </div>
-                </div>
-              )}
-              <div className="variant-cards">
-                {product.variantGroups?.map((group) => (
-                  <div key={group.name} className="variant-group-card">
-                    <div className="variant-group-title">
-                      <h3>{group.name}</h3>
-                    </div>
-                    <div className="variant-card-list">
-                      {group.variants.map((variant) => (
-                        <article className="variant-card" key={variant.slug}>
-                          <div className="variant-card-head">
-                            <h4>{variant.name}</h4>
-                            {variant.isOwnBrand && variant.brandSlug ? (
-                              <Link
-                                href={`/own-brands/${variant.brandSlug}`}
-                                className="brand-pill brand-link own-brand-pill"
-                              >
-                                {variant.name} • Explore Brand →
-                              </Link>
-                            ) : variant.isOwnBrand ? (
-                              <span className="brand-pill own-brand-pill">
-                                {variant.name} • Explore Brand →
-                              </span>
-                            ) : null}
-                          </div>
-                          <p>{variant.description}</p>
-                        </article>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div> */}
 
-            {(product.ungroupedVariants?.length > 0 ||
-              product.variantGroups?.length > 0) && (
+            {/* VARIANTS */}
+            {hasVariants && (
               <div className="variant-section">
                 <h2>Variants</h2>
 
+                {/* Ungrouped variants */}
                 {product.ungroupedVariants?.length > 0 && (
                   <div className="variant-group-card">
-                    <div className="variant-group-title"></div>
-
                     <div className="variant-card-list">
                       {product.ungroupedVariants.map((variant) => (
                         <article className="variant-card" key={variant.slug}>
@@ -167,13 +113,14 @@ export default async function ProductPage({ params }) {
                             ) : null}
                           </div>
 
-                          <p>{variant.description}</p>
+                          {variant.description && <p>{variant.description}</p>}
                         </article>
                       ))}
                     </div>
                   </div>
                 )}
 
+                {/* Grouped variants */}
                 {product.variantGroups?.length > 0 && (
                   <div className="variant-cards">
                     {product.variantGroups.map((group) => (
@@ -183,7 +130,7 @@ export default async function ProductPage({ params }) {
                         </div>
 
                         <div className="variant-card-list">
-                          {group.variants.map((variant) => (
+                          {group.variants?.map((variant) => (
                             <article
                               className="variant-card"
                               key={variant.slug}
@@ -205,7 +152,9 @@ export default async function ProductPage({ params }) {
                                 ) : null}
                               </div>
 
-                              <p>{variant.description}</p>
+                              {variant.description && (
+                                <p>{variant.description}</p>
+                              )}
                             </article>
                           ))}
                         </div>
@@ -215,44 +164,85 @@ export default async function ProductPage({ params }) {
                 )}
               </div>
             )}
+
+            {/* FEATURES + APPLICATIONS
+          Render here ONLY when there are NO variants */}
+            {!hasVariants && (
+              <div className="detail-box product-summary-details">
+                <div className="detail-content">
+                  {product.features?.length > 0 && (
+                    <div className="detail-list-block">
+                      <h2>Features</h2>
+
+                      {product.features.map((feature) => (
+                        <div className="detail-item" key={feature}>
+                          <span className="dash">-</span>
+                          <span className="label">{feature}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {product.applications?.length > 0 && (
+                    <div className="detail-list-block">
+                      <h2>Applications</h2>
+
+                      {product.applications.map((application) => (
+                        <div className="detail-item" key={application}>
+                          <span className="dash">-</span>
+                          <span className="label">{application}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
 
+      {/* BOTTOM CONTENT */}
       <div className="spec-block product-bottom-grids">
-        <div className="detail-box">
-          <div className="detail-content">
-            {product.features?.length > 0 && (
-              <div className="detail-list-block">
-                <h2>Features</h2>
+        {/* FEATURES + APPLICATIONS
+      Render here ONLY when variants exist */}
+        {hasVariants && (
+          <div className="detail-box">
+            <div className="detail-content">
+              {product.features?.length > 0 && (
+                <div className="detail-list-block">
+                  <h2>Features</h2>
 
-                {product.features.map((feature) => (
-                  <div className="detail-item" key={feature}>
-                    <span className="dash">-</span>
-                    <span className="label">{feature}</span>
-                  </div>
-                ))}
-              </div>
-            )}
+                  {product.features.map((feature) => (
+                    <div className="detail-item" key={feature}>
+                      <span className="dash">-</span>
+                      <span className="label">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
 
-            {product.applications?.length > 0 && (
-              <div className="detail-list-block">
-                <h2>Applications</h2>
+              {product.applications?.length > 0 && (
+                <div className="detail-list-block">
+                  <h2>Applications</h2>
 
-                {product.applications.map((application) => (
-                  <div className="detail-item" key={application}>
-                    <span className="dash">-</span>
-                    <span className="label">{application}</span>
-                  </div>
-                ))}
-              </div>
-            )}
+                  {product.applications.map((application) => (
+                    <div className="detail-item" key={application}>
+                      <span className="dash">-</span>
+                      <span className="label">{application}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
-        </div>
+        )}
 
-        <div className="specification-box">
-          <h2>Specification</h2>
-          {specificationRows.length > 0 ? (
+        {/* SPECIFICATION */}
+        {specificationRows.length > 0 && (
+          <div className="specification-box">
+            <h2>Specification</h2>
+
             <table className="spec-table specification-table">
               <tbody>
                 {product.specifications.map((spec) => (
@@ -261,7 +251,7 @@ export default async function ProductPage({ params }) {
 
                     <td>
                       <div className="spec-values-grid">
-                        {spec.values.map((value) => (
+                        {spec.values?.map((value) => (
                           <div key={value} className="spec-value-box">
                             {value}
                           </div>
@@ -272,14 +262,11 @@ export default async function ProductPage({ params }) {
                 ))}
               </tbody>
             </table>
-          ) : (
-            <p className="empty-note">
-              No specification details are available.
-            </p>
-          )}
-        </div>
+          </div>
+        )}
       </div>
 
+      {/* EXPORT SECTION */}
       <section className="export">
         <div className="wrap export-inner">
           <div>
