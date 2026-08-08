@@ -147,13 +147,16 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-          <aside className="why-side">
-            {whySideImages.map((src, index) => (
-              <div className="side-img" key={index}>
-                <img src={src} alt={`why-side-${index}`} className="side-img" />
-              </div>
-            ))}
-          </aside>
+          {/* Image BELOW Why Choose Us */}
+          {/* <div className="why-bottom-image">
+            <SafeImage
+              src={whySideImages[0]}
+              alt="Why choose Ali Traders & Ali Polymers"
+              width={1200}
+              height={500}
+              className="why-bottom-img"
+            />
+          </div> */}
         </div>
       </section>
       {/* Bottom uneven cards (remaining images) placed above export CTA */}
