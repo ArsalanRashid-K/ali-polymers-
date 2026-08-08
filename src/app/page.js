@@ -41,12 +41,12 @@ export default function Home() {
             <h1 className="hero-h display">
               BUILT TO
               <br />
-              <span className="red">HOLD UP.</span>
+              <span className="red">HOLD UP</span>
             </h1>
             <p className="hero-sub">
-              {companyData.yearsExperience}+ years manufacturing tarpaulins,
-              shadenets, ropes, and polymer products for agriculture,
-              construction, and export from Kerala to the world.
+              {companyData.yearsExperience}+ years of manufacturing quality
+              tarpaulins, shade nets, ropes, and polymer products— crafted in
+              Kerala, trusted worldwide.
             </p>
             <div className="hero-ctas">
               <Link href="/products" className="btn-dark">
