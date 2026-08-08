@@ -38,28 +38,36 @@ export default function AboutPage() {
         </div>
         <div className="thread"></div>
       </section>
-      <div className="stat-strip">
-        <div>
-          <div className="n display">{companyData.yearsExperience}+</div>
-          <div className="l">YEARS EXPERIENCE</div>
+      <section className="about-stats">
+        <div className="about-stats-inner">
+          <div className="about-stat">
+            <div className="about-stat-number">
+              {companyData.yearsExperience}+
+            </div>
+            <div className="about-stat-label">YEARS EXPERIENCE</div>
+          </div>
+
+          <div className="about-stat">
+            <div className="about-stat-number">18</div>
+            <div className="about-stat-label">PRODUCT CATEGORIES</div>
+          </div>
+
+          <div className="about-stat">
+            <div className="about-stat-number">6+</div>
+            <div className="about-stat-label">OWN BRANDS</div>
+          </div>
+
+          <div className="about-stat">
+            <div className="about-stat-number">1000+</div>
+            <div className="about-stat-label">CUSTOMER COUNT</div>
+          </div>
+
+          <div className="about-stat">
+            <div className="about-stat-number">3</div>
+            <div className="about-stat-label">EXPORT REGIONS</div>
+          </div>
         </div>
-        <div>
-          <div className="n display">18</div>
-          <div className="l">PRODUCT CATEGORIES</div>
-        </div>
-        <div>
-          <div className="n display">6+</div>
-          <div className="l">OWN BRANDS</div>
-        </div>
-        <div>
-          <div className="n display">1000+</div>
-          <div className="l">CUSTOMER COUNT</div>
-        </div>
-        <div>
-          <div className="n display">3</div>
-          <div className="l">EXPORT REGIONS</div>
-        </div>
-      </div>
+      </section>
       {/* images are distributed across the content below */}
       <section className="content-section">
         <div className="content-grid">
