@@ -160,36 +160,36 @@ export default async function BrandPage({ params }) {
                 </div>
               )}
             </div>
+            {Array.isArray(specifications) && specifications.length > 0 && (
+              <div className="brand-specification-section">
+                <div className="specification-box">
+                  <h2>Specification</h2>
+
+                  <table className="spec-table specification-table">
+                    <tbody>
+                      {specifications.map((spec) => (
+                        <tr key={spec.label}>
+                          {/* <td className="brand-spec-label"></td> */}
+                          <td>
+                            <div className="spec-values-grid">
+                              {spec.values.map((v) => (
+                                <div key={v} className="spec-value-box">
+                                  {v}
+                                </div>
+                              ))}
+                            </div>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
 
-      {Array.isArray(specifications) && specifications.length > 0 && (
-        <div className="spec-block product-bottom-grids">
-          <div className="specification-box">
-            {/* <h2>Specification</h2> */}
-
-            <table className="spec-table specification-table">
-              <tbody>
-                {specifications.map((spec) => (
-                  <tr key={spec.label}>
-                    <h2>{spec.label}</h2>
-                    <td>
-                      <div className="spec-values-grid">
-                        {spec.values.map((v) => (
-                          <div key={v} className="spec-value-box">
-                            {v}
-                          </div>
-                        ))}
-                      </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      )}
       <section
         className="export"
         style={{ backgroundColor: "#C41E1E", backgroundImage: "none" }}

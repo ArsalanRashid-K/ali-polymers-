@@ -980,7 +980,6 @@ margin: 0 0 10px;
 
 /* Text */
 
-
 .brand-detail-label {
   flex: 1;
 
@@ -988,6 +987,21 @@ margin: 0 0 10px;
 
   font-size: 15px;
   line-height: 1.5;
+}
+.brand-specification-section {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.brand-specification-section .specification-box {
+  width: 100%;
+}
+.brand-specification-section,
+.brand-specification-section .specification-box,
+.brand-specification-section .spec-table {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* =========================================
