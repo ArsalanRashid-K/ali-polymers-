@@ -72,7 +72,7 @@
   "aboutImages": {
     "whoWeAre": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032595/jpeg-optimizer_DSC_1284_qoalci.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032598/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.15.25_PM_1_rbgtd9.jpg"],
     "ourMission": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032595/jpeg-optimizer_DSC_2576_bc3vrr.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032594/jpeg-optimizer_DSC_1262_yqbopr.jpg"],
-    "why": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032594/jpeg-optimizer_DSC_1259_qxego2.jpg",""],
+    "why": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032594/jpeg-optimizer_DSC_1259_qxego2.jpg"],
     "bottomCards":["https://res.cloudinary.com/nus7e4x2/image/upload/v1786097965/logo_v4rtjv.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786089880/nexa-pine-poster_sp4tqi.webp","https://res.cloudinary.com/nus7e4x2/image/upload/v1786089879/nexanet-shadenet-poster_rarhma.webp"]
   }
 }

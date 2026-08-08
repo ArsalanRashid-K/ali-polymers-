@@ -22,7 +22,6 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-
       <section
         className="page-hero"
         style={{ backgroundColor: "#a30909", backgroundImage: "none" }}
@@ -39,7 +38,6 @@ export default function AboutPage() {
         </div>
         <div className="thread"></div>
       </section>
-
       <div className="stat-strip">
         <div>
           <div className="n display">{companyData.yearsExperience}+</div>
@@ -62,9 +60,7 @@ export default function AboutPage() {
           <div className="l">EXPORT REGIONS</div>
         </div>
       </div>
-
       {/* images are distributed across the content below */}
-
       <section className="content-section">
         <div className="content-grid">
           <div className="content-text">
@@ -105,34 +101,38 @@ export default function AboutPage() {
           </aside>
         </div>
       </section>
+      <section className="value-section">
+        <div className="value-wrap">
+          <div className="value-content">
+            <div className="value-card">
+              <div className="tag">OUR VISION</div>
+              <h3>Vision</h3>
+              <p>{companyData.vision}</p>
+            </div>
 
-      <div className="value-wrap">
-        <div className="value-grid">
-          <div className="value-card">
-            <div className="tag">OUR VISION</div>
-            <h3>Vision</h3>
-            <p>{companyData.vision}</p>
+            <div className="value-card">
+              <div className="tag">OUR MISSION</div>
+              <h3>Mission</h3>
+              <p>{companyData.mission}</p>
+            </div>
           </div>
-          <div className="value-card">
-            <div className="tag">OUR MISSION</div>
-            <h3>Mission</h3>
-            <p>{companyData.mission}</p>
+
+          <div className="value-images">
+            {ourMissionImages.map((src, index) => (
+              <div className="value-image" key={`${src}-${index}`}>
+                <SafeImage
+                  src={src}
+                  alt={`Our mission ${index + 1}`}
+                  width={800}
+                  height={600}
+                  className="value-image-img"
+                />
+              </div>
+            ))}
           </div>
         </div>
-        <aside className="value-side">
-          {ourMissionImages.map((src, index) => (
-            <div className="side-img" key={index}>
-              <SafeImage
-                src={src}
-                alt={`our-mission-${index}`}
-                fill
-                className="about-side-img"
-              />
-            </div>
-          ))}
-        </aside>
-      </div>
-
+      </section>
+      {/* why choose us */}
       <section className="why">
         <div className="why-wrap">
           <div className="why-main">
@@ -156,7 +156,6 @@ export default function AboutPage() {
           </aside>
         </div>
       </section>
-
       {/* Bottom uneven cards (remaining images) placed above export CTA */}
       {/* <div className="wrap">
         <div className="bottom-cards">
@@ -167,7 +166,6 @@ export default function AboutPage() {
           ))}
         </div>
       </div> */}
-
       <section className="export">
         <div className="wrap export-inner">
           <div>
@@ -185,7 +183,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
       <Footer />
     </>
   );
