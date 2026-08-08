@@ -904,9 +904,94 @@ border-radius: 24px;
 /* =========================================
    OWN BRANDS
 ========================================= */
+/* =========================================
+   BRAND DETAIL - FEATURES / APPLICATIONS
+========================================= */
+
+.brand-detail-info-card {
+  width: 100%;
+
+  padding: 20px 20px 22px;
+
+  box-sizing: border-box;
+
+  background: var(--paper);
+
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+
+.brand-detail-list-block {
+  width: 100%;
+}
+
+.brand-detail-list-block h2 {
+margin: 0 0 10px;
+
+  font-size: 18px;
+  line-height: 1.2;
+
+  font-weight: 800;
+
+  color: #111;
+  font-weight: 800;
+}
+/* APPLICATIONS */
+
+.brand-applications-block {
+  margin-top: 8px;
+}
 
 
 
+/* Individual feature/application */
+
+.brand-detail-item {
+  display: flex;
+  align-items: flex-start;
+
+  width: 100%;
+
+  padding: 6px 0;
+
+  box-sizing: border-box;
+}
+.brand-detail-item:last-child {
+  border-bottom: none;
+}
+
+
+/* RED DASH */
+
+.brand-detail-dash {
+  flex: 0 0 20px;
+
+  color: var(--red);
+
+  font-size: 15px;
+  line-height: 1.5;
+
+  font-weight: 800;
+}
+
+
+/* Text */
+
+
+.brand-detail-label {
+  flex: 1;
+
+  color: #111;
+
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* =========================================
+   BRAND DETAIL - FEATURES / APPLICATIONS --END
+
+========================================= */
 .own-brands-category-title{
     font-size:28px;
     margin-bottom:16px;

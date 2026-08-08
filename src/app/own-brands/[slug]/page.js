@@ -124,7 +124,6 @@ export default async function BrandPage({ params }) {
       >
         <div className="wrap">
           <h1 className="display own-brands-hero-title">{brand.name}</h1>
-          <p>{brand.detail}</p>
         </div>
       </section>
 
@@ -134,35 +133,38 @@ export default async function BrandPage({ params }) {
 
           <div className="product-summary">
             <p className="spec-desc">{brand.detail}</p>
+            <div className="brand-detail-info-card">
+              {brand.features?.length > 0 && (
+                <div className="brand-detail-list-block">
+                  <h2>Features</h2>
 
-            {brand.features?.length > 0 && (
-              <div className="detail-list-block">
-                <h2>Features</h2>
-                {brand.features.map((feature) => (
-                  <div className="detail-item" key={feature}>
-                    <span className="dash">-</span>
-                    <span className="label">{feature}</span>
-                  </div>
-                ))}
-              </div>
-            )}
+                  {brand.features.map((feature) => (
+                    <div className="brand-detail-item" key={feature}>
+                      <span className="brand-detail-dash">-</span>
+                      <span className="brand-detail-label">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
 
-            {brand.applications?.length > 0 && (
-              <div className="detail-list-block">
-                <h2>Applications</h2>
-                {brand.applications.map((application) => (
-                  <div className="detail-item" key={application}>
-                    <span className="dash">-</span>
-                    <span className="label">{application}</span>
-                  </div>
-                ))}
-              </div>
-            )}
+              {brand.applications?.length > 0 && (
+                <div className="brand-detail-list-block brand-applications-block">
+                  <h2>Applications</h2>
+
+                  {brand.applications.map((application) => (
+                    <div className="brand-detail-item" key={application}>
+                      <span className="brand-detail-dash">-</span>
+                      <span className="brand-detail-label">{application}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="spec-block product-bottom-grids">
+      {/* <div className="spec-block product-bottom-grids">
         <div className="specification-box">
           <h2>Specification</h2>
           {specifications.length > 0 ? (
@@ -190,8 +192,33 @@ export default async function BrandPage({ params }) {
             </p>
           )}
         </div>
-      </div>
+      </div> */}
+      {Array.isArray(specifications) && specifications.length > 0 && (
+        <div className="spec-block product-bottom-grids">
+          <div className="specification-box">
+            <h2>Specification</h2>
 
+            <table className="spec-table specification-table">
+              <tbody>
+                {specifications.map((spec) => (
+                  <tr key={spec.label}>
+                    <td>{spec.label}</td>
+                    <td>
+                      <div className="spec-values-grid">
+                        {spec.values.map((v) => (
+                          <div key={v} className="spec-value-box">
+                            {v}
+                          </div>
+                        ))}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
       <section
         className="export"
         style={{ backgroundColor: "#C41E1E", backgroundImage: "none" }}
