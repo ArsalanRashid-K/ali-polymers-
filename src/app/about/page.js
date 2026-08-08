@@ -118,7 +118,7 @@ export default function AboutPage() {
           </div>
 
           <div className="value-images">
-            {ourMissionImages.map((src, index) => (
+            {ourMissionImages.slice(0, 4).map((src, index) => (
               <div className="value-image" key={`${src}-${index}`}>
                 <SafeImage
                   src={src}
