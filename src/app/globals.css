@@ -128,10 +128,10 @@ header{border-bottom:1px solid var(--line); position:sticky; top:0; background:r
 .hero-slide.active{opacity:1;}
 .hero::after{content:""; position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.18)); z-index:0;}
 .hero-inner{position:relative; z-index:2; display:grid; grid-template-columns:1.4fr 1fr; gap:40px; align-items:center; padding:80px 24px; color:#fff;}
-.eyebrow{display:inline-flex; align-items:center; gap:8px; color:#fff; font-weight:800; font-size:12px; letter-spacing:2px; margin-bottom:22px;}
+.eyebrow{display:inline-flex; align-items:center; gap:8px; color:#fff; font-weight:800; font-size:18px; letter-spacing:2px; margin-bottom:22px;}
 .eyebrow-line{width:32px; height:2px; background:var(--red); display:inline-block;}
 h1.hero-h{font-size:56px; line-height:1.05; margin-bottom:24px;}
-h1.hero-h .red{color:#fff;}
+h1.hero-h .red{color:#ff0000;}
 .hero-sub{color:rgba(255,255,255,0.9); font-size:18px; max-width:440px; margin-bottom:32px; line-height:1.6;}
 .hero-ctas{display:flex; gap:16px; flex-wrap:wrap;}
 .hero .btn-dark{background:#fff; color:var(--ink); font-weight:800; font-size:14px; padding:16px 28px;}
