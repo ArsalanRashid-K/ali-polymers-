@@ -101,7 +101,9 @@ Thank you.`,
                 <a
                   href={`https://wa.me/${(
                     companyData.contact.whatsapp || ""
-                  ).replace(/\D/g, "")}`}
+                  ).replace(/\D/g, "")}?text=${encodeURIComponent(
+                    "Hello, I would like to enquire about your products and pricing.",
+                  )}`}
                   target="_blank"
                   rel="noreferrer"
                 >
