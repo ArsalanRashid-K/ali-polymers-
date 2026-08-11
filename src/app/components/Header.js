@@ -7,6 +7,7 @@ import categoriesData from "../../../data/categories-index.json";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
   const categories = [...categoriesData.categories].sort(
     (a, b) => a.order - b.order,
   );
@@ -63,7 +64,7 @@ export default function Header() {
           <Link href="/about" onClick={() => setMenuOpen(false)}>
             About
           </Link>
-          <div className="mobile-nav-products">
+          {/* <div className="mobile-nav-products">
             <Link
               href="/products"
               onClick={() => setMenuOpen(false)}
@@ -81,7 +82,49 @@ export default function Header() {
                 {cat.name}
               </Link>
             ))}
+          </div> */}
+          <div className="mobile-nav-products">
+            <div className="mobile-products-toggle">
+              <Link
+                href="/products"
+                onClick={() => setMenuOpen(false)}
+                className="mobile-nav-label"
+              >
+                Products
+              </Link>
+
+              <button
+                type="button"
+                className={`mobile-products-arrow ${
+                  productsOpen ? "is-open" : ""
+                }`}
+                onClick={() => setProductsOpen(!productsOpen)}
+                aria-label="Toggle product categories"
+                aria-expanded={productsOpen}
+              >
+                ▼
+              </button>
+            </div>
+
+            {productsOpen && (
+              <div className="mobile-product-dropdown">
+                {categories.map((cat) => (
+                  <Link
+                    key={cat.id}
+                    href={`/products/${cat.id}`}
+                    onClick={() => {
+                      setMenuOpen(false);
+                      setProductsOpen(false);
+                    }}
+                    className="mobile-nav-subitem"
+                  >
+                    {cat.name}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
+
           <Link href="/own-brands" onClick={() => setMenuOpen(false)}>
             Our Brands
           </Link>
