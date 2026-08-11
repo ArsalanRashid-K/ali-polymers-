@@ -110,7 +110,7 @@ export default async function BrandPage({ params }) {
   // Build images array for gallery: prefer brand.image when it's an array,
   // otherwise use imageSource or single image.
   const images = Array.isArray(brand.image)
-    ? brand.image
+    ? brand.image.slice(1)
     : imgSrc
       ? [imgSrc]
       : [];
