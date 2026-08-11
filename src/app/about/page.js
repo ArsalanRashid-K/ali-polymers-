@@ -102,6 +102,7 @@ export default function AboutPage() {
                   src={src}
                   alt={`about-gallery-${index}`}
                   fill
+                  sizes="(max-width: 600px) 100vw, 50vw"
                   className="about-side-img"
                 />
               </div>
