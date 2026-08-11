@@ -2571,6 +2571,10 @@ footer {
   margin: 0 auto;
   padding: 70px 24px;
 }
+.contact-row > div:last-child {
+  min-width: 0;
+  max-width: 100%;
+}
 .contact-card {
   background: var(--paper);
   border: 1px solid var(--line);
@@ -2581,6 +2585,7 @@ footer {
   gap: 14px;
   padding: 16px 0;
   border-bottom: 1px solid var(--line);
+  min-width: 0;
 }
 .contact-row:last-child {
   border-bottom: none;
@@ -2626,6 +2631,10 @@ footer {
 .contact-row .v {
   font-size: 15px;
   font-weight: 700;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .form-field {
   margin-bottom: 16px;
@@ -2675,6 +2684,9 @@ footer {
   transition:
     color 0.25s ease,
     background-color 0.25s ease;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* Email */
@@ -2695,6 +2707,11 @@ footer {
 .contact-row.phone-row .v a {
   /* color: var(--red); */
   /* background: rgba(178, 26, 26, 0.07); */
+  display: inline-flex;
+  align-items: center;
+  font-size: 17px;
+  padding: 6px 0;
+  margin-left: 0;
 }
 
 .contact-row.phone-row .v a:hover {
@@ -2707,6 +2724,11 @@ footer {
 .contact-row.whatsapp-row .v a {
   /* color: #159447; */
   /* background: rgba(37, 211, 102, 0.09); */
+  display: inline-flex;
+  align-items: center;
+  font-size: 17px;
+  padding: 6px 0;
+  margin-left: 0;
 }
 
 .contact-row.whatsapp-row .v a:hover {
@@ -2739,6 +2761,44 @@ footer {
   opacity: 0.7;
   margin-left: 8px;
 } */
+
+@media (max-width: 600px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 24px 18px;
+    overflow: hidden;
+  }
+
+  .contact-row {
+    width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
+  }
+
+  .contact-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .contact-row .v {
+    font-size: 14px;
+  }
+
+  .contact-row .v a {
+    font-size: 14px;
+  }
+}
+
 /* export page extras */
 .process-grid {
   display: grid;
