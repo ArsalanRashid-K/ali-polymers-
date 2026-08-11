@@ -515,7 +515,8 @@ h1.hero-h .red{color:#fff;}
     margin:12px 0 16px;
     line-height:1.25;
 }
-.about-body{color:var(--grey); font-size:17px; line-height:1.7; margin-top:16px 0;}
+.about-body{color:var(--grey); font-size:17px; line-height:1.7;   margin:16px 0;
+}
 .about-list{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:24px; font-size:14px;}
 .about-item{display:flex; gap:10px; align-items:flex-start;}
 .about-item .dash{color:var(--red); font-weight:800;}
@@ -1887,6 +1888,10 @@ display: block;
 
 @media (max-width:600px){
   .wrap{padding:0 16px;}
+    .about {
+    padding: 50px 16px 40px;
+    margin-top: 0;
+  }
   .header-inner {
     height: 62px;
     padding: 3px 14px;
