@@ -2,142 +2,192 @@
   "pageTitle": "Our Own Brands",
   "pageIntro": "In house brands developed and manufactured by Ali Traders & Ali Polymers, built to our highest quality standards.",
   "groups": [
-   
-    
     {
       "categoryName": "Well Net",
       "categorySlug": "well-pond-net",
       "brands": [
-        { "name": "AQUA SAFE", "image":["/images/BRAND LOGO/AQUA SAFE.jpeg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786089189/aqua_safe_dzlvsk.webp","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/WhatsApp_Image_2026-08-05_at_7.08.19_PM_ttzqc7.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_30_hoaeus.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_27_zrqwsw.jpg"],"detail": "AQUA SAFE is a standard-quality mono-filament well net manufactured from 100% virgin HD granules. It provides effective protection against leaves, debris, and external contamination while allowing proper airflow. UV-graded and weather-resistant for reliable outdoor use.",
-  "applications": [
-    "Well covering",
-    "Pond covering",
-    "Water body protection",
-    "Debris and leaf protection"
-  ],
-  "features": [
-    "Made from 100% virgin HD granules",
-    "Mono-filament net construction",
-    "UV stabilized for durability",
-    "Lightweight and strong",
-    "Allows airflow while preventing contamination",
-    "Suitable for regular outdoor applications"
-  ],
-  "specifications": [
-    "GSM: 60",
-    "Sizes: 2 x 2 ft, 2.5 x 2.5 ft, 3 x 3 ft, 3.5 x3.5 ft, 2 x 3 ft, 4 x 13 ft, 5 x 5 ft",
-    "Customized sizes available"
-  ] },
-        { "name": "AQUA SAFE PRO", "image": ["/images/BRAND LOGO/AQUA SAFE PRO.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/WhatsApp_Image_2026-08-05_at_7.08.02_PM_jvusgh.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/WhatsApp_Image_2026-08-05_at_7.26.54_PM_iodpv5.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.07.07_PM_szvwvt.jpg"],"detail": "AQUA SAFE PRO is a premium mono-filament well net manufactured from 100% virgin HD granules using advanced extrusion and knitting technology. It offers superior strength, enhanced UV resistance, and extended service life for long-term well and pond protection.",
-  "applications": [
-    "Well covering",
-    "Pond covering",
-    "Water body protection",
-    "Long-term outdoor applications"
-  ],
-  "features": [
-    "Made from 100% virgin HD granules",
-    "High tensile strength",
-    "Superior UV resistance",
-    "Strong and long-lasting",
-    "Designed for harsh outdoor conditions",
-    "Reliable protection with consistent performance"
-  ],
-  "specifications": [
-    "GSM: 80",
-    "Sizes: 2 x 2 ft, 2.5 x 2.5 ft, 3 x 3 ft, 3.5 x3.5 ft, 2 x 3 ft, 4 x 13 ft, 5 x 5 ft",
-    "Customized sizes available"
-  ]}
+        {
+          "name": "AQUA SAFE",
+          "image": [
+            "/images/BRAND LOGO/AQUA SAFE.jpeg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_30_hoaeus.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/jpeg-optimizer_ALI_POLYMERS_-APPLICATION_27_zrqwsw.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032587/WhatsApp_Image_2026-08-05_at_7.08.19_PM_ttzqc7.jpg"
+          ],
+          "detail": "AQUA SAFE is a standard-quality mono-filament well net manufactured from 100% virgin HD granules. It provides effective protection against leaves, debris, and external contamination while allowing proper airflow. UV-graded and weather-resistant for reliable outdoor use.",
+          "applications": [
+            "Well covering",
+            "Pond covering",
+            "Water body protection",
+            "Debris and leaf protection"
+          ],
+          "features": [
+            "Made from 100% virgin HD granules",
+            "Mono-filament net construction",
+            "UV stabilized for durability",
+            "Lightweight and strong",
+            "Allows airflow while preventing contamination",
+            "Suitable for regular outdoor applications"
+          ],
+          "specifications": [
+            "GSM: 60",
+            "Sizes: 2 x 2 ft, 2.5 x 2.5 ft, 3 x 3 ft, 3.5 x3.5 ft, 2 x 3 ft, 4 x 13 ft, 5 x 5 ft",
+            "Customized sizes available"
+          ]
+        },
+        {
+          "name": "AQUA SAFE PRO",
+          "image": [
+            "/images/BRAND LOGO/AQUA SAFE PRO.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/WhatsApp_Image_2026-08-05_at_7.26.54_PM_iodpv5.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/WhatsApp_Image_2026-08-05_at_7.08.02_PM_jvusgh.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032588/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.07.07_PM_szvwvt.jpg"
+          ],
+          "detail": "AQUA SAFE PRO is a premium mono-filament well net manufactured from 100% virgin HD granules using advanced extrusion and knitting technology. It offers superior strength, enhanced UV resistance, and extended service life for long-term well and pond protection.",
+          "applications": [
+            "Well covering",
+            "Pond covering",
+            "Water body protection",
+            "Long-term outdoor applications"
+          ],
+          "features": [
+            "Made from 100% virgin HD granules",
+            "High tensile strength",
+            "Superior UV resistance",
+            "Strong and long-lasting",
+            "Designed for harsh outdoor conditions",
+            "Reliable protection with consistent performance"
+          ],
+          "specifications": [
+            "GSM: 80",
+            "Sizes: 2 x 2 ft, 2.5 x 2.5 ft, 3 x 3 ft, 3.5 x3.5 ft, 2 x 3 ft, 4 x 13 ft, 5 x 5 ft",
+            "Customized sizes available"
+          ]
+        }
       ]
     },
     {
       "categoryName": "Shadenet",
       "categorySlug": "shadenet",
       "brands": [
-        { "name": "NEXANET", "image": ["/images/BRAND LOGO/NEXANET.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786089879/nexanet-shadenet-poster_rarhma.webp","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032567/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.06.02_PM_1_rh5nwj.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032566/jpeg-optimizer_81n8KHh5fTL._SL1500__lmqpyp.jpg"],  "detail": "NEXANET is our premium-quality shade net manufactured from 100% virgin polymer granules using advanced knitting technology. It provides excellent sunlight protection, uniform shading, and long-lasting durability, making it ideal for professional agricultural, horticultural, and commercial applications."
-,"applications": [
-    "Agricultural crop protection",
-    "Greenhouses and nurseries",
-    "Polyhouse shading",
-    "Parking shade structures",
-    "Construction site covering",
-    "Commercial and industrial shading"
-  ],
-  "features": [
-    "Manufactured from 100% virgin polymer granules",
-    "UV stabilized for extended outdoor life",
-    "High tensile strength and tear resistance",
-    "Provides uniform shade and heat protection",
-    "Excellent airflow and ventilation",
-    "Durable and suitable for long-term use"
-  ],"specifications": [
-    "Shade percentage: 30% to 90%",
-    "Various colours available",
-    "Customized sizes available as per requirement",
-    "Available in different sizes as per customer requirements."
-  ] },
-        { "name": "NEXA PINE", "image": ["/images/BRAND LOGO/NEXA PINE.jpg", "https://res.cloudinary.com/nus7e4x2/image/upload/v1786089880/nexa-pine-poster_sp4tqi.webp","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032570/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.32.19_PM_eqxyhx.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032573/WhatsApp_Image_2026-08-05_at_7.43.41_PM_tvldp4.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032574/WhatsApp_Image_2026-08-05_at_7.43.43_PM_yezibz.jpg"], "detail": "NEXA PINE is a specially designed premium shade net for pineapple and rambutan cultivation. It provides extensive coverage, effective sunlight and heat protection, and creates a suitable growing environment for better crop performance. Reliable shade protection for healthier crops and long-term agricultural performance.",
-  "applications": [
-    "Pineapple plantations",
-    "Rambutan orchards",
-    "Fruit crop protection",
-    "Agricultural shade structures",
-    "Horticulture applications"
-  ],
-  "features": [
-    "Specially designed for pineapple and rambutan farms",
-    "Provides extensive and uniform coverage",
-    "Excellent sunlight and heat protection",
-    "Highly durable and long-lasting",
-    "UV stabilized for outdoor use",
-    "Strong structure with excellent weather resistance"
-  ],
-  "specifications": [
-    "Available in different sizes as per farm requirements",
-    "Suitable for large-scale agricultural coverage",
-    "Customized sizes available on request"
-  ] }
+        {
+          "name": "NEXANET",
+          "image": [
+            "/images/BRAND LOGO/NEXANET.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032566/jpeg-optimizer_81n8KHh5fTL._SL1500__lmqpyp.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032567/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.06.02_PM_1_rh5nwj.jpg"
+          ],
+          "detail": "NEXANET is our premium-quality shade net manufactured from 100% virgin polymer granules using advanced knitting technology. It provides excellent sunlight protection, uniform shading, and long-lasting durability, making it ideal for professional agricultural, horticultural, and commercial applications.",
+          "applications": [
+            "Agricultural crop protection",
+            "Greenhouses and nurseries",
+            "Polyhouse shading",
+            "Parking shade structures",
+            "Construction site covering",
+            "Commercial and industrial shading"
+          ],
+          "features": [
+            "Manufactured from 100% virgin polymer granules",
+            "UV stabilized for extended outdoor life",
+            "High tensile strength and tear resistance",
+            "Provides uniform shade and heat protection",
+            "Excellent airflow and ventilation",
+            "Durable and suitable for long-term use"
+          ],
+          "specifications": [
+            "Shade percentage: 30% to 90%",
+            "Various colours available",
+            "Customized sizes available as per requirement",
+            "Available in different sizes as per customer requirements."
+          ]
+        },
+        {
+          "name": "NEXA PINE",
+          "image": [
+            "/images/BRAND LOGO/NEXA PINE.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786466420/NEXA_PINE_orfijh.webp",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786466420/NEXA_PINE_2_sp4msb.webp"
+          ],
+          "detail": "NEXA PINE is a specially designed premium shade net for pineapple and rambutan cultivation. It provides extensive coverage, effective sunlight and heat protection, and creates a suitable growing environment for better crop performance. Reliable shade protection for healthier crops and long-term agricultural performance.",
+          "applications": [
+            "Pineapple plantations",
+            "Rambutan orchards",
+            "Fruit crop protection",
+            "Agricultural shade structures",
+            "Horticulture applications"
+          ],
+          "features": [
+            "Specially designed for pineapple and rambutan farms",
+            "Provides extensive and uniform coverage",
+            "Excellent sunlight and heat protection",
+            "Highly durable and long-lasting",
+            "UV stabilized for outdoor use",
+            "Strong structure with excellent weather resistance"
+          ],
+          "specifications": [
+            "Available in different sizes as per farm requirements",
+            "Suitable for large-scale agricultural coverage",
+            "Customized sizes available on request"
+          ]
+        }
       ]
     },
     {
       "categoryName": "Tarpaulin",
       "categorySlug": "tarpaulin",
       "brands": [
-        { "name": "NEXATARP", "image": ["/images/BRAND LOGO/NEXATARP.png","https://res.cloudinary.com/nus7e4x2/image/upload/v1786090284/nexa_tarp_poster_aw7nyb.webp","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032584/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.18.19_PM_zae1vd.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032583/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.18.19_PM_1_wgd6mk.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032583/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.34.36_AM_3_beqben.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032583/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.34.36_AM_2_meujb1.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032582/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.34.36_AM_1_isjyps.jpg"],"detail": "NEXATARP is our premium-quality HDPE tarpaulin manufactured from 100% virgin HDPE granules. Designed for superior strength, durability, and long outdoor performance, it provides excellent protection against water, sunlight, and harsh weather conditions. Ideal for professional agricultural, industrial, construction, and transportation applications.",
-              "applications": [
-                "Construction site covering",
-                "Truck and vehicle covers",
-                "Agricultural crop protection",
-                "Industrial material storage",
-                "Outdoor and commercial covering"
-              ],
-              "features": [
-                "Made from 100% virgin HDPE granules",
-                "High tensile and tear strength",
-                "Excellent waterproof and weather resistance",
-                "UV stabilized for long outdoor life",
-                "Lightweight and easy to handle",
-                "Durable for long-term applications"
-              ],
-              "specification": [
-                "Available in multiple GSM grades",
-                "Various sizes available as per requirement",
-                "Customized sizes available on request"
-              ] }
+        {
+          "name": "NEXATARP",
+          "image": [
+            "/images/BRAND LOGO/NEXATARP.png",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032582/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.34.36_AM_1_isjyps.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032583/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.34.36_AM_3_beqben.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032583/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_12.34.36_AM_2_meujb1.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032584/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.18.19_PM_zae1vd.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032583/jpeg-optimizer_WhatsApp_Image_2026-08-05_at_7.18.19_PM_1_wgd6mk.jpg"
+          ],
+          "detail": "NEXATARP is our premium-quality HDPE tarpaulin manufactured from 100% virgin HDPE granules. Designed for superior strength, durability, and long outdoor performance, it provides excellent protection against water, sunlight, and harsh weather conditions. Ideal for professional agricultural, industrial, construction, and transportation applications.",
+          "applications": [
+            "Construction site covering",
+            "Truck and vehicle covers",
+            "Agricultural crop protection",
+            "Industrial material storage",
+            "Outdoor and commercial covering"
+          ],
+          "features": [
+            "Made from 100% virgin HDPE granules",
+            "High tensile and tear strength",
+            "Excellent waterproof and weather resistance",
+            "UV stabilized for long outdoor life",
+            "Lightweight and easy to handle",
+            "Durable for long-term applications"
+          ],
+          "specification": [
+            "Available in multiple GSM grades",
+            "Various sizes available as per requirement",
+            "Customized sizes available on request"
+          ]
+        }
       ]
-    }
-    , {
+    },
+    {
       "categoryName": "Polythene Sheet",
       "categorySlug": "ldpe-construction-sheet",
       "brands": [
-        { "name": "Polythene Sheet — All Varieties", "image": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032609/jpeg-optimizer_PRODUCTS_6_vwpwab.jpg" }
+        {
+          "name": "Polythene Sheet — All Varieties",
+          "image": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032609/jpeg-optimizer_PRODUCTS_6_vwpwab.jpg"
+        }
       ]
     },
     {
       "categoryName": "Weedmat",
       "categorySlug": "weedmat",
       "brands": [
-        { "name": "NEXAWEED", "image": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786089012/nexa_weed_ytgy8w.webp" }
+        {
+          "name": "NEXAWEED",
+          "image": "https://res.cloudinary.com/nus7e4x2/image/upload/v1786089012/nexa_weed_ytgy8w.webp"
+        }
       ]
     },
     {
@@ -145,58 +195,70 @@
       "categorySlug": "pp-mat",
       "brands": [
         {
-          "name": "ZIYA",  "slug": "ziya",
-
-          "image": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032556/WhatsApp_Image_2026-08-05_at_7.36.32_PM_u16k4l.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.31_PM_4_nsk3gs.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032554/WhatsApp_Image_2026-08-05_at_7.36.31_PM_1_pjbwtx.jpg"]
-        ,"detail": "ZIYA PP Mat is made from reprocessed granules, offering an economical and durable solution for daily use. It is specially designed for workers and laborers, providing reliable support for short-term sleeping and general applications.",
-  "applications": [
-    "Workers sleeping mats",
-    "Daily-use floor mats",
-    "General-purpose applications"
-  ],
-  "features": [
-    "Made from reprocessed granules",
-    "Economical and durable",
-    "Lightweight and easy to handle",
-    "Easy to clean and maintain"
-  ]},
+          "name": "ZIYA",
+          "slug": "ziya",
+          "image": [
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032556/WhatsApp_Image_2026-08-05_at_7.36.32_PM_u16k4l.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786474612/mat_kp8ndy.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032554/WhatsApp_Image_2026-08-05_at_7.36.31_PM_1_pjbwtx.jpg"
+          ],
+          "detail": "ZIYA PP Mat is made from reprocessed granules, offering an economical and durable solution for daily use. It is specially designed for workers and laborers, providing reliable support for short-term sleeping and general applications.",
+          "applications": [
+            "Workers sleeping mats",
+            "Daily-use floor mats",
+            "General-purpose applications"
+          ],
+          "features": [
+            "Made from reprocessed granules",
+            "Economical and durable",
+            "Lightweight and easy to handle",
+            "Easy to clean and maintain"
+          ]
+        },
         {
           "name": "MODERN",
-         "image": ["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.32_PM_2_o7neqj.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032553/41vZEjctwuL._SX466__pmpi6z.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032554/WhatsApp_Image_2026-08-05_at_7.36.31_PM_1_pjbwtx.jpg"]
-        ,"detail": "MODERN PP Mat is manufactured from semi-virgin granules, providing better strength, durability, and comfort. It is suitable for outdoor activities and recreational applications requiring reliable performance.",
-  "features": [
-    "Made from semi-virgin granules",
-    "Strong and comfortable",
-    "Weather-resistant",
-    "Durable for medium-term use"
-  ],
-  "applications": [
-    "Camping",
-    "Outdoor programs",
-    "Staycations",
-    "Parks and recreational activities"
-  ]},
+          "image": [
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.32_PM_2_o7neqj.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032553/41vZEjctwuL._SX466__pmpi6z.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032554/WhatsApp_Image_2026-08-05_at_7.36.31_PM_1_pjbwtx.jpg"
+          ],
+          "detail": "MODERN PP Mat is manufactured from semi-virgin granules, providing better strength, durability, and comfort. It is suitable for outdoor activities and recreational applications requiring reliable performance.",
+          "features": [
+            "Made from semi-virgin granules",
+            "Strong and comfortable",
+            "Weather-resistant",
+            "Durable for medium-term use"
+          ],
+          "applications": [
+            "Camping",
+            "Outdoor programs",
+            "Staycations",
+            "Parks and recreational activities"
+          ]
+        },
         {
           "name": "SONAL",
-          "image":["https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.31_PM_3_kf412z.jpg","https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.31_PM_qoidbq.jpg"],"detail": "SONAL PP Mat is manufactured from 100% virgin granules, delivering premium quality, superior strength, and long-lasting durability. It is designed for heavy-duty use and offers excellent comfort, making it suitable for residential, commercial, and outdoor applications.",
-
-  "features": [
-    "Made from 100% virgin granules",
-    "Premium quality finish",
-    "High strength and durability",
-    "Comfortable and long-lasting",
-    "Weather-resistant",
-    "Easy to clean and maintain"
-  ],
-
-  "applications": [
-    "Home use",
-    "Commercial spaces",
-    "Outdoor activities",
-    "Religious gatherings",
-    "Events and functions",
-    "General-purpose floor covering"
-  ]
+          "image": [
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786474612/mat2_j2ytpi.jpg",
+            "https://res.cloudinary.com/nus7e4x2/image/upload/v1786032555/WhatsApp_Image_2026-08-05_at_7.36.31_PM_qoidbq.jpg"
+          ],
+          "detail": "SONAL PP Mat is manufactured from 100% virgin granules, delivering premium quality, superior strength, and long-lasting durability. It is designed for heavy-duty use and offers excellent comfort, making it suitable for residential, commercial, and outdoor applications.",
+          "features": [
+            "Made from 100% virgin granules",
+            "Premium quality finish",
+            "High strength and durability",
+            "Comfortable and long-lasting",
+            "Weather-resistant",
+            "Easy to clean and maintain"
+          ],
+          "applications": [
+            "Home use",
+            "Commercial spaces",
+            "Outdoor activities",
+            "Religious gatherings",
+            "Events and functions",
+            "General-purpose floor covering"
+          ]
         }
       ]
     }
