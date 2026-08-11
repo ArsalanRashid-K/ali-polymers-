@@ -90,10 +90,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* <div className="footer-sustainability-text">
-          <strong>Reduce • Reuse • Recycle</strong>
-          <span>Sustainable Polymer Manufacturing</span>
-        </div> */}
         <div className="footer-col">
           <p className="head">Get in Touch</p>
           <p
