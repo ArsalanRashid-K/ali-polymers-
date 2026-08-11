@@ -774,7 +774,18 @@ footer{background:var(--ink); color:#fff;}
   line-height: 1;
 }
 
+@media (max-width: 600px) {
+  .own-brands-section .brand-card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
+  .own-brands-section .brand-card {
+    width: 100%;
+    min-width: 0;
+  }
+}
 /* =========================================
    BRAND GRID
 ========================================= */
