@@ -18,7 +18,7 @@ export default function ExportPage() {
       <section
         className="page-hero weave export-hero"
         style={{
-          backgroundColor: "#590000",
+          backgroundColor: "#a30909",
           backgroundImage: "none",
 
           // backgroundImage: `url(${pageImages.export})`,

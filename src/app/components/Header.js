@@ -82,12 +82,13 @@ export default function Header() {
               </Link>
             ))}
           </div>
-          <Link href="/export" onClick={() => setMenuOpen(false)}>
-            Export
-          </Link>
           <Link href="/own-brands" onClick={() => setMenuOpen(false)}>
             Our Brands
           </Link>
+          <Link href="/export" onClick={() => setMenuOpen(false)}>
+            Export
+          </Link>
+
           <Link href="/contact" onClick={() => setMenuOpen(false)}>
             Contact
           </Link>

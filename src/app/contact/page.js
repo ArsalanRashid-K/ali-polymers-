@@ -15,7 +15,7 @@ export default function ContactPage() {
 
       <section
         className="page-hero"
-        style={{ backgroundColor: "#a80b0b", backgroundImage: "none" }}
+        style={{ backgroundColor: "#a30909", backgroundImage: "none" }}
       >
         <div className="wrap">
           <div className="breadcrumb"></div>

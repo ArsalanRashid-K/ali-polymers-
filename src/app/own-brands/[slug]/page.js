@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ProductGallery from "../../products/[slug]/ProductGallery";
+import Link from "next/link";
 
 import companyData from "../../../../data/company.json";
 import ownBrandsData from "../../../../data/own-brands.json";
@@ -120,7 +121,7 @@ export default async function BrandPage({ params }) {
 
       <section
         className="page-hero product-hero"
-        style={{ backgroundColor: "#C41E1E", backgroundImage: "none" }}
+        style={{ backgroundColor: "#a30909", backgroundImage: "none" }}
       >
         <div className="wrap">
           <h1 className="display own-brands-hero-title">{brand.name}</h1>
@@ -204,9 +205,12 @@ export default async function BrandPage({ params }) {
             </p>
           </div>
           <div className="export-cta-wrap">
-            <a href="/contact" className="btn-white">
+            <Link href="/contact" className="btn-white">
+              Contact Us →
+            </Link>
+            {/* <a href="/contact" className="btn-white">
               Request Quote →
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

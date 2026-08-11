@@ -21,7 +21,7 @@ export default function OwnBrandsPage() {
       <section
         className="page-hero weave own-brands-hero"
         style={{
-          backgroundColor: "#070707",
+          backgroundColor: "#a30909",
           backgroundImage: "none",
         }}
       >

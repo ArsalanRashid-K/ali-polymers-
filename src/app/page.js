@@ -46,7 +46,7 @@ export default function Home() {
             <p className="hero-sub">
               {companyData.yearsExperience}+ years of manufacturing quality
               tarpaulins, shade nets, ropes, and polymer products— crafted in
-              Kerala, trusted worldwide.
+              Kerala, India, and trusted worldwide.
             </p>
             <div className="hero-ctas">
               <Link href="/products" className="btn-dark">

@@ -158,7 +158,7 @@ export default async function ProductPage({ params }) {
       <section
         className="page-hero weave product-hero"
         style={{
-          backgroundColor: "#3b3d3d",
+          backgroundColor: "#a30909",
           backgroundImage: "none",
         }}
       >

@@ -1,7 +1,7 @@
 {
   "name": "Ali Traders & Ali Polymers",
   "tagline": "Manufacturer & Distributor of Polymer Based Products",
-  "yearsExperience":30,
+  "yearsExperience": 30,
   "headquarters": {
     "addressLine1": "Perumbavoor",
     "addressLine2": "Ernakulam, Kerala, India"
@@ -49,77 +49,80 @@
   "vision": "To be a reliable global supplier of quality plastic products.",
   "mission": "To deliver durable, cost effective polymer solutions through ethical practices and consistent quality.",
   "whyChooseUs": [
-    "30+ years of manufacturing quality tarpaulins, shade nets, ropes, and polymer products—crafted in Kerala, trusted worldwide",
+    "30+ years of manufacturing quality tarpaulins, shade nets, ropes, and polymer products—crafted in Kerala, India, and trusted worldwide",
     "18+ product categories under one roof — fewer suppliers to manage, one point of contact for your full requirement",
     "Multiple own brands (NEXATARP, NEXANET, NEXAWEED etc.) — built for premium, standard, and economy segments",
     "Material flexibility — 100% virgin, semi-virgin, and recycled-grade options to match your budget and application",
     "In-house quality control at every production stage, ensuring consistent specs across every batch",
     "Export-ready & customizable — tailored dimensions, GSM, packaging, and container-load documentation support",
     "Committed to sustainable manufacturing — recycled-grade materials reduce plastic waste without compromising strength"
-  ],"abouttag":[],"whyalitraders":["Years of Excellence","Satisfied Customers","Product Categories","In-House Brands"],
+  ],
+  "abouttag": [],
+  "whyalitraders": [
+    "Years of Excellence",
+    "Satisfied Customers",
+    "Product Categories",
+    "In-House Brands"
+  ],
   "export": {
     "intro": "Ali Traders & Ali Polymers provide export ready supply solutions for international buyers, distributors, and project contractors. Our products are manufactured to meet global quality expectations while offering competitive pricing and flexible specifications.",
     "markets": "Supporting domestic supply across India and expanding exports to the Middle East, Africa, and Asian markets with reliable shipping solutions.",
-   "support": [
-  {
-    "title": "Custom Specifications",
-    "description": "Customized product specifications (GSM, size, color, packing)",
-    "icon": "settings"
-  },
-  {
-    "title": "Private Label",
-    "description": "Private label / OEM manufacturing support",
-    "icon": "shield"
-  },
-  {
-    "title": "Bulk Packaging",
-    "description": "Bulk & Palletized Packing Solutions",
-    "icon": "box"
-  },
-  {
-    "title": "Container Loading",
-    "description": "Container loading (20 ft & 40 ft)",
-    "icon": "truck"
-  },
-  {
-    "title": "Export Documents",
-    "description": "Complete export documentation support",
-    "icon": "document"
-  }
-]
-    
-    
-    ,
+    "support": [
+      {
+        "title": "Custom Specifications",
+        "description": "Customized product specifications (GSM, size, color, packing)",
+        "icon": "settings"
+      },
+      {
+        "title": "Private Label",
+        "description": "Private label / OEM manufacturing support",
+        "icon": "shield"
+      },
+      {
+        "title": "Bulk Packaging",
+        "description": "Bulk & Palletized Packing Solutions",
+        "icon": "box"
+      },
+      {
+        "title": "Container Loading",
+        "description": "Container loading (20 ft & 40 ft)",
+        "icon": "truck"
+      },
+      {
+        "title": "Export Documents",
+        "description": "Complete export documentation support",
+        "icon": "document"
+      }
+    ],
     "moq": {
-    "heading": "MINIMUM ORDER QUANTITY",
-    "subHeading": "MOQ",
-    "description": "Minimum order quantities vary based on product type and customization requirements.",
-    "points": [
-      "MOQ varies by product category and customization level.",
-      "Standard export MOQ available for distributors and importers."
-    ]
+      "heading": "MINIMUM ORDER QUANTITY",
+      "subHeading": "MOQ",
+      "description": "Minimum order quantities vary based on product type and customization requirements.",
+      "points": [
+        "MOQ varies by product category and customization level.",
+        "Standard export MOQ available for distributors and importers."
+      ]
+    },
+    "leadTime": {
+      "heading": "LEAD TIME",
+      "subHeading": "Production & Shipping Schedule",
+      "description": "Production schedule confirmed before order processing.",
+      "points": [
+        "Estimated dispatch timeline provided with quotation.",
+        "Reliable delivery planning for international shipments."
+      ]
+    },
+    "packagingLogistics": {
+      "heading": "PACKAGING & LOGISTICS",
+      "subHeading": "How We Ship",
+      "description": "Secure export packaging designed for safe handling and international transportation.",
+      "points": [
+        "Roll packing, bale packing, or carton packing.",
+        "Palletized shipments available on request.",
+        "Sea freight suitable export packaging."
+      ]
+    }
   },
-      "leadTime": {
-    "heading": "LEAD TIME",
-    "subHeading": "Production & Shipping Schedule",
-    "description": "Production schedule confirmed before order processing.",
-    "points": [
-      
-      "Estimated dispatch timeline provided with quotation.",
-      "Reliable delivery planning for international shipments."
-    ]
-  },
-  "packagingLogistics": {
-    "heading": "PACKAGING & LOGISTICS",
-    "subHeading": "How We Ship",
-    "description": "Secure export packaging designed for safe handling and international transportation.",
-    "points": [
-      "Roll packing, bale packing, or carton packing.",
-      "Palletized shipments available on request.",
-      "Sea freight suitable export packaging."
-    ]
-  }
-},
   "contact": {
     "wholesale": true,
     "distribution": true,

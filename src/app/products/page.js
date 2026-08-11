@@ -23,7 +23,7 @@ export default function ProductsIndex() {
       <section
         className="page-hero weave products-hero"
         style={{
-          backgroundColor: "#000",
+          backgroundColor: "#a30909",
           backgroundImage: pageImages.products
             ? `url("${pageImages.products}")`
             : "none",
