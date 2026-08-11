@@ -170,7 +170,8 @@ export default async function BrandPage({ params }) {
                     <tbody>
                       {specifications.map((spec) => (
                         <tr key={spec.label}>
-                          {/* <td className="brand-spec-label"></td> */}
+                          <td className="brand-spec-label">{spec.label}</td>
+
                           <td>
                             <div className="spec-values-grid">
                               {spec.values.map((v) => (
@@ -206,11 +207,8 @@ export default async function BrandPage({ params }) {
           </div>
           <div className="export-cta-wrap">
             <Link href="/contact" className="btn-white">
-              Contact Us →
-            </Link>
-            {/* <a href="/contact" className="btn-white">
               Request Quote →
-            </a> */}
+            </Link>
           </div>
         </div>
       </section>

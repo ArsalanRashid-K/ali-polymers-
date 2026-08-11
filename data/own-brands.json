@@ -30,9 +30,30 @@
             "Suitable for regular outdoor applications"
           ],
           "specifications": [
-            "GSM: 60",
-            "Sizes: 2 x 2 ft, 2.5 x 2.5 ft, 3 x 3 ft, 3.5 x3.5 ft, 2 x 3 ft, 4 x 13 ft, 5 x 5 ft",
-            "Customized sizes available"
+            {
+              "label": "GSM",
+              "values": [
+                "60"
+              ]
+            },
+            {
+              "label": "Sizes",
+              "values": [
+                "2 x 2 ft",
+                "2.5 x 2.5 ft",
+                "3 x 3 ft",
+                "3.5 x 3.5 ft",
+                "2 x 3 ft",
+                "4 x 13 ft",
+                "5 x 5 ft"
+              ]
+            },
+            {
+              "label": "Customized Sizes",
+              "values": [
+                "Available"
+              ]
+            }
           ]
         },
         {
@@ -59,9 +80,30 @@
             "Reliable protection with consistent performance"
           ],
           "specifications": [
-            "GSM: 80",
-            "Sizes: 2 x 2 ft, 2.5 x 2.5 ft, 3 x 3 ft, 3.5 x3.5 ft, 2 x 3 ft, 4 x 13 ft, 5 x 5 ft",
-            "Customized sizes available"
+            {
+              "label": "GSM",
+              "values": [
+                "80"
+              ]
+            },
+            {
+              "label": "Sizes",
+              "values": [
+                "2 x 2 ft",
+                "2.5 x 2.5 ft",
+                "3 x 3 ft",
+                "3.5 x 3.5 ft",
+                "2 x 3 ft",
+                "4 x 13 ft",
+                "5 x 5 ft"
+              ]
+            },
+            {
+              "label": "Customized Sizes",
+              "values": [
+                "Available"
+              ]
+            }
           ]
         }
       ]
@@ -95,10 +137,30 @@
             "Durable and suitable for long-term use"
           ],
           "specifications": [
-            "Shade percentage: 30% to 90%",
-            "Various colours available",
-            "Customized sizes available as per requirement",
-            "Available in different sizes as per customer requirements."
+            {
+              "label": "Shade Percentage",
+              "values": [
+                "30% to 90%"
+              ]
+            },
+            {
+              "label": "Colours",
+              "values": [
+                "Various colours available"
+              ]
+            },
+            {
+              "label": "Sizes",
+              "values": [
+                "Available in different sizes"
+              ]
+            },
+            {
+              "label": "Customized Sizes",
+              "values": [
+                "Available as per requirement"
+              ]
+            }
           ]
         },
         {
@@ -125,9 +187,24 @@
             "Strong structure with excellent weather resistance"
           ],
           "specifications": [
-            "Available in different sizes as per farm requirements",
-            "Suitable for large-scale agricultural coverage",
-            "Customized sizes available on request"
+            {
+              "label": "Sizes",
+              "values": [
+                "Available in different sizes as per farm requirements"
+              ]
+            },
+            {
+              "label": "Application",
+              "values": [
+                "Suitable for large-scale agricultural coverage"
+              ]
+            },
+            {
+              "label": "Customized Sizes",
+              "values": [
+                "Available on request"
+              ]
+            }
           ]
         }
       ]
@@ -162,10 +239,25 @@
             "Lightweight and easy to handle",
             "Durable for long-term applications"
           ],
-          "specification": [
-            "Available in multiple GSM grades",
-            "Various sizes available as per requirement",
-            "Customized sizes available on request"
+          "specifications": [
+            {
+              "label": "GSM",
+              "values": [
+                "Multiple GSM grades available"
+              ]
+            },
+            {
+              "label": "Sizes",
+              "values": [
+                "Various sizes available as per requirement"
+              ]
+            },
+            {
+              "label": "Customized Sizes",
+              "values": [
+                "Available on request"
+              ]
+            }
           ]
         }
       ]
