@@ -48,7 +48,19 @@ export default function ContactPage() {
             <div>
               <div className="l">EMAIL</div>
               <div className="v">
-                <a href={`mailto:${companyData.contact.email}`}>
+                <a
+                  href={`mailto:${companyData.contact.email}?subject=${encodeURIComponent(
+                    "Product Enquiry",
+                  )}&body=${encodeURIComponent(
+                    `Hello Ali Traders & Ali Polymers,
+
+I am interested in your polymer products and would like to know more about your products, pricing, and availability.
+
+Please get back to me with the details.
+
+Thank you.`,
+                  )}`}
+                >
                   {companyData.contact.email}
                 </a>
               </div>
