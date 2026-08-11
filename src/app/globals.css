@@ -1925,10 +1925,18 @@ display: block;
   h1.hero-h{font-size:32px;}
   .own-brands-category-title{font-size:24px;}
   .stat-grid{grid-template-columns:1fr 1fr;}
-  .export-inner{text-align:center;}
-  .export-cta-wrap{justify-content:center;}
-  .export h2{font-size:26px;}
-  table.spec-table td{display:block; width:100% !important; padding:8px 0;}
+.export-inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 48px 16px;
+    text-align: center;
+  }
+  .export-cta-wrap {
+    justify-content: center;
+  }  
+.export h2 {
+    font-size: 26px;
+  }  table.spec-table td{display:block; width:100% !important; padding:8px 0;}
   table.spec-table td:first-child{padding-top:14px;}
   table.spec-table td:last-child{padding-bottom:14px;}
   .gallery-main-img{max-width:100%;}
