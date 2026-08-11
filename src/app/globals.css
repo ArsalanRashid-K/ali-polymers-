@@ -660,7 +660,7 @@ h1.hero-h .red{color:#fff;}
 
 /* footer */
 footer{background:var(--ink); color:#fff;}
-.footer-inner{display:grid; grid-template-columns:1.4fr 0.8fr 1fr 1fr; gap:32px; padding:64px 24px; max-width:1160px; margin:0 auto;}
+.footer-inner{display:grid; grid-template-columns:1.4fr 0.8fr 1fr 1fr; gap:32px; padding:34px 24px; max-width:1160px; margin:0 auto;}
 
 .footer-logo {
   display: flex;
