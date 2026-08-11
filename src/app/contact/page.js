@@ -35,7 +35,7 @@ export default function ContactPage() {
 
       <div className="contact-layout">
         <div className="contact-card">
-          <div className="contact-row">
+          <div className="contact-row email-row">
             <div className="contact-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path
@@ -44,12 +44,18 @@ export default function ContactPage() {
                 />
               </svg>
             </div>
+
             <div>
               <div className="l">EMAIL</div>
-              <div className="v">{companyData.contact.email}</div>
+              <div className="v">
+                <a href={`mailto:${companyData.contact.email}`}>
+                  {companyData.contact.email}
+                </a>
+              </div>
             </div>
           </div>
-          <div className="contact-row">
+
+          <div className="contact-row phone-row">
             <div className="contact-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path
@@ -59,11 +65,16 @@ export default function ContactPage() {
               </svg>
             </div>
             <div>
-              <div className="l">PHONE</div>
-              <div className="v">{companyData.contact.phone}</div>
+              <div className="l">CALL US</div>
+              <div className="v">
+                <a href={`tel:${companyData.contact.phone}`}>
+                  {companyData.contact.phone}
+                </a>
+              </div>
             </div>
           </div>
-          <div className="contact-row">
+
+          <div className="contact-row whatsapp-row">
             <div className="contact-icon whatsapp">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path
@@ -74,7 +85,17 @@ export default function ContactPage() {
             </div>
             <div>
               <div className="l">WHATSAPP</div>
-              <div className="v">{companyData.contact.whatsapp}</div>
+              <div className="v">
+                <a
+                  href={`https://wa.me/${(
+                    companyData.contact.whatsapp || ""
+                  ).replace(/\D/g, "")}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {companyData.contact.whatsapp}
+                </a>
+              </div>
             </div>
           </div>
           <div className="contact-row">
