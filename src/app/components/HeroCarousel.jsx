@@ -2,23 +2,33 @@
 
 import { useEffect, useMemo, useState } from "react";
 
+const FALLBACK_IMAGE = "/images/home-page-hero.jpg";
+
 export default function HeroCarousel({ images = [], children }) {
   const normalizedImages = useMemo(() => {
     if (!images) return [];
-    if (typeof images === "string") return [images];
-    if (Array.isArray(images)) return images.filter(Boolean);
+
+    if (typeof images === "string") {
+      return [images];
+    }
+
+    if (Array.isArray(images)) {
+      return images.filter(Boolean);
+    }
+
     return [];
   }, [images]);
 
   const [activeIndex, setActiveIndex] = useState(0);
+  const [failedImages, setFailedImages] = useState(new Set());
 
   useEffect(() => {
-    if (normalizedImages.length <= 1) return undefined;
+    if (normalizedImages.length <= 1) return;
 
     const interval = setInterval(() => {
-      setActiveIndex((currentIndex) =>
-        (currentIndex + 1) % normalizedImages.length,
-      );
+      setActiveIndex((currentIndex) => {
+        return (currentIndex + 1) % normalizedImages.length;
+      });
     }, 4000);
 
     return () => clearInterval(interval);
@@ -27,14 +37,47 @@ export default function HeroCarousel({ images = [], children }) {
   return (
     <section className="hero">
       <div className="hero-slides">
-        {normalizedImages.map((image, index) => (
+        {normalizedImages.length === 0 ? (
           <div
-            key={image + index}
-            className={index === activeIndex ? "hero-slide active" : "hero-slide"}
-            style={{ backgroundImage: `url(${image})` }}
+            className="hero-slide active"
+            style={{ backgroundImage: `url("${FALLBACK_IMAGE}")` }}
+          />
+        ) : (
+          normalizedImages.map((image, index) => {
+            const imageToShow = failedImages.has(image)
+              ? FALLBACK_IMAGE
+              : image;
+
+            return (
+              <div
+                key={image + index}
+                className={`hero-slide${index === activeIndex ? " active" : ""}`}
+                style={{
+                  backgroundImage: `url("${imageToShow}")`,
+                }}
+              />
+            );
+          })
+        )}
+
+        {/* Hidden images used to detect loading failures */}
+        {normalizedImages.map((image, index) => (
+          <img
+            key={`check-${image}-${index}`}
+            src={image}
+            alt=""
+            style={{ display: "none" }}
+            onError={() => {
+              setFailedImages((previous) => {
+                const updated = new Set(previous);
+                updated.add(image);
+                return updated;
+              });
+            }}
           />
         ))}
       </div>
+
       {children}
     </section>
   );

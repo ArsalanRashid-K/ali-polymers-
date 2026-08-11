@@ -122,7 +122,8 @@ header{border-bottom:1px solid var(--line); position:sticky; top:0; background:r
     background-size:100% 100%;
     background-position:center;
 }
-.hero::before{content:""; position:absolute; inset:0; background-image:none; background-size:cover; background-position:center; background-repeat:no-repeat;}hero-slides{position:absolute; inset:0; z-index:0;}
+.hero::before{content:""; position:absolute; inset:0; background-image:none; background-size:cover; background-position:center; background-repeat:no-repeat;}
+.hero-slides{position:absolute; inset:0; z-index:0;}
 .hero-slide{position:absolute; inset:0; background-size:cover; background-position:center; background-repeat:no-repeat; opacity:0; transition:opacity 1.2s ease-in-out;}
 .hero-slide.active{opacity:1;}
 .hero::after{content:""; position:absolute; inset:0; background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.18)); z-index:0;}

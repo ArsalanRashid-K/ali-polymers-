@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
 
       {/* HERO */}
-      <section
+      {/* <section
         className="hero"
         style={{
           backgroundImage: `url(${pageImages.home})`,
@@ -34,7 +34,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
           backgroundRepeat: "no-repeat",
         }}
-      >
+       >
         <div className="wrap hero-inner">
           <div>
             <div className="eyebrow">MANUFACTURER &amp; DISTRIBUTOR</div>
@@ -59,7 +59,32 @@ export default function Home() {
           </div>
         </div>
         <div className="thread"></div>
-      </section>
+      </section> */}
+      <HeroCarousel images={pageImages.home}>
+        <div className="wrap hero-inner">
+          <div>
+            <div className="eyebrow">MANUFACTURER &amp; DISTRIBUTOR</div>
+            <h1 className="hero-h display">
+              BUILT TO
+              <br />
+              <span className="red">HOLD UP.</span>
+            </h1>
+            <p className="hero-sub">
+              {companyData.yearsExperience}+ years of manufacturing quality
+              tarpaulins, shade nets, ropes, and polymer products— crafted in
+              Kerala, India, and trusted worldwide.
+            </p>
+            <div className="hero-ctas">
+              <Link href="/products" className="btn-dark">
+                Browse Products
+              </Link>
+              <Link href="/export" className="btn-outline">
+                Export Enquiries →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </HeroCarousel>
 
       {/* ABOUT STRIP */}
       <section className="wrap about">
