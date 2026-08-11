@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-inner">
-        <div>
+        <div className="footer-company">
           <div className="footer-logo">
             <Image
               src="/images/logo.jpeg"
@@ -23,6 +23,7 @@ export default function Footer() {
               height={40}
               className="footer-logo-img"
             />
+
             <span className="footer-brand">
               {companyData.name.toUpperCase()}
             </span>
@@ -33,6 +34,26 @@ export default function Footer() {
             <br />
             {companyData.headquarters.addressLine2}
           </p>
+
+          <div className="footer-icons">
+            <img
+              src="/images/recycle-svgrepo-com.svg"
+              alt="Recycle"
+              className="footer-icon"
+            />
+
+            <img
+              src="/images/leaf-svgrepo-com.svg"
+              alt="Eco Friendly"
+              className="footer-icon"
+            />
+
+            <img
+              src="/images/eco_green_factory_icon.svg"
+              alt="Export Ready"
+              className="footer-icon"
+            />
+          </div>
         </div>
         <div className="footer-col">
           <p className="head">Company</p>
@@ -194,25 +215,6 @@ export default function Footer() {
               </a>
             )}
           </div>
-        </div>
-        <div className="footer-icons">
-          <img
-            src="/images/recycle-svgrepo-com.svg"
-            alt="Recycle"
-            className="footer-icon"
-          />
-
-          <img
-            src="/images/leaf-svgrepo-com.svg"
-            alt="Eco Friendly"
-            className="footer-icon"
-          />
-
-          <img
-            src="/images/eco_green_factory_icon.svg"
-            alt="Export Ready"
-            className="footer-icon"
-          />
         </div>
       </div>
 

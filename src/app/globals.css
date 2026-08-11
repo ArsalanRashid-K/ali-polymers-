@@ -515,8 +515,7 @@ h1.hero-h .red{color:#fff;}
     margin:12px 0 16px;
     line-height:1.25;
 }
-.about-body{color:var(--grey); font-size:17px; line-height:1.7;   margin:16px 0;
-}
+.about-body{color:var(--grey); font-size:17px; line-height:1.7; margin-top:16px 0;}
 .about-list{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:24px; font-size:14px;}
 .about-item{display:flex; gap:10px; align-items:flex-start;}
 .about-item .dash{color:var(--red); font-weight:800;}
@@ -662,43 +661,56 @@ h1.hero-h .red{color:#fff;}
 /* footer */
 footer{background:var(--ink); color:#fff;}
 .footer-inner{display:grid; grid-template-columns:1.4fr 0.8fr 1fr 1fr; gap:32px; padding:64px 24px; max-width:1160px; margin:0 auto;}
-.footer-logo{display:flex; align-items:center; gap:10px; margin-bottom:16px;}
-.footer-logo-img{display:block; border-radius:4px; background:#fff; padding:3px;}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.footer-logo-img {
+  display: block;
+  border-radius: 4px;
+  background: #fff;
+  padding: 3px;
+}
 .footer-brand{font-weight:800; font-size:13px;}
-.footer-addr{font-size:14px; color:rgba(255,255,255,0.6); line-height:1.6;}
+.footer-addr{font-size:14px; color:rgba(255,255,255,0.6); line-height:1.6;margin: 0;}
 .footer-col p.head{font-weight:800; font-size:14px; margin-bottom:14px; color:rgba(255,255,255,0.9);}
 .footer-col ul li{margin-bottom:8px; font-size:14px; color:rgba(255,255,255,0.6);}
 .footer-col ul li a:hover{color:var(--red);}
 .footer-bottom{border-top:1px solid rgba(255,255,255,0.1); text-align:center; padding:20px; font-size:12px; color:rgba(255,255,255,0.4);}
 
-.footer-sustainability{
-    display:flex;
-    align-items:center;
-    gap:18px;
-    margin:18px 0;
+.footer-company {
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-icons{
-    display:flex;
-    align-items:center;
-    gap:40px;
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  margin-top: 50px;
+  padding: 0;
 }
 
-.footer-icon{
-    width:58px;
-    height:58px;
-    transition:transform .25s ease;
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  object-fit: contain;
+  transition: transform 0.25s ease;
 }
 
-.footer-icon:hover{
-    transform:scale(1.08);
+.footer-icon:hover {
+  transform: scale(1.08);
+}
+.footer-addr {
+  margin-bottom: 0;
 }
 
-.footer-sustainability-text{
-    display:flex;
-    flex-direction:column;
-    gap:4px;
-}
+
 
 .footer-sustainability-text strong{
     color:#fff;
