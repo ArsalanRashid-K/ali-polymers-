@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 
 export default function SafeImage({
@@ -14,16 +14,18 @@ export default function SafeImage({
   sizes,
   style,
 }) {
-  const [currentSrc, setCurrentSrc] = useState(
-    typeof src === "string" && src.trim() !== "" ? src : fallbackSrc
-  );
+  const resolvedSrc =
+    typeof src === "string" && src.trim() !== "" ? src : fallbackSrc;
 
-  // Resync when src prop changes (e.g. gallery/list re-render without remount)
-  useEffect(() => {
-    setCurrentSrc(
-      typeof src === "string" && src.trim() !== "" ? src : fallbackSrc
-    );
-  }, [src, fallbackSrc]);
+  const [currentSrc, setCurrentSrc] = useState(resolvedSrc);
+  const [prevResolvedSrc, setPrevResolvedSrc] = useState(resolvedSrc);
+
+  // Reset currentSrc when the src prop changes — done during render
+  // (React's recommended pattern), not in a useEffect.
+  if (resolvedSrc !== prevResolvedSrc) {
+    setPrevResolvedSrc(resolvedSrc);
+    setCurrentSrc(resolvedSrc);
+  }
 
   const handleError = () => {
     if (currentSrc !== fallbackSrc) {
